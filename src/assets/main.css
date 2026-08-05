@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #09299e;
+  --color-secondary: #0245B5;
+  --color-tertiary: #b4ddde;
+  --color-quaternary: #58a0a0;
+
+  --font-sans: 'Poppins', sans-serif;
+  --font-corinthia: 'Corinthia';
+  --font-montserrat: 'Montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
