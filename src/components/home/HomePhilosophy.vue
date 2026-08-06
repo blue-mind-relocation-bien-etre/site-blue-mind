@@ -65,13 +65,22 @@
 </section>
 
 <section>
-    <div class="bg-secondary z-10">
-        <p class="text-slate-100">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo unde laboriosam illum tempora numquam delectus eligendi dolore sequi fuga doloribus libero, quos fugiat soluta velit placeat voluptate quas nam debitis!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quae dolorum praesentium. Maxime, eius! Dolor quam vel, labore iure optio voluptatibus atque ad sunt voluptatem facilis ratione laborum, vero nesciunt?
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cum, quos eum at dolor sapiente fugiat rem quidem, vel adipisci voluptatum, est ullam corporis earum quaerat ex aspernatur voluptas labore!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illum ducimus eveniet incidunt nihil dolorem non dolores rerum. Est, molestias asperiores praesentium magni quo at nobis quam consequuntur ad doloremque.
+    <div class="bg-secondary z-10 p-5 flex flex-col justify-center items-center">
+
+        <span class="font-corinthia text-6xl text-slate-100 block p-5">
+            Brest, Finistère
+        </span>
+
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-100 tracking-tight leading-tight p-5 text-center">
+            Une ville et un département attractifs 
+        </h2>
+
+        <p class="text-slate-100 text-lg leading-relaxed py-5 px-25 text-center mb-4">
+            <strong class="text-slate-200 font-bold">Brest</strong> et le <strong class="text-slate-200 font-bold">Finistère</strong> s'imposent comme une destination de choix pour réussir sa <strong class="text-slate-200 font-bold">relocation</strong> et privilégier son <strong class="text-slate-200 font-bold">bien-être</strong> au quotidien. En offrant un coût de la vie et de l'immobilier plus accessible que dans les grandes métropoles, la région permet de concilier facilement ambitions professionnelles et <strong class="text-slate-200 font-bold">qualité de vie</strong>. Entre un rythme de travail apaisé sans les bouchons interminables, un air iodé vivifiant et un accès direct aux plages, sentiers côtiers et loisirs nautiques dès la fin de journée, s'installer ici, c'est choisir un équilibre précieux entre vitalité urbaine et reconnexion quotidienne avec la nature.
         </p>
+
+        <PolaroidImage />
+
     </div>
 </section>
     <div class="top-0 left-0 right-0 w-full leading-none z-0">
@@ -90,13 +99,57 @@
 
         <path d="M0 78L22.8 72.8C45.7 67.7 91.3 57.3 137 53.3C182.7 49.3 228.3 51.7 274 48.3C319.7 45 365.3 36 411.2 33.2C457 30.3 503 33.7 548.8 37.3C594.7 41 640.3 45 686 50C731.7 55 777.3 61 823 57.2C868.7 53.3 914.3 39.7 937.2 32.8L960 26L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.7 0 686 0C640.3 0 594.7 0 548.8 0C503 0 457 0 411.2 0C365.3 0 319.7 0 274 0C228.3 0 182.7 0 137 0C91.3 0 45.7 0 22.8 0L0 0Z" fill="#0245b5"></path>
     
-    </svg>
+        </svg>
     </div>
 <section>
+    <div class="flex flex-col justify-center items-center pb-10 pt-5">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight">
+            Plus de 10 ans
+        </h2>
+        <span class="font-corinthia text-7xl text-secondary block">
+            d 'expertise
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight">
+            en quelques chiffres
+        </h2>
+    </div>
 
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 pb-10 pt-5">
+        <div class="flex flex-col justify-center items-center">
+            <h3 class="text-6xl italic text-secondary leading-tight">
+                <AnimatedCounter :target="2500"/>
+            </h3>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">accompagnements</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <h3 class="text-6xl italic text-secondary leading-tight">
+                <AnimatedCounter :target="70"/>
+                %</h3>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">de mobilités nationales</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <h3 class="text-6xl italic text-secondary leading-tight">
+                <AnimatedCounter :target="30"/>
+                %</h3>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">de mobilités internationales</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <h3 class="text-6xl italic text-secondary leading-tight">
+                <AnimatedCounter :target="29"/>
+            </h3>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">nationalités accompagnées</p>
+        </div>
+    </div>
+
+    
 </section>
 
 </template>
 
 <script setup>
+import PolaroidImage from '@/components/PolaroidImage.vue';
+import AnimatedCounter from '@/components/AnimatedCounter.vue'
 </script>

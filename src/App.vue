@@ -1,6 +1,7 @@
 <script setup>
 
 import TheNavbar from './components/layout/TheNavbar.vue'
+import TheFooter from './components/layout/TheFooter.vue';  
 import { RouterView } from 'vue-router';
 
 </script>
@@ -16,6 +17,8 @@ import { RouterView } from 'vue-router';
       <component :is="Component" />
     </Transition>
   </RouterView>
+
+  <TheFooter />
 
 </div>
 
