@@ -40,18 +40,41 @@
 
         <div class="flex-1 flex items-center justify-end">
             <div class="relative group py-2">
+      
+      <!-- 1. BOUTON PRINCIPAL (DYNAMIQUE) : Affiche la langue actuelle -->
                 <button class="text-slate-100 font-sans font-medium flex items-center gap-2 cursor-pointer hover:text-slate-300 transition duration-200 text-lg">
-                    <country-flag country="fr" size="small"/>
-                    Français
+                    <!-- Si locale est 'fr', on affiche le drapeau 'fr', sinon le drapeau 'gb' -->
+                    <country-flag :country="locale === 'fr' ? 'fr' : 'gb'" size="small"/>
+                    {{ locale.toUpperCase() }}
                     <v-icon name="md-keyboardarrowdown" />
                 </button>
+
+                <!-- 2. MENU DÉROULANT : Liste des langues disponibles -->
                 <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50">
-                    <a href="#" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">
+                    
+                    <!-- Option Français -->
+                    <button 
+                        @click="changeLanguage('fr')"
+                        class="w-full text-left px-4 py-2 hover:bg-slate-100 transition duration-200 flex items-center gap-2 cursor-pointer"
+                        :class="{ 'text-slate-800 bg-slate-50': locale === 'fr' }"
+                    >
+                        <country-flag country="fr" size="small" />
+                        Français (FR)
+                    </button>
+
+                    <!-- Option Anglais -->
+                    <button 
+                        @click="changeLanguage('en')"
+                        class="w-full text-left px-4 py-2 hover:bg-slate-100 transition duration-200 flex items-center gap-2 cursor-pointer"
+                        :class="{ 'text-slate-800 bg-slate-50': locale === 'en' }"
+                    >
                         <country-flag country="gb" size="small" />
-                        English
-                    </a>
+                        English (EN)
+                    </button>
+
                 </div>
-            </div>
+
+  </div>
         </div>
     </nav>
 
@@ -61,6 +84,15 @@
 
 import { useRoute, RouterLink } from 'vue-router';
 import { computed } from 'vue'
+
+import { useI18n } from 'vue-i18n';
+
+const { locale } = useI18n({ useScope: 'global' })
+
+const changeLanguage = (lang) => {
+    locale.value = lang
+    localStorage.setItem('user-locale', lang)
+}
 
 const route = useRoute()
 

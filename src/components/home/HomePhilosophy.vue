@@ -4,29 +4,36 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         <div class="lg:col-span-7 space-y-6">
             <span class="font-corinthia text-5xl text-secondary block">
-                Relocation & Bien-être
+                {{ $t('home.part1.title1') }}
             </span>
             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight">
-                Votre nouvelle vie en Finistère commence ici.
+                {{ $t('home.part1.title2') }}
             </h2>
-            <p class="text-slate-600 text-lg leading-relaxed text-justify">
-                <strong class="text-slate-800 font-semibold">Blue Mind</strong> rassemble l'expertise de 
-                <strong class="text-slate-800 font-semibold">Carrières Nomades</strong> (créé en 2015) pour simplifier
-                l'installation de nouveaux arrivants dans le Finistère, et <strong class="text-slate-800 font-semibold">
-                Blue Mind Janzu & Care</strong>, qui vous invite à une relaxation profonde grâce à la discipline du Janzu en piscine.
-            </p>
+            <i18n-t 
+                keypath="home.part1.text"
+                tag="p"
+                class="text-slate-600 text-lg leading-relaxed text-justify"
+            >
+                <strong
+                    v-for="(mot, index) in $tm('home.part1.bold_words')"
+                    :key="index"
+                    class="text-slate-800 font-semibold"
+                >
+                    {{ $rt(mot) }}
+                </strong>
+            </i18n-t>
             <div class="pt-4 flex flex-wrap items-center gap-4">
                 <a 
                     href="#" 
                     class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-white font-medium rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
                 >
-                    Découvrir nos services
+                    {{ $t('home.part1.button1') }}
                 </a>
                 <a 
                     href="#" 
                     class="px-7 py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium rounded-xl transition duration-200"
                 >
-                    Nous contacter
+                    {{ $t('home.part1.button2') }}
                 </a>
             </div>
         </div>

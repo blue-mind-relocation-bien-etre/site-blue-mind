@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title": "S'ancrer en Finistère, se ressourcer en profondeur",
+        "subtitle": "L'accompagnement sur-mesure pour votre transition de vie et votre équilibre.",
+        "link": "Nous découvrir"
+    },
+
+    "part1": {
+        "title1": "Relocation & Bien-être",
+        "title2": "Votre nouvelle vie en Finistère commence ici.",
+        "text": "{0} rassemble l'expertise de {1} (créé en 2015) pour simplifier l'installation de nouveaux arrivants dans le Finistère, et {2}, qui vous invite à une relaxation profonde grâce à la discipline du Janzu en piscine.",
+        "bold_words": ["Blue Mind", "Carrières Nomades", "Blue Mind Janzu & Care"],
+        "button1": "Découvrir nos services",
+        "button2": "Nous contacter"
+    }
+    
+}
