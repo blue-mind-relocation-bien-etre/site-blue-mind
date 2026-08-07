@@ -23,18 +23,18 @@
                 </strong>
             </i18n-t>
             <div class="pt-4 flex flex-wrap items-center gap-4">
-                <a 
-                    href="#" 
+                <RouterLink 
+                    to="/carrieres-nomades" 
                     class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-white font-medium rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
                 >
                     {{ $t('home.part1.button1') }}
-                </a>
-                <a 
-                    href="#" 
+                </RouterLink>
+                <RouterLink 
+                    to="/contact" 
                     class="px-7 py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium rounded-xl transition duration-200"
                 >
                     {{ $t('home.part1.button2') }}
-                </a>
+                </RouterLink>
             </div>
         </div>
         <div class="lg:col-span-5 relative">

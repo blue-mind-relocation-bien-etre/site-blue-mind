@@ -4,7 +4,7 @@ import router from './router'
 import './assets/main.css'
 
 import { OhVueIcon, addIcons } from "oh-vue-icons"
-import { MdKeyboardarrowdown } from "oh-vue-icons/icons";
+import { MdKeyboardarrowdown, HiMenu, IoClose } from "oh-vue-icons/icons";
 
 import CountryFlag from 'vue-country-flag-next'
 
@@ -35,7 +35,8 @@ const i18n = createI18n({
   messages
 })
 
-addIcons(MdKeyboardarrowdown)
+addIcons(MdKeyboardarrowdown, HiMenu, IoClose)
+//addIcons(HiMenu)
 
 const app = createApp(App)
 

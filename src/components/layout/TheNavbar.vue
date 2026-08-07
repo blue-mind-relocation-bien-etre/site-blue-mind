@@ -2,17 +2,19 @@
 
     <nav 
     :class="[
-        'bg-secondary absolute top-0 left-0 right-0 px-4 py-2 flex items-center justify-center z-50 transition-all duration-500 ease-in-out',
+        'bg-secondary absolute top-0 left-0 right-0 px-4 py-2 flex flex-col items-center justify-center z-50 transition-all duration-500 ease-in-out',
         isHome 
             ? 'backdrop-blur-md rounded-xl m-4 shadow-md'
             :'m-0 rounded-none shadow-lg'
     ]">
 
+    <!-- Menu grand écran -->
+    <div class="w-full flex items-center justify-between">
         <div class="flex-1 flex justify-start">
             <img class="h-20" src="@/img/Logo2_BM_VD_blanc.png" alt="logo">
         </div>
 
-        <div class="flex items-center justify-center gap-6">
+        <div class="hidden lg:flex items-center justify-center gap-6">
             <RouterLink to="/" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
                 {{ $t('nav.home') }}
             </RouterLink>
@@ -50,7 +52,7 @@
             </RouterLink>
         </div>
 
-        <div class="flex-1 flex items-center justify-end">
+        <div class="flex-1 flex items-center justify-end gap-4">
             <div class="relative group py-2">
       
       <!-- 1. BOUTON PRINCIPAL (DYNAMIQUE) : Affiche la langue actuelle -->
@@ -86,8 +88,62 @@
 
                 </div>
 
-  </div>
+            </div>
+            <button 
+                @click="isMobileMenuOpen = !isMobileMenuOpen"
+                class="lg:hidden text-slate-100 p-1 hover:text-slate-300 focus:outline-none transition duration-200"
+                aria-label="Ouvrir le menu"
+                >
+                <v-icon :name="isMobileMenuOpen ? 'io-close' : 'hi-menu'" scale="1.5" />
+            </button>
         </div>
+    </div>
+
+    <!-- Menu mobile -->
+    <div 
+      v-show="isMobileMenuOpen"
+      class="lg:hidden flex flex-col w-full pt-4 pb-2 gap-3 border-t border-white/10 mt-3"
+    >
+      <RouterLink @click="closeMobileMenu" to="/" class="text-slate-100 font-medium py-1 hover:text-slate-300 text-lg">
+        {{ $t('nav.home') }}
+      </RouterLink>
+      <RouterLink @click="closeMobileMenu" to="/carrieres-nomades" class="text-slate-100 font-medium py-1 hover:text-slate-300 text-lg">
+        {{ $t('nav.carrieres_nomades') }}
+      </RouterLink>
+      <RouterLink @click="closeMobileMenu" to="/blue-mind" class="text-slate-100 font-medium py-1 hover:text-slate-300 text-lg">
+        {{ $t('nav.blue_mind') }}
+      </RouterLink>
+      <RouterLink @click="closeMobileMenu" to="/pricing" class="text-slate-100 font-medium py-1 hover:text-slate-300 text-lg">
+        {{ $t('nav.pricing') }}
+      </RouterLink>
+
+      <!-- Accordéon Présentation -->
+      <div class="flex flex-col">
+        <button 
+          @click="isPresentationOpen = !isPresentationOpen"
+          class="text-slate-100 font-medium py-1 flex items-center justify-between text-lg text-left"
+        >
+          <span>{{ $t('nav.presentation') }}</span>
+          <v-icon name="md-keyboardarrowdown" :class="{'rotate-180': isPresentationOpen}" class="transition-transform duration-200" />
+        </button>
+        <div v-show="isPresentationOpen" class="flex flex-col pl-4 py-2 gap-2 border-l border-white/20 ml-2">
+          <RouterLink @click="closeMobileMenu" to="/team" class="text-slate-200 py-1 hover:text-white">
+            {{ $t('nav.team') }}
+          </RouterLink>
+          <RouterLink @click="closeMobileMenu" to="/our-philosophy" class="text-slate-200 py-1 hover:text-white">
+            {{ $t('nav.philo') }}
+          </RouterLink>
+          <RouterLink @click="closeMobileMenu" to="/partners" class="text-slate-200 py-1 hover:text-white">
+            {{ $t('nav.partner') }}
+          </RouterLink>
+        </div>
+      </div>
+
+      <RouterLink @click="closeMobileMenu" to="/contact" class="text-slate-100 font-medium py-1 hover:text-slate-300 text-lg">
+        {{ $t('nav.contact') }}
+      </RouterLink>
+    </div>
+
     </nav>
 
 </template>
@@ -96,6 +152,7 @@
 
 import { useRoute, RouterLink } from 'vue-router';
 import { computed } from 'vue'
+import { ref } from 'vue'
 
 import { useI18n } from 'vue-i18n';
 
@@ -109,5 +166,17 @@ const changeLanguage = (lang) => {
 const route = useRoute()
 
 const isHome = computed(() => route.path === '/')
+
+// Gère l'ouverture du menu principal sur mobile
+const isMobileMenuOpen = ref(false)
+
+// Gère l'ouverture du sous-menu "Présentation" sur mobile
+const isPresentationOpen = ref(false)
+
+// Fonction de fermeture automatique après un clic sur un lien
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false
+  isPresentationOpen.value = false
+}
 
 </script>

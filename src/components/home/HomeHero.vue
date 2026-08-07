@@ -15,9 +15,10 @@
             {{ $t('home.hero.subtitle') }}
         </p>
         <a 
-        href="#decouvrir" 
+        href="#decouvrir"
+        @click.prevent="scrollToSection('decouvrir')"
         class="mt-20 flex flex-col items-center gap-2 text-white/80 hover:text-white transition group"
-    >
+        >
         <span class="text-2xl font-medium tracking-wide">{{ $t('home.hero.link') }}</span>
         <v-icon name="md-keyboardarrowdown" class="w-10 h-10 animate-bounce" />
     </a>
@@ -28,5 +29,14 @@
 </template>
 
 <script setup>
+
 import vagueImg from '@/img/vague.jpg'
+
+const scrollToSection = (id) => {
+    const element = document.getElementById(id)
+    if (element) {
+        element.scrollIntoView()
+    }
+}
+
 </script>
