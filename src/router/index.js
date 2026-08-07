@@ -1,6 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ContactView from '@/views/ContactView.vue'
+import BlueMindView from '@/views/BlueMindView.vue'
+import CarrieresNomadesView from '@/views/CarrieresNomadesView.vue'
+import OurPhilosophyView from '@/views/OurPhilosophyView.vue'
+import PartnersView from '@/views/PartnersView.vue'
+import PricingView from '@/views/PricingView.vue'
+import TeamView from '@/views/TeamView.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,6 +16,36 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: HomeView
+        },
+        {
+            path: '/carrieres-nomades',
+            name: 'carrieres-nomades',
+            component: CarrieresNomadesView
+        },
+        {
+            path: '/blue-mind',
+            name: 'blue-mind',
+            component: BlueMindView
+        },
+        {
+            path: '/pricing',
+            name: 'pricing',
+            component: PricingView
+        },
+        {
+            path: '/team',
+            name: 'team',
+            component: TeamView
+        },
+        {
+            path: '/our-philosophy',
+            name: 'our-philosophy',
+            component: OurPhilosophyView
+        },
+        {
+            path: '/partners',
+            name: 'partners',
+            component: PartnersView
         },
         {
             path: '/contact',

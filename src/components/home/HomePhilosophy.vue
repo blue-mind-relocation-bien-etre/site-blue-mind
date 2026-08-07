@@ -75,16 +75,28 @@
     <div class="bg-secondary z-10 p-5 flex flex-col justify-center items-center">
 
         <span class="font-corinthia text-6xl text-slate-100 block p-5">
-            Brest, Finistère
+            {{ $t('home.part2.title1') }}
         </span>
 
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-100 tracking-tight leading-tight p-5 text-center">
-            Une ville et un département attractifs 
+            {{ $t('home.part2.title2') }}
         </h2>
 
-        <p class="text-slate-100 text-lg leading-relaxed py-5 px-25 text-center mb-4">
-            <strong class="text-slate-200 font-bold">Brest</strong> et le <strong class="text-slate-200 font-bold">Finistère</strong> s'imposent comme une destination de choix pour réussir sa <strong class="text-slate-200 font-bold">relocation</strong> et privilégier son <strong class="text-slate-200 font-bold">bien-être</strong> au quotidien. En offrant un coût de la vie et de l'immobilier plus accessible que dans les grandes métropoles, la région permet de concilier facilement ambitions professionnelles et <strong class="text-slate-200 font-bold">qualité de vie</strong>. Entre un rythme de travail apaisé sans les bouchons interminables, un air iodé vivifiant et un accès direct aux plages, sentiers côtiers et loisirs nautiques dès la fin de journée, s'installer ici, c'est choisir un équilibre précieux entre vitalité urbaine et reconnexion quotidienne avec la nature.
-        </p>
+        <i18n-t 
+            keypath="home.part2.text"
+            tag="p"
+            class="text-slate-100 text-lg leading-relaxed py-5 px-25 text-center mb-4"
+        >
+    
+        <strong
+            v-for="(mot, index) in $tm('home.part2.bold_words')"
+            :key="index"
+            class="text-slate-200 font-bold"
+        >
+            {{ $rt(mot) }}
+        </strong>
+        
+        </i18n-t>
 
         <PolaroidImage />
 
@@ -111,13 +123,13 @@
 <section>
     <div class="flex flex-col justify-center items-center pb-10 pt-5">
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight">
-            Plus de 10 ans
+            {{ $t('home.part3.title1') }}
         </h2>
         <span class="font-corinthia text-7xl text-secondary block">
-            d 'expertise
+            {{ $t('home.part3.corinthia_word') }}
         </span>
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight">
-            en quelques chiffres
+            {{ $t('home.part3.title2') }}
         </h2>
     </div>
 
@@ -126,28 +138,28 @@
             <h3 class="text-6xl italic text-secondary leading-tight">
                 <AnimatedCounter :target="2500"/>
             </h3>
-            <p class="text-2xl text-slate-800 tracking-tight leading-tight">accompagnements</p>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">{{ $t('home.part3.number1') }}</p>
         </div>
 
         <div class="flex flex-col justify-center items-center">
             <h3 class="text-6xl italic text-secondary leading-tight">
                 <AnimatedCounter :target="70"/>
                 %</h3>
-            <p class="text-2xl text-slate-800 tracking-tight leading-tight">de mobilités nationales</p>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">{{ $t('home.part3.number2') }}</p>
         </div>
 
         <div class="flex flex-col justify-center items-center">
             <h3 class="text-6xl italic text-secondary leading-tight">
                 <AnimatedCounter :target="30"/>
                 %</h3>
-            <p class="text-2xl text-slate-800 tracking-tight leading-tight">de mobilités internationales</p>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">{{ $t('home.part3.number3') }}</p>
         </div>
 
         <div class="flex flex-col justify-center items-center">
             <h3 class="text-6xl italic text-secondary leading-tight">
                 <AnimatedCounter :target="29"/>
             </h3>
-            <p class="text-2xl text-slate-800 tracking-tight leading-tight">nationalités accompagnées</p>
+            <p class="text-2xl text-slate-800 tracking-tight leading-tight">{{ $t('home.part3.number4') }}</p>
         </div>
     </div>
 

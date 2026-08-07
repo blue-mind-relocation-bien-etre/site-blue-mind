@@ -12,6 +12,23 @@
         "bold_words": ["Blue Mind", "Carrières Nomades", "Blue Mind Janzu & Care"],
         "button1": "Découvrir nos services",
         "button2": "Nous contacter"
+    },
+
+    "part2": {
+        "title1": "Brest, Finistère",
+        "title2": "Une ville et un département attractifs",
+        "text": "{0} et le {1} s'imposent comme une destination de choix pour réussir sa {2} et privilégier son {3} au quotidien. En offrant un coût de la vie et de l'immobilier plus accessible que dans les grandes métropoles, la région permet de concilier facilement ambitions professionnelles et {4}. Entre un rythme de travail apaisé sans les bouchons interminables, un air iodé vivifiant et un accès direct aux plages, sentiers côtiers et loisirs nautiques dès la fin de journée, s'installer ici, c'est choisir un équilibre précieux entre vitalité urbaine et reconnexion quotidienne avec la nature.",
+        "bold_words": ["Brest", "Finistère", "relocation", "bien-être", "qualité de vie"]
+    },
+
+    "part3": {
+        "title1": "Plus de 10 ans",
+        "corinthia_word": "d'expertise",
+        "title2": "en quelques chiffres",
+        "number1": "accompagnements",
+        "number2": "de mobilités nationales",
+        "number3": "de mobilités internationales",
+        "number4": "de nationalités accompagnées"
     }
     
 }

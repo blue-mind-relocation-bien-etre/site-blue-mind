@@ -14,27 +14,39 @@
 
         <div class="flex items-center justify-center gap-6">
             <RouterLink to="/" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
-                Accueil
+                {{ $t('nav.home') }}
             </RouterLink>
 
-            <a href="#" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">Carrières Nomades</a>
-            <a href="#" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">Blue Mind</a>
-            <a href="#" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">Tarifs</a>
+            <RouterLink to="/carrieres-nomades" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
+                {{ $t('nav.carrieres_nomades') }}
+            </RouterLink>
+            <RouterLink to="/blue-mind" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
+                {{ $t('nav.blue_mind') }}
+            </RouterLink>
+            <RouterLink to="/pricing" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
+                {{ $t('nav.pricing') }}
+            </RouterLink>
 
             <div class="relative group py-2 ">
                 <button class="text-slate-100 font-sans font-medium flex items-center gap-1 cursor-pointer hover:text-slate-300 transition duration-200 text-lg">
-                    Qui sommes nous
+                    {{ $t('nav.presentation') }}
                     <v-icon name="md-keyboardarrowdown" />
                 </button>
                 <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50">
-                    <a href="#" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">Agence & Equipe</a>
-                    <a href="#" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">Notre philosophie</a>
-                    <a href="#" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">Partenaire</a>
+                    <RouterLink to="/team" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">
+                        {{ $t('nav.team') }}
+                    </RouterLink>
+                    <RouterLink to="/our-philosophy" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">
+                        {{ $t('nav.philo') }}
+                    </RouterLink>
+                    <RouterLink to="/partners" class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md">
+                        {{ $t('nav.partner') }}
+                    </RouterLink>
                 </div>
             </div>
 
             <RouterLink to="/contact" class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg">
-                Contact
+                {{ $t('nav.contact') }}
             </RouterLink>
         </div>
 

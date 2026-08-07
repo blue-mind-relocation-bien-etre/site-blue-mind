@@ -11,15 +11,19 @@ import CountryFlag from 'vue-country-flag-next'
 import { createI18n } from 'vue-i18n'
 
 import frHome from '@/langs/fr/home.json'
+import frNav from '@/langs/fr/nav.json'
 
 import enHome from '@/langs/en/home.json'
+import enNav from '@/langs/en/nav.json'
 
 const messages = {
   fr: {      
-    home: frHome    // => On y accédera via $t('home.hero_title')
+    home: frHome,
+    nav: frNav    
   },
   en: {
-    home: enHome
+    home: enHome,
+    nav: enNav
   }
 }
 
