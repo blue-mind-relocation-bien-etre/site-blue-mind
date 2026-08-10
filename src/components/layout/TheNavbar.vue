@@ -127,13 +127,13 @@
           <v-icon name="md-keyboardarrowdown" :class="{'rotate-180': isPresentationOpen}" class="transition-transform duration-200" />
         </button>
         <div v-show="isPresentationOpen" class="flex flex-col pl-4 py-2 gap-2 border-l border-white/20 ml-2">
-          <RouterLink @click="closeMobileMenu" to="/team" class="text-slate-200 py-1 hover:text-white">
+          <RouterLink @click="closeMobileMenu" to="/team" class="text-slate-100 py-1 hover:text-white">
             {{ $t('nav.team') }}
           </RouterLink>
-          <RouterLink @click="closeMobileMenu" to="/our-philosophy" class="text-slate-200 py-1 hover:text-white">
+          <RouterLink @click="closeMobileMenu" to="/our-philosophy" class="text-slate-100 py-1 hover:text-white">
             {{ $t('nav.philo') }}
           </RouterLink>
-          <RouterLink @click="closeMobileMenu" to="/partners" class="text-slate-200 py-1 hover:text-white">
+          <RouterLink @click="closeMobileMenu" to="/partners" class="text-slate-100 py-1 hover:text-white">
             {{ $t('nav.partner') }}
           </RouterLink>
         </div>

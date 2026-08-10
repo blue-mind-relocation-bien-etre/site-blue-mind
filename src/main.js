@@ -4,7 +4,7 @@ import router from './router'
 import './assets/main.css'
 
 import { OhVueIcon, addIcons } from "oh-vue-icons"
-import { MdKeyboardarrowdown, HiMenu, IoClose } from "oh-vue-icons/icons";
+import { MdKeyboardarrowdown, HiMenu, IoClose, BiStarFill } from "oh-vue-icons/icons";
 
 import CountryFlag from 'vue-country-flag-next'
 
@@ -12,18 +12,22 @@ import { createI18n } from 'vue-i18n'
 
 import frHome from '@/langs/fr/home.json'
 import frNav from '@/langs/fr/nav.json'
+import frReviews from '@/langs/fr/clients-reviews.json'
 
 import enHome from '@/langs/en/home.json'
 import enNav from '@/langs/en/nav.json'
+import enReviews from '@/langs/en/clients-reviews.json'
 
 const messages = {
   fr: {      
     home: frHome,
-    nav: frNav    
+    nav: frNav,
+    reviews: frReviews    
   },
   en: {
     home: enHome,
-    nav: enNav
+    nav: enNav,
+    reviews: enReviews
   }
 }
 
@@ -35,8 +39,7 @@ const i18n = createI18n({
   messages
 })
 
-addIcons(MdKeyboardarrowdown, HiMenu, IoClose)
-//addIcons(HiMenu)
+addIcons(MdKeyboardarrowdown, HiMenu, IoClose, BiStarFill)
 
 const app = createApp(App)
 
