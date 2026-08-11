@@ -1,0 +1,103 @@
+{
+  "presentation": {
+    "title1": "Carrières Nomades",
+    "title2": "EN - Decouvrez nos services",
+    "text": "EN - Nous vous accompagnons dans chaque étape de votre {0}. Profitez de {1} pour {2} et rendre votre transition aussi agréable que possible.",
+    "bold_words": [
+      "mobilité géographique",
+      "solutions sur-mesure",
+      "faciliter votre transition"
+    ]
+  },
+  "cards": [
+    {
+      "title": "EN - Votre logement",
+      "intro_text": "Carrières Nomades vous trouve « LE » logement à la location qui vous correspond ! Pour vous nous assurons :",
+      "icon": "bi-house-heart",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "La constitution du dossier de location",
+            "La validation d'un cahier des charges correspondant à votre recherche",
+            "La recherche de biens et propositions",
+            "Les visites (visio-visites si nécessaire)",
+            "Les comptes rendus de visites",
+            "La réservation du logement",
+            "La vérification des documents légaux liés à la location",
+            "L'organisation de la remise des clefs jusqu'à signature d'un bail",
+            "La présentation du territoire"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Votre installation",
+      "intro_text": "Nous vous accompagnons à votre arrivée mais aussi au départ",
+      "icon": "bi-box-seam",
+      "sections": [
+        {
+          "subtitle": "Avant départ:",
+          "items": [
+            "Devis et coordination déménageurs",
+            "Relève des compteurs",
+            "Etat des lieux de sortie du logement",
+            "Gestion des préavis pour arrêt des contrats liés au logement",
+            "Résiliation des contrats d'énergie et fluides"
+          ]
+        },
+        {
+          "subtitle": "À l'arrivée:",
+          "items": [
+            "Devis et coordination déménageurs",
+            "Conseil et souscription internet",
+            "Conseil et souscription des contrats d'énergie et fluides",
+            "Devis et sousciption assurance habitation",
+            "Recherche de logement temporaire",
+            "Permanence déménageurs",
+            "Assistance à l'ameublement (achats et location de meubles et éléctroménager - suivi commandes/livraisons)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vos démarches administratives",
+      "intro_text": "Toute une aide aux démarches administratives",
+      "icon": "md-computer",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Aide à la demande de Visa",
+            "Inscription à la caisse primaire d'assurance maladie",
+            "Inscription à la caisse d'allocations familiales",
+            "Certificat d'immatriculation",
+            "Permis de conduire",
+            "Aide à l'ouverture de compte bancaire"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vos enfants, votre famille",
+      "intro_text": "Pour compléter votre installation nous nous occupons de votre famille lorsqu'elle vous suit :",
+      "icon": "co-child",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Présentation et conseil sur les établissements scolaires (publics, privés, internationaux",
+            "Pré-inscription et organisation du rendez-vous préalable avec les établissements scolaires",
+            "Présentation, conseil et pré-inscription pour les modes de garde pour enfants non scolarisés (crèches collectives, conventionnées, micro-crèches, assistant(es) maternel(le)s)",
+            "Recherche de baby-sitter",
+            "Recherche de club de loisirs & activités sportives",
+            "Diffusion de CV de conjoint-es via le réseau des recruteurs locaux",
+            "Mise à disposition d'un espace de travail au sein de l'agence pour conjoint-e en télétravail ou création d'entreprise",
+            "Evènements nouveaux arrivants",
+            "Visite de la ville d'arrivée et présentation des activités et quartiers"
+          ]
+        }
+      ]
+    }
+  ]
+}

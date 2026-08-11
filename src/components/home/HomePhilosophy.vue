@@ -162,7 +162,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 pb-10 pt-5">
       <div class="flex flex-col justify-center items-center">
         <h3 class="text-6xl italic text-secondary leading-tight">
-          <AnimatedCounter :target="2500" />
+          <AnimatedCounter :target="3000" />
         </h3>
         <p class="text-2xl text-slate-800 tracking-tight leading-tight">
           {{ $t("home.part3.number1") }}
@@ -212,11 +212,6 @@
         {{ $t("reviews.title2") }}
       </h2>
 
-      <!-- <div class="flex">
-        <ReviewCard :name="$t('reviews.review-1.name')" :rating="parseInt($t('reviews.review-1.rating'))" :text="$t('reviews.review-1.text')"/>
-        <ReviewCard :name="$t('reviews.review-2.name')" :rating="parseInt($t('reviews.review-2.rating'))" :text="$t('reviews.review-2.text')"/>
-        <ReviewCard :name="$t('reviews.review-3.name')" :rating="parseInt($t('reviews.review-3.rating'))" :text="$t('reviews.review-3.text')"/>
-        </div> -->
 
       <div class="w-full">
         <Carousel
