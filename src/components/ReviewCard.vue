@@ -1,7 +1,5 @@
 <script setup>
 
-import { ref, onMounted } from 'vue'
-
 const props = defineProps({
     name: {type: String, required: true},
     rating: {type: Number, required: true},

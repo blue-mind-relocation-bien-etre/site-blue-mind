@@ -7,6 +7,7 @@ import OurPhilosophyView from '@/views/OurPhilosophyView.vue'
 import PartnersView from '@/views/PartnersView.vue'
 import PricingView from '@/views/PricingView.vue'
 import TeamView from '@/views/TeamView.vue'
+import LegalNoticeView from '@/views/LegalNoticeView.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -51,6 +52,11 @@ const router = createRouter({
             path: '/contact',
             name: 'contact',
             component: ContactView
+        },
+        {
+            path: '/legal-notice',
+            name: 'legal-notice',
+            component: LegalNoticeView
         }
     ],
     
