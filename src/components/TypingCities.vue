@@ -25,7 +25,7 @@ const typeEffect = () => {
       displayedText.value.length + 1,
     );
 
-    let speed = 150;
+    let speed = 85;
 
     if (displayedText.value === currentCity) {
       isDeleting = true;

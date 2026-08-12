@@ -62,43 +62,43 @@
       ]
     },
     {
-        "title": "Vos démarches administratives",
-        "intro_text": "Toute une aide aux démarches administratives",
-        "icon": "md-computer",
-        "sections": [
-            {
-                "subtitle": "",
-                "items": [
-                    "Aide à la demande de Visa",
-                    "Inscription à la caisse primaire d'assurance maladie",
-                    "Inscription à la caisse d'allocations familiales",
-                    "Certificat d'immatriculation",
-                    "Permis de conduire",
-                    "Aide à l'ouverture de compte bancaire"
-                ]
-            }
-        ]
+      "title": "Vos démarches administratives",
+      "intro_text": "Toute une aide aux démarches administratives",
+      "icon": "md-computer",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Aide à la demande de Visa",
+            "Inscription à la caisse primaire d'assurance maladie",
+            "Inscription à la caisse d'allocations familiales",
+            "Certificat d'immatriculation",
+            "Permis de conduire",
+            "Aide à l'ouverture de compte bancaire"
+          ]
+        }
+      ]
     },
     {
-        "title": "Vos enfants, votre famille",
-        "intro_text": "Pour compléter votre installation nous nous occupons de votre famille lorsqu'elle vous suit :",
-        "icon": "co-child",
-        "sections": [
-            {
-                "subtitle": "",
-                "items": [
-                    "Présentation et conseil sur les établissements scolaires (publics, privés, internationaux",
-                    "Pré-inscription et organisation du rendez-vous préalable avec les établissements scolaires",
-                    "Présentation, conseil et pré-inscription pour les modes de garde pour enfants non scolarisés (crèches collectives, conventionnées, micro-crèches, assistant(es) maternel(le)s)",
-                    "Recherche de baby-sitter",
-                    "Recherche de club de loisirs & activités sportives",
-                    "Diffusion de CV de conjoint-es via le réseau des recruteurs locaux",
-                    "Mise à disposition d'un espace de travail au sein de l'agence pour conjoint-e en télétravail ou création d'entreprise",
-                    "Evènements nouveaux arrivants",
-                    "Visite de la ville d'arrivée et présentation des activités et quartiers"
-                ]
-            }
-        ]
+      "title": "Vos enfants, votre famille",
+      "intro_text": "Pour compléter votre installation nous nous occupons de votre famille lorsqu'elle vous suit :",
+      "icon": "co-child",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Présentation et conseil sur les établissements scolaires (publics, privés, internationaux",
+            "Pré-inscription et organisation du rendez-vous préalable avec les établissements scolaires",
+            "Présentation, conseil et pré-inscription pour les modes de garde pour enfants non scolarisés (crèches collectives, conventionnées, micro-crèches, assistant(es) maternel(le)s)",
+            "Recherche de baby-sitter",
+            "Recherche de club de loisirs & activités sportives",
+            "Diffusion de CV de conjoint-es via le réseau des recruteurs locaux",
+            "Mise à disposition d'un espace de travail au sein de l'agence pour conjoint-e en télétravail ou création d'entreprise",
+            "Evènements nouveaux arrivants",
+            "Visite de la ville d'arrivée et présentation des activités et quartiers"
+          ]
+        }
+      ]
     }
   ],
   "text_before_button": "Vous etes interessés par nos services ? Demandez votre devis gratuit ci dessous !",
@@ -108,10 +108,27 @@
     "subtitle": "Vous souhaitez vous installer à ",
     "subtitle2": "Où intervenons-nous ?",
     "text1": "{0}, en plein {1}, nous accompagnons les particuliers et les entreprises dans leurs projets de {2} et partout en {3}. Grâce à notre réseau de correspondants, nous facilitons votre installation où que vous soyez !",
-    "bold_words1": ["Situés au cœur de Brest", "Finistère", "mobilité en Bretagne", "France"],
+    "bold_words1": [
+      "Situés au cœur de Brest",
+      "Finistère",
+      "mobilité en Bretagne",
+      "France"
+    ],
     "text2": "{0}, nous mettons tout en œuvre pour rendre chaque transition fluide et sereine.",
     "bold_words2": ["Experts en relocalisation"],
     "text3": "{0} sont les valeurs qui guident Carrières Nomades au quotidien.",
-    "bold_words3": ["Exigence, réactivité et flexibilité"]
+    "bold_words3": ["Exigence, réactivité et flexibilité"],
+    "card1": {
+      "title": "Le finistère",
+      "text": "Notre milieu d'expertise"
+    },
+    "card2": {
+      "title": "La Bretagne",
+      "text": "Notre région, notre secteur"
+    },
+    "card3": {
+      "title": "La France et ses DROM",
+      "text": "Notre réseau"
+    }
   }
 }

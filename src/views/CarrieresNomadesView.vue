@@ -31,39 +31,94 @@
     <ServicesCards />
 
     <section>
-
       <div class="flex flex-col justify-center items-center m-5">
-        <h4 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center pb-8">
-          {{ $t('carrieresNomades.text_before_button') }}
+        <h4
+          class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center pb-8"
+        >
+          {{ $t("carrieresNomades.text_before_button") }}
         </h4>
         <RouterLink
-        to="/pricing"
-        class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-2xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
+          to="/pricing"
+          class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-2xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
         >
-        {{ $t("carrieresNomades.button_quote") }}
-      </RouterLink>
-    </div>
-  </section>
+          {{ $t("carrieresNomades.button_quote") }}
+        </RouterLink>
+      </div>
+    </section>
 
-  <WaveTop />
+    <WaveTop />
 
-  <section>
-    <div class="bg-secondary h-100">
-      <h2
-        class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-100 tracking-tight leading-tight p-5 text-center"
-      >
-        {{ $t("carrieresNomades.city_part.title") }}
-      </h2>
-      <h4 class="text-xl font-semibold text-slate-100 tracking-tight leading-tight text-center">
-        {{ $t('carrieresNomades.city_part.subtitle') }}
-        <TypingCities />
-      <span> ?</span>
-      </h4>
-    </div>
-  </section>
+    <section>
+      <div class="bg-secondary">
+        <h2
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-100 tracking-tight leading-tight p-5 text-center"
+        >
+          {{ $t("carrieresNomades.city_part.title") }}
+        </h2>
+        <h4
+          class="text-xl font-semibold text-slate-100 tracking-tight leading-tight text-center"
+        >
+          {{ $t("carrieresNomades.city_part.subtitle") }}
+          <TypingCities />
+          <span> ?</span>
+        </h4>
 
-  <WaveBottom />
+        <!-- Grille pour texte + image -->
+        <div class="flex justify-center items-center">
+          <!-- div pour titre + texte + cartes -->
+          <div class="flex flex-col justify-center items-center">
+            <!-- div pour titre + texte -->
+            <div
+              class="flex flex-col justify-center border-b bg-slate-100 rounded-xl shadow-xl m-4"
+            >
+              <h4
+                class="text-xl sm:text-2xl lg:text-3xl font-semibold text-secondary tracking-tight leading-tight p-3"
+              >
+                {{ $t("carrieresNomades.city_part.subtitle2") }}
+              </h4>
+              <i18n-t
+                v-for="n in 3"
+                :key="n"
+                :keypath="`carrieresNomades.city_part.text${n}`"
+                tag="p"
+                class="text-slate-600 text-lg leading-relaxed text-justify p-2"
+              >
+                <strong
+                  v-for="(mot, index) in $tm(
+                    `carrieresNomades.city_part.bold_words${n}`,
+                  )"
+                  :key="index"
+                  class="text-sslate-800 font-semibold"
+                >
+                  {{ $rt(mot) }}
+                </strong>
+              </i18n-t>
+            </div>
+            <!-- div pour les 3 cartes -->
+            <div class="flex">
+              <div
+                v-for="n in 3"
+                :key="n"
+                class="bg-slate-100 items-center m-4 rounded-xl shadow-xl p-3"
+              >
+                <h5
+                  class="text-secondary text-lg font-semibold tracking-tight leading-tight uppercase text-center"
+                >
+                  {{ $tm(`carrieresNomades.city_part.card${n}.title`) }}
+                </h5>
+                <p class="text-slate-600 text-lg leading-relaxed text-center">
+                  {{ $tm(`carrieresNomades.city_part.card${n}.text`) }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- div pour carte -->
+          <div class="bg-slate-100 w-500 h-125 m-4 rounded-xl shadow-xl"></div>
+        </div>
+      </div>
+    </section>
 
+    <WaveBottom />
   </main>
 </template>
 
@@ -72,7 +127,4 @@ import ServicesCards from "@/components/carrieres_nomades/ServicesCards.vue";
 import WaveTop from "@/components/WaveTop.vue";
 import WaveBottom from "@/components/WaveBottom.vue";
 import TypingCities from "@/components/TypingCities.vue";
-
 </script>
-
-
