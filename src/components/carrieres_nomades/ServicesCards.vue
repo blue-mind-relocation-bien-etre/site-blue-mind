@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto px-4 py-16 flex justify-center">
+  <section class="mx-auto px-4 py-10 flex justify-center">
     <div class="grid grid-cols-1 xl:grid-cols-2 p-10 gap-8">
       <div
         v-for="(card, cardIndex) in $tm('carrieresNomades.cards')"

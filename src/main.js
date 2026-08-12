@@ -13,6 +13,8 @@ import {
   BiBoxSeam,
   MdComputer,
   CoChild,
+  BiLinkedin,
+  BiInstagram,
 } from "oh-vue-icons/icons";
 
 import CountryFlag from "vue-country-flag-next";
@@ -65,6 +67,8 @@ addIcons(
   BiBoxSeam,
   MdComputer,
   CoChild,
+  BiLinkedin,
+  BiInstagram,
 );
 
 const app = createApp(App);

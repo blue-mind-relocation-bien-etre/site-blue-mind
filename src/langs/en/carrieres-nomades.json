@@ -99,5 +99,7 @@
         }
       ]
     }
-  ]
+  ],
+  "text_before_button": "EN - Vous etes interessés par nos services ? Demandez votre devis gratuit ci dessous !",
+  "button_quote": "Devis gratuit"
 }

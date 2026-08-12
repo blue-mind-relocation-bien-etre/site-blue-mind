@@ -1,5 +1,4 @@
 <template>
-
   <footer class="relative h-auto p-5 md:p-10 lg:p-15">
     <div
       class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat brightness-75"
@@ -18,8 +17,8 @@
         />
         <div class="flex flex-col gap-2 mt-2">
           <div class="gap-1">
-              <h2 class="text-slate-100 font-bold">Blue Mind</h2>
-              <!-- Email -->
+            <h2 class="text-slate-100 font-bold">Blue Mind</h2>
+            <!-- Email -->
             <a
               href="mailto:anna.janzu@gmail.com"
               class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
@@ -128,14 +127,31 @@
     </div>
 
     <div
-      class="relative border-t border-slate-100/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-100 gap-4"
+      class="relative border-t border-slate-100/50 mt-12 pt-8 flex flex-col md:flex-row items-center text-sm text-slate-100 gap-4"
     >
-      <p>
-        &copy; {{ new Date().getFullYear() }} Blue Mind.
-        {{ $t("footer.rights") }}
-      </p>
+      <div class="flex-1 w-full text-center md:text-left">
+        <p>
+          &copy; {{ new Date().getFullYear() }} Blue Mind.
+          {{ $t("footer.rights") }}
+        </p>
+      </div>
 
-      <div class="flex gap-6">
+      <div class="flex justify-center gap-5">
+        <a
+          href="https://www.linkedin.com/company/carrieresnomades/posts/?feedView=all"
+          target="_blank"
+        >
+          <v-icon name="bi-linkedin" scale="1.5"></v-icon>
+        </a>
+        <a
+          href="https://www.instagram.com/carrieresnomades/?hl=fr"
+          target="_blank"
+        >
+          <v-icon name="bi-instagram" scale="1.5"></v-icon>
+        </a>
+      </div>
+
+      <div class="flex-1 w-full flex justify-center md:justify-end gap-6">
         <RouterLink
           to="/legal-notice"
           class="text-slate-100 hover:text-slate-300 transition duration-200"

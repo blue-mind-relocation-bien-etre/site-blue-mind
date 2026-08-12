@@ -100,5 +100,18 @@
             }
         ]
     }
-  ]
+  ],
+  "text_before_button": "Vous etes interessés par nos services ? Demandez votre devis gratuit ci dessous !",
+  "button_quote": "Devis gratuit",
+  "city_part": {
+    "title": "Notre secteur d'activité",
+    "subtitle": "Vous souhaitez vous installer à ",
+    "subtitle2": "Où intervenons-nous ?",
+    "text1": "{0}, en plein {1}, nous accompagnons les particuliers et les entreprises dans leurs projets de {2} et partout en {3}. Grâce à notre réseau de correspondants, nous facilitons votre installation où que vous soyez !",
+    "bold_words1": ["Situés au cœur de Brest", "Finistère", "mobilité en Bretagne", "France"],
+    "text2": "{0}, nous mettons tout en œuvre pour rendre chaque transition fluide et sereine.",
+    "bold_words2": ["Experts en relocalisation"],
+    "text3": "{0} sont les valeurs qui guident Carrières Nomades au quotidien.",
+    "bold_words3": ["Exigence, réactivité et flexibilité"]
+  }
 }
