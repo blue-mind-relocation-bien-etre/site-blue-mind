@@ -61,7 +61,9 @@
             <h4 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
               {{ $rt(section.subtitle) }}
             </h4>
-            <ul class="list-disc list-inside text-slate-800 space-y-2 text-justify">
+            <ul
+              class="list-disc list-inside text-slate-800 space-y-2 text-justify"
+            >
               <li v-for="(item, itemIndex) in section.items" :key="itemIndex">
                 {{ $rt(item) }}
               </li>

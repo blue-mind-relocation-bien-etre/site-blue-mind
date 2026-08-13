@@ -1,5 +1,7 @@
 <template>
-  <span class="pl-1 inline-block text-left text-slate-100 font-corinthia text-4xl">
+  <span
+    class="pl-1 inline-block text-left text-slate-100 font-corinthia text-4xl"
+  >
     {{ displayedText }}
     <span
       class="inline-block w-0.5 bg-slate-100 h-6.5 ml-1 align-middle animate-blink"
