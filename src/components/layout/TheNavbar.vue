@@ -64,7 +64,7 @@
                 </button>
 
                 <!-- 2. MENU DÉROULANT : Liste des langues disponibles -->
-                <div class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50">
+                <div class="absolute right-0 top-full hidden group-hover:flex flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50">
                     
                     <!-- Option Français -->
                     <button 
