@@ -39,7 +39,7 @@
         </h4>
         <RouterLink
           to="/pricing"
-          class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-2xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
+          class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
         >
           {{ $t("carrieresNomades.button_quote") }}
         </RouterLink>
@@ -64,12 +64,12 @@
         </h4>
 
         <!-- Grille pour texte + image -->
-        <div class="flex justify-center items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
           <!-- div pour titre + texte + cartes -->
-          <div class="flex flex-col justify-center items-center">
+          <div class="flex flex-col justify-center w-full h-full">
             <!-- div pour titre + texte -->
             <div
-              class="flex flex-col justify-center border-b bg-slate-100 rounded-xl shadow-xl m-4"
+              class="flex flex-col justify-center border-b bg-slate-100 rounded-xl shadow-xl mb-4"
             >
               <h4
                 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-secondary tracking-tight leading-tight p-3"
@@ -95,11 +95,11 @@
               </i18n-t>
             </div>
             <!-- div pour les 3 cartes -->
-            <div class="flex">
+            <div class="flex justify-center gap-4">
               <div
                 v-for="n in 3"
                 :key="n"
-                class="bg-slate-100 items-center m-4 rounded-xl shadow-xl p-3"
+                class="bg-slate-100 items-center rounded-xl shadow-xl p-3"
               >
                 <h5
                   class="text-secondary text-lg font-semibold tracking-tight leading-tight uppercase text-center"
@@ -113,7 +113,15 @@
             </div>
           </div>
           <!-- div pour carte -->
-          <div class="bg-slate-100 w-500 h-125 m-4 rounded-xl shadow-xl"></div>
+          <div
+            class="relative h-full w-full rounded-xl shadow-xl overflow-hidden min-h-75 bg-slate-100"
+          >
+            <img
+              src="@/img/carte-france.png"
+              alt="carte"
+              class="absolute inset-0 w-full h-full object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>

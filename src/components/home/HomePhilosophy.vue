@@ -105,23 +105,13 @@
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 pb-10 pt-5">
+    <div class="grid grid-cols-1 lg:grid-cols-3 pb-10 pt-5">
       <div class="flex flex-col justify-center items-center">
         <h3 class="text-6xl italic text-secondary leading-tight">
           <AnimatedCounter :target="3000" />
         </h3>
         <p class="text-2xl text-slate-800 tracking-tight leading-tight">
           {{ $t("home.part3.number1") }}
-        </p>
-      </div>
-
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="text-6xl italic text-secondary leading-tight">
-          <AnimatedCounter :target="70" />
-          %
-        </h3>
-        <p class="text-2xl text-slate-800 tracking-tight leading-tight">
-          {{ $t("home.part3.number2") }}
         </p>
       </div>
 
@@ -137,12 +127,15 @@
 
       <div class="flex flex-col justify-center items-center">
         <h3 class="text-6xl italic text-secondary leading-tight">
-          <AnimatedCounter :target="29" />
+          <AnimatedCounter :target="36" />
         </h3>
         <p class="text-2xl text-slate-800 tracking-tight leading-tight">
           {{ $t("home.part3.number4") }}
         </p>
       </div>
+    </div>
+    <div class="flex justify-center items-center m-4">
+      <img src="@/img/carte-pays.png" alt="carte" class="">
     </div>
   </section>
 
