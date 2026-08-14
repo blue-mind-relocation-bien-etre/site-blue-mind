@@ -26,12 +26,14 @@ import frNav from "@/langs/fr/nav.json";
 import frReviews from "@/langs/fr/clients-reviews.json";
 import frFooter from "@/langs/fr/footer.json";
 import frCarrieresNomades from "@/langs/fr/carrieres-nomades.json";
+import frContact from "@/langs/fr/contact.json"
 
 import enHome from "@/langs/en/home.json";
 import enNav from "@/langs/en/nav.json";
 import enReviews from "@/langs/en/clients-reviews.json";
 import enFooter from "@/langs/en/footer.json";
 import enCarrieresNomades from "@/langs/en/carrieres-nomades.json";
+import enContact from "@/langs/en/contact.json"
 
 const messages = {
   fr: {
@@ -40,6 +42,7 @@ const messages = {
     reviews: frReviews,
     footer: frFooter,
     carrieresNomades: frCarrieresNomades,
+    contact: frContact,
   },
   en: {
     home: enHome,
@@ -47,6 +50,7 @@ const messages = {
     reviews: enReviews,
     footer: enFooter,
     carrieresNomades: enCarrieresNomades,
+    contact: enContact,
   },
 };
 
