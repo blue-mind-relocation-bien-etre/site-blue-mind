@@ -1,6 +1,40 @@
 {
-    "presentation": {
-        "title": "Contactez-nous",
-        "text": "Prenez contact avec nous ! Que vous ayez une question ou besoin de précisions, nous sommes là pour vous répondre dans les meilleurs délais."
-    }
+  "presentation": {
+    "title": "Contactez-nous",
+    "text": "Prenez contact avec nous ! Que vous ayez une question ou besoin de précisions, nous sommes là pour vous répondre dans les meilleurs délais."
+  },
+  "form": {
+    "title": "Formulaire de contact",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email": "Adresse mail",
+    "phone": "Téléphone",
+    "about": "Objet du message",
+    "message": "Votre message",
+    "rgpd": "En soumettant ce formulaire, vous acceptez que les informations saisies soient exploitées dans le cadre de votre demande de contact et de la relation commerciale qui peut en découler. Pour des raisons techniques, vos données transitent de manière sécurisée par notre prestataire Web3Forms et sont {0} . Conformément à la réglementation (RGPD), vous disposez d'un droit d'accès, de rectification et d'effacement de vos données personnelles. Pour exercer ce droit, vous pouvez nous contacter directement à {1}.",
+    "bold_words": [
+      "automatiquement supprimées de leurs serveurs après 30 jours",
+      "contact{'@'}carrieresnomades.fr"
+    ],
+    "cancel_button": "Effacer",
+    "send_button": "Envoyer",
+    "success_message": "Votre message a bien été envoyé !",
+    "failure_message": "Une erreur est survenue, veuillez réessayer.",
+    "network_failure_message": "Erreur de connexion. Veuillez vérifier votre réseau.",
+    "first_name_error": "Le prenom est requis.",
+    "last_name_error": "Le nom est requis.",
+    "email_error": "L'adresse e-mail est requise.",
+    "valid_email_error": "L'adresse e-mail n'est pas valide.",
+    "phone_error": "Le téléphone est requis.",
+    "about_error": "L'objet est requis.",
+    "message_error": "Le message est requis.",
+    "missing_error": "Veuillez remplir tous les champs."
+  },
+  "details": {
+    "title1": "Nos coordonnées",
+    "title2": "Suivez-nous sur les réseaux sociaux !",
+    "subtitle1": "Ne loupez rien de notre actualité",
+    "text": "Si vous aussi vous êtes tentés par un plongeon dans notre belle région que ce soit pour y vivre ou pour profiter de notre littoral, n’hésitez pas à nous contacter !",
+    "text_name": "Annabel Martin - Dirigeante"
+  }
 }

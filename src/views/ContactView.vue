@@ -13,11 +13,13 @@
       </p>
     </div>
 
-    <!-- <WaveTop /> -->
-    <div class="grid grid-cols-1 xl:grid-cols-2">
+    <div class="grid grid-cols-1 xl:grid-cols-2 mb-10">
       <!-- div pour formulaire -->
       <div>
-        <ContactForm />
+        <ContactForm
+          :formType="$t('contact.form.title')"
+          :messageTitle="$t('contact.form.message')"
+        />
       </div>
 
       <!-- div pour contact -->
@@ -25,7 +27,7 @@
         <h4
           class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center mb-10"
         >
-          Nos coordonnées
+          {{ $t("contact.details.title1") }}
         </h4>
 
         <div class="grid grid-cols-2">
@@ -82,12 +84,12 @@
         <h4
           class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center mb-5 mt-20"
         >
-          Suivez-nous sur les réseaux sociaux !
+          {{ $t("contact.details.title2") }}
         </h4>
         <h5
           class="text-lg sm:text-xl lg:text-2xl text-slate-600 tracking-tight leading-tight text-center"
         >
-          Ne loupez rien de notre actualité
+          {{ $t("contact.details.subtitle1") }}
         </h5>
         <div class="grid grid-cols-2 text-secondary text-center m-10">
           <a
@@ -115,13 +117,9 @@
             <div
               class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 font-medium text-center italic"
             >
-              <p>
-                "Si vous aussi vous êtes tentés par un plongeon dans notre belle
-                région que ce soit pour y vivre ou pour profiter de notre
-                littoral, n’hésitez pas à nous contacter ! "
-              </p>
+              <p>"{{ $t("contact.details.text") }}"</p>
               <p>-</p>
-              <p>Annabel Martin - Dirigeante</p>
+              <p>{{ $t("contact.details.text_name") }}</p>
             </div>
           </div>
           <div class="relative w-fit mx-auto">
@@ -131,7 +129,7 @@
 
             <img
               src="@/img/annabel.png"
-              alt="Paysage lumineux du Finistère"
+              alt="annabel"
               class="h-75 object-cover rounded-2xl shadow-xl"
             />
           </div>
