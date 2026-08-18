@@ -28,7 +28,7 @@
 
             <!-- Téléphone -->
             <a
-              href="tel:+33123456789"
+              href="tel:+3312854447"
               class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
             >
               <span>+33 6 12 85 44 47</span>
@@ -47,7 +47,7 @@
 
             <!-- Téléphone -->
             <a
-              href="tel:+33123456789"
+              href="tel:+3337769023"
               class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
             >
               <span>+33 6 37 76 90 23</span>

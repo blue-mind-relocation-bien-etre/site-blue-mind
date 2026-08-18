@@ -15,6 +15,9 @@ import {
   CoChild,
   BiLinkedin,
   BiInstagram,
+  BiTelephoneFill,
+  MdEmail,
+  RiDoubleQuotesR,
 } from "oh-vue-icons/icons";
 
 import CountryFlag from "vue-country-flag-next";
@@ -73,6 +76,9 @@ addIcons(
   CoChild,
   BiLinkedin,
   BiInstagram,
+  BiTelephoneFill,
+  MdEmail,
+  RiDoubleQuotesR,
 );
 
 const app = createApp(App);
