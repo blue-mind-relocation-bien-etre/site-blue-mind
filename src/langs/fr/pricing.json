@@ -1,0 +1,17 @@
+{
+    "free_quote": {
+        "title": "Un projet de relocation ?",
+        "subtitle": "Demandez votre devis gratuit !",
+        "text": ["Remplissez le formulaire ci dessous", "Nous analysons votre demande et préparons votre devis", "Recevez une réponse personnalisée sous 48h"]
+    }, 
+    "form": {
+        "title": "Devis gratuit",
+        "message_text": "Decrivez votre projet :"
+    },
+    "janzu": {
+        "title": "Envie de vous detendre et de lacher prise ?",
+        "text1": "Decouvrez les tarifs de nos prestations bien etre !",
+        "text2": "N’hesitez pas à nous contacter pour plus d’informations :",
+        "button": "Nous contacter"
+    }
+}
