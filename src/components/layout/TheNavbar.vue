@@ -10,7 +10,7 @@
     <!-- Menu grand écran -->
     <div class="w-full flex items-center justify-between">
       <div class="flex-1 flex justify-start">
-        <img class="h-20" src="@/img/Logo2_BM_VD_blanc.png" alt="logo" />
+        <img class="h-20" src="@/assets/Logo2_BM_VD_blanc.webp" alt="logo" />
       </div>
 
       <div class="hidden lg:flex items-center justify-center gap-6">

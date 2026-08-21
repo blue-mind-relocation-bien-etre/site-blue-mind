@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import vagueImg from "@/img/vague.jpg";
+import vagueImg from "@/assets/vague.jpg";
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);

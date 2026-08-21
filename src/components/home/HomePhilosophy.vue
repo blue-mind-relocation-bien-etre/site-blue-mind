@@ -44,7 +44,7 @@
         ></div>
 
         <img
-          src="@/img/finistere.jpg"
+          src="@/assets/finistere.webp"
           alt="Paysage lumineux du Finistère"
           class="w-full h-100 object-cover rounded-2xl shadow-xl"
         />
@@ -135,7 +135,7 @@
       </div>
     </div>
     <div class="flex justify-center items-center m-4">
-      <img src="@/img/carte-pays.png" alt="carte" class="">
+      <img src="@/assets/carte-pays.webp" alt="carte" class="">
     </div>
   </section>
 

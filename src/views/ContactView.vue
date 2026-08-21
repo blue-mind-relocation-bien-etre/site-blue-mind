@@ -128,7 +128,7 @@
             ></div>
 
             <img
-              src="@/img/annabel.png"
+              src="@/assets/annabel.webp"
               alt="annabel"
               class="h-75 object-cover rounded-2xl shadow-xl"
             />

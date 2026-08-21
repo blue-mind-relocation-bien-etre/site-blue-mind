@@ -11,7 +11,7 @@
     <div class="relative flex flex-col md:flex-row justify-between gap-12">
       <div class="relative flex flex-col gap-6 md:w-1/3">
         <img
-          src="@/img/Logo2_BM_VD_blanc.png"
+          src="@/assets/Logo2_BM_VD_blanc.webp"
           alt="Logo"
           class="h-20 w-auto object-contain self-start"
         />
@@ -164,5 +164,5 @@
 </template>
 
 <script setup>
-import vagueImg from "@/img/vague.jpg";
+import vagueImg from "@/assets/vague.jpg";
 </script>

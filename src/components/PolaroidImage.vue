@@ -8,7 +8,7 @@
       ></div>
 
       <img
-        src="@/img/client.jpeg"
+        src="@/assets/client.jpeg"
         alt="brest1"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
@@ -24,7 +24,7 @@
       ></div>
 
       <img
-        src="@/img/brest-2.jpg"
+        src="@/assets/brest-2.webp"
         alt="brest1"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
@@ -40,7 +40,7 @@
       ></div>
 
       <img
-        src="@/img/brest-3.jpg"
+        src="@/assets/brest-3.webp"
         alt="brest1"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
@@ -56,7 +56,7 @@
       ></div>
 
       <img
-        src="@/img/brest-4.jpg"
+        src="@/assets/brest-4.webp"
         alt="brest1"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />

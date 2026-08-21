@@ -117,7 +117,7 @@
             class="relative h-full w-full rounded-xl shadow-xl overflow-hidden min-h-75 bg-slate-100"
           >
             <img
-              src="@/img/carte-france.png"
+              src="@/assets/carte-france.webp"
               alt="carte"
               class="absolute inset-0 w-full h-full object-contain"
             />
@@ -200,7 +200,7 @@ import "vue3-carousel/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 
 const getImageUrl = (name) => {
-  return new URL(`../img/${name}.png`, import.meta.url).href
+  return new URL(`../assets/${name}.webp`, import.meta.url).href
 }
 
 </script>
