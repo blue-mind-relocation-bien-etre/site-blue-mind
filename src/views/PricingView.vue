@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 lg:grid-cols-2">
-    <div class="pt-36 mb-10">
+    <div class="relative pt-36 mb-10">
       <h4
         class="text-2xl lg:text-3xl font-bold text-slate-800 tracking-tight leading-tight text-center mb-5"
       >
@@ -27,6 +27,8 @@
         :formType="$t('pricing.form.title')"
         :messageTitle="$t('pricing.form.message_text')"
       />
+      <!-- ligne de separation qui ne touche pas le haut de l'écran -->
+      <div class="hidden lg:block absolute right-0 top-[10%] bottom-[0%] w-px bg-slate-200"></div>
     </div>
 
     <div class="lg:pt-36">

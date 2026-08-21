@@ -28,7 +28,9 @@
       </div>
     </section>
 
-    <ServicesCards />
+    <TabNavigation />
+
+    <!-- <ServicesCards /> -->
 
     <section>
       <div class="flex flex-col justify-center items-center m-5">
@@ -195,6 +197,7 @@ import ServicesCards from "@/components/carrieres_nomades/ServicesCards.vue";
 import WaveTop from "@/components/WaveTop.vue";
 import WaveBottom from "@/components/WaveBottom.vue";
 import TypingCities from "@/components/TypingCities.vue";
+import TabNavigation from "@/components/carrieres_nomades/TabNavigation.vue";
 
 import "vue3-carousel/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
