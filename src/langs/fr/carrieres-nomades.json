@@ -130,5 +130,21 @@
       "title": "La France et ses DROM",
       "text": "Notre réseau"
     }
+  },
+  "marque_employeur": {
+    "title": "Notre marque employeur",
+    "text1": "Entreprises, nous vous aidons à renforcer votre {0} en valorisant votre attractivité ! Notre mission est de {1} du salarié pour que sa prise de poste se fasse dans les meilleures conditions et qu’il puisse se consacrer totalement à ses nouvelles fonctions. De la préparation de son arrivée à son départ, nous couvrons l’ensemble des étapes nécessaires à son {2} et celui de sa famille.",
+    "bold_words": [
+      "marque employeur",
+      "simplifier les démarches d’installation",
+      "bien-être"
+    ],
+    "text2": [
+      "Notre équipe issue des Ressources Humaines et du Management sait combien le capital humain est primordial dans une entreprise.",
+      "Afin de vous aidez à dénicher les meilleurs talents, notre équipe déploie toute son énergie dans ses missions de relocation au travers de services à la carte.",
+      "Notre réseau national d’experts référencés, nous permet d’accompagner vos collaborateurs dans toutes les régions de France afin de leur permettre de bénéficier d’un accompagnement ciblé et efficace, favorisant la réussite de leur mobilité et de leur intégration professionnelle et familiale.",
+      "Nous vous proposons également la mise en place d’outils marketing et de reporting pour un pilotage optimisé de vos ressources."
+    ],
+    "carousel_subtitle": "Réalisez votre brochure personnalisée !"
   }
 }

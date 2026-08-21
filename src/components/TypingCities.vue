@@ -11,7 +11,20 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
-const cities = ["Brest", "Lorient", "Vannes", "Nantes", "Lyon", "Bordeaux"];
+const cities = [
+  "Brest",
+  "Lorient",
+  "Vannes",
+  "Nantes",
+  "Lyon",
+  "Bordeaux",
+  "Toulouse",
+  "Lille",
+  "Strasbourg",
+  "Marseille",
+  "Bayonne",
+  "Paris",
+];
 
 const displayedText = ref("");
 const cityIndex = ref(0);

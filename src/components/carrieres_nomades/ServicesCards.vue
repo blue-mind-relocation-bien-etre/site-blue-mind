@@ -1,12 +1,12 @@
 <template>
   <section class="mx-auto px-4 py-10 flex justify-center">
-    <div class="grid grid-cols-1 xl:grid-cols-2 p-10 gap-8">
+    <div class="grid grid-cols-1 xl:grid-cols-2 p-5 md:p-10 gap-8">
       <div
         v-for="(card, cardIndex) in $tm('carrieresNomades.cards')"
         :key="cardIndex"
-        class="group relative bg-linear-to-b from-secondary to-primary h-170 w-140 rounded-2xl shadow-xl overflow-hidden cursor-pointer"
+        class="group relative bg-linear-to-b from-secondary to-primary h-195 w-110 md:h-170 md:w-140 rounded-2xl shadow-xl overflow-hidden cursor-pointer"
       >
-        <!-- Face bleue -->
+        <!-- Face bleue h-170 w-140 -->
         <div
           class="absolute inset-0 p-8 flex flex-col justify-between items-center transition-opacity duration-500 group-hover:opacity-0"
         >

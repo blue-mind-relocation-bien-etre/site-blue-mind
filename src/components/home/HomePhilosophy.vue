@@ -71,7 +71,7 @@
       <i18n-t
         keypath="home.part2.text"
         tag="p"
-        class="text-slate-100 text-lg leading-relaxed py-5 px-25 text-center mb-4"
+        class="text-slate-100 text-lg leading-relaxed py-5 px-10 md:px-25 text-center mb-4"
       >
         <strong
           v-for="(mot, index) in $tm('home.part2.bold_words')"
@@ -192,7 +192,7 @@ import "vue3-carousel/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 </script>
 
-<style>
+<style scoped>
 /* les couleurs correspondent à slate-100 et slate-300 (pour hover) des classes tailwind */
 .carousel {
   --vc-nav-color: oklch(96.8% 0.007 247.896);
