@@ -7,13 +7,13 @@
         {{ $t("pricing.free_quote.title") }}
       </h4>
       <h5
-        class="text-lg lg:text-xl text-slate-600 tracking-tight leading-tight text-center mb-5"
+        class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-5"
       >
         {{ $t("pricing.free_quote.subtitle") }}
       </h5>
 
       <ul
-        class="list-disc list-inside text-lg lg:text-xl text-slate-600 tracking-tight leading-tight text-center space-y-2 mb-10"
+        class="list-disc list-inside text-lg  text-slate-600 tracking-tight leading-tight text-center space-y-2 mb-10"
       >
         <li
           v-for="(item, itemIndex) in $tm('pricing.free_quote.text')"
@@ -29,19 +29,19 @@
       />
     </div>
 
-    <div class="pt-36">
+    <div class="lg:pt-36">
       <h4
         class="text-2xl lg:text-3xl font-bold text-slate-800 tracking-tight leading-tight text-center mb-5"
       >
         {{ $t("pricing.janzu.title") }}
       </h4>
       <p
-        class="text-lg lg:text-xl text-slate-600 tracking-tight leading-tight text-center mb-5"
+        class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-5"
       >
         {{ $t("pricing.janzu.text1") }}
       </p>
       <p
-        class="text-lg lg:text-xl text-slate-600 tracking-tight leading-tight text-center mb-10"
+        class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-7"
       >
         {{ $t("pricing.janzu.text2") }}
       </p>
