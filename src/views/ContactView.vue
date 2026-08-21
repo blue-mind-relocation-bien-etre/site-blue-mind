@@ -30,8 +30,8 @@
           {{ $t("contact.details.title1") }}
         </h4>
 
-        <div class="grid grid-cols-2">
-          <div class="text-center border-r-2 border-slate-600">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="text-center border-b-2 mb-5 md:mb-0 md:border-b-0 md:border-r-2 border-slate-600">
             <h5
               class="text-4xl text-secondary font-corinthia font-medium tracking-tight leading-tight text-center mb-5"
             >
@@ -48,7 +48,7 @@
 
               <a
                 href="mailto:contact@carrieresnomades.fr"
-                class="flex items-center justify-center gap-2 hover:font-semibold transition duration-200"
+                class="flex items-center justify-center gap-2 hover:font-semibold transition duration-200 mb-5 md:mb-0"
               >
                 <v-icon name="md-email"></v-icon>
                 <span>contact@carrieresnomades.fr</span>
@@ -106,16 +106,16 @@
           </a>
         </div>
 
-        <div class="grid grid-cols-2 mt-15">
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-15">
           <div class="relative flex items-center justify-center">
             <div
               class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 text-blue-100 opacity-80"
             >
-              <v-icon name="ri-double-quotes-r" scale="10"></v-icon>
+              <v-icon name="ri-double-quotes-r" scale="10" class="mb-8"></v-icon>
             </div>
 
             <div
-              class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 font-medium text-center italic"
+              class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 font-medium text-center italic mb-8"
             >
               <p>"{{ $t("contact.details.text") }}"</p>
               <p>-</p>
