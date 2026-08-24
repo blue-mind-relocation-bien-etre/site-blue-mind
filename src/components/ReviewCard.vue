@@ -10,7 +10,7 @@ const props = defineProps({
   <div
     class="bg-slate-100 flex flex-col justify-center items-center w-100 h-90 m-5 p-4 rounded-xl shadow-xl"
   >
-    <span class="text-secondary font-corinthia text-4xl">
+    <span class="text-secondary font-corinthia text-3xl md:text-4xl">
       {{ props.name }}
     </span>
     <div class="flex">

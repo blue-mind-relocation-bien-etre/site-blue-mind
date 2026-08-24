@@ -58,15 +58,20 @@
           {{ $t("carrieresNomades.city_part.title") }}
         </h2>
         <h4
-          class="text-xl font-semibold text-slate-100 tracking-tight leading-tight text-center"
+          class="text-xl font-semibold text-slate-100 tracking-tight leading-tight flex flex-col md:flex-row items-center justify-center md:gap-2"
         >
-          {{ $t("carrieresNomades.city_part.subtitle") }}
-          <TypingCities />
-          <span> ?</span>
+          <span class="mb-2 md:mb-0">
+            {{ $t("carrieresNomades.city_part.subtitle") }}
+          </span>
+
+          <span class="min-w-62.5 md:min-w-0 text-center">
+            <TypingCities />
+            <span> ?</span>
+          </span>
         </h4>
 
         <!-- Grille pour texte + image -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-4">
           <!-- div pour titre + texte + cartes -->
           <div class="flex flex-col justify-center w-full h-full">
             <!-- div pour titre + texte -->
@@ -97,7 +102,8 @@
               </i18n-t>
             </div>
             <!-- div pour les 3 cartes -->
-            <div class="flex justify-center gap-4">
+            <!-- flex justify-center -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div
                 v-for="n in 3"
                 :key="n"
@@ -152,7 +158,9 @@
           {{ $rt(mot) }}
         </strong>
       </i18n-t>
-      <hr class="w-75 md:w-150 h-0.5 mx-auto my-6 bg-secondary border-0 rounded-full" />
+      <hr
+        class="w-75 md:w-150 h-0.5 mx-auto my-6 bg-secondary border-0 rounded-full"
+      />
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
           <p
@@ -176,14 +184,20 @@
             :pauseAutoplayOnHover="true"
           >
             <Slide v-for="n in 5" :key="n">
-              <img :src="getImageUrl(n)" alt="" class="w-full h-115 object-contain">
+              <img
+                :src="getImageUrl(n)"
+                alt=""
+                class="w-full h-115 object-contain"
+              />
             </Slide>
             <template #addons>
               <Pagination class="fill-secondary" />
               <Navigation class="fill-secondary" />
             </template>
           </Carousel>
-          <h5 class="text-xl font-semibold text-slate-800 tracking-tight leading-tight text-center mt-5">
+          <h5
+            class="text-xl font-semibold text-slate-800 tracking-tight leading-tight text-center mt-5"
+          >
             {{ $t("carrieresNomades.marque_employeur.carousel_subtitle") }}
           </h5>
         </div>
@@ -203,7 +217,6 @@ import "vue3-carousel/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 
 const getImageUrl = (name) => {
-  return new URL(`../assets/${name}.webp`, import.meta.url).href
-}
-
+  return new URL(`../assets/${name}.webp`, import.meta.url).href;
+};
 </script>

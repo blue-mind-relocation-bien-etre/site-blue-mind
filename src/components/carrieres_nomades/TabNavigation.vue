@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center mb-10 mt-10">
     <div
-      class="grid grid-cols-1 md:grid-cols-4 bg-slate-100 rounded-lg overflow-hidden border border-slate-200 divide-y md:divide-y-0 md:divide-x divide-slate-200"
+      class="grid grid-cols-2 md:grid-cols-4 bg-slate-100 rounded-lg overflow-hidden border border-slate-200 divide-y md:divide-y-0 md:divide-x divide-slate-200"
     >
       <button
         v-for="tab in tabs"
@@ -19,7 +19,7 @@
     </div>
   </div>
 
-  <div class="max-w-3xl mx-auto bg-slate-100 rounded-xl p-8 md:p-12 shadow-sm mb-10 h-160">
+  <div class="max-w-3xl bg-slate-100 rounded-xl p-8 md:p-12 shadow-sm mb-10 h-160 mx-auto">
 
     <Transition 
       enter-active-class="transition duration-300 ease-out"

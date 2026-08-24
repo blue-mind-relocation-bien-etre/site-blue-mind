@@ -7,7 +7,7 @@
         {{ $t("contact.presentation.title") }}
       </h1>
       <p
-        class="text-slate-600 text-lg leading-relaxed text-center mx-0 md:mx-15 lg:mx-35"
+        class="text-slate-600 text-lg leading-relaxed text-center mx-5 md:mx-15 lg:mx-35"
       >
         {{ $t("contact.presentation.text") }}
       </p>

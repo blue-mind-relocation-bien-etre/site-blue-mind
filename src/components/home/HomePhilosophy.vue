@@ -71,7 +71,7 @@
       <i18n-t
         keypath="home.part2.text"
         tag="p"
-        class="text-slate-100 text-lg leading-relaxed py-5 px-10 md:px-25 text-center mb-4"
+        class="text-slate-100 text-lg leading-relaxed py-5 px-5 md:px-25 text-justify md:text-center mb-4"
       >
         <strong
           v-for="(mot, index) in $tm('home.part2.bold_words')"
@@ -106,8 +106,8 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 pb-10 pt-5">
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="text-6xl italic text-secondary leading-tight">
+      <div class="flex flex-col justify-center items-center mb-5 md:mb-0">
+        <h3 class="text-5xl md:text-6xl italic text-secondary leading-tight">
           <AnimatedCounter :target="3000" />
         </h3>
         <p class="text-2xl text-slate-800 tracking-tight leading-tight">
@@ -115,8 +115,8 @@
         </p>
       </div>
 
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="text-6xl italic text-secondary leading-tight">
+      <div class="flex flex-col justify-center items-center mb-5 md:mb-0">
+        <h3 class="text-5xl md:text-6xl italic text-secondary leading-tight">
           <AnimatedCounter :target="30" />
           %
         </h3>
@@ -125,8 +125,8 @@
         </p>
       </div>
 
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="text-6xl italic text-secondary leading-tight">
+      <div class="flex flex-col justify-center items-center mb-5 md:mb-0">
+        <h3 class="text-5xl md:text-6xl italic text-secondary leading-tight">
           <AnimatedCounter :target="36" />
         </h3>
         <p class="text-2xl text-slate-800 tracking-tight leading-tight">
