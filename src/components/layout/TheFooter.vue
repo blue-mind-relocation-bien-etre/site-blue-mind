@@ -99,10 +99,10 @@
             {{ $t("footer.about") || "À propos" }}
           </h3>
           <RouterLink
-            to="/team"
+            to="/agency"
             class="text-slate-100 hover:text-slate-300 transition duration-200"
           >
-            {{ $t("nav.team") }}
+            {{ $t("nav.agency") }}
           </RouterLink>
           <RouterLink
             to="/our-philosophy"

@@ -32,6 +32,7 @@ import frCarrieresNomades from "@/langs/fr/carrieres-nomades.json";
 import frContact from "@/langs/fr/contact.json";
 import frPricing from "@/langs/fr/pricing.json";
 import frBlueMind from "@/langs/fr/blue-mind.json";
+import frAgency from "@/langs/fr/agency.json";
 
 import enHome from "@/langs/en/home.json";
 import enNav from "@/langs/en/nav.json";
@@ -41,6 +42,7 @@ import enCarrieresNomades from "@/langs/en/carrieres-nomades.json";
 import enContact from "@/langs/en/contact.json";
 import enPricing from "@/langs/en/pricing.json";
 import enBlueMind from "@/langs/en/blue-mind.json";
+import enAgency from "@/langs/en/agency.json";
 
 const messages = {
   fr: {
@@ -52,6 +54,7 @@ const messages = {
     contact: frContact,
     pricing: frPricing,
     blueMind: frBlueMind,
+    agency: frAgency,
   },
   en: {
     home: enHome,
@@ -62,6 +65,7 @@ const messages = {
     contact: enContact,
     pricing: enPricing,
     blueMind: enBlueMind,
+    angency: enAgency,
   },
 };
 

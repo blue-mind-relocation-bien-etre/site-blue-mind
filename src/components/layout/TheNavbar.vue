@@ -53,10 +53,10 @@
             class="absolute left-0 top-full hidden group-hover:flex flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50"
           >
             <RouterLink
-              to="/team"
+              to="/agency"
               class="px-4 py-2 hover:bg-slate-100 transition duration-200 rounded-md"
             >
-              {{ $t("nav.team") }}
+              {{ $t("nav.agency") }}
             </RouterLink>
             <RouterLink
               to="/our-philosophy"
@@ -195,10 +195,10 @@
         >
           <RouterLink
             @click="closeMobileMenu"
-            to="/team"
+            to="/agency"
             class="text-slate-100 py-1 hover:text-white"
           >
-            {{ $t("nav.team") }}
+            {{ $t("nav.agency") }}
           </RouterLink>
           <RouterLink
             @click="closeMobileMenu"

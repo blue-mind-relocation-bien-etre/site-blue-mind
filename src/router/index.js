@@ -6,7 +6,7 @@ import CarrieresNomadesView from "@/views/CarrieresNomadesView.vue";
 import OurPhilosophyView from "@/views/OurPhilosophyView.vue";
 import PartnersView from "@/views/PartnersView.vue";
 import PricingView from "@/views/PricingView.vue";
-import TeamView from "@/views/TeamView.vue";
+import AgencyView from "@/views/AgencyView.vue";
 import LegalNoticeView from "@/views/LegalNoticeView.vue";
 
 const router = createRouter({
@@ -34,9 +34,9 @@ const router = createRouter({
       component: PricingView,
     },
     {
-      path: "/team",
-      name: "team",
-      component: TeamView,
+      path: "/agency",
+      name: "agency",
+      component: AgencyView,
     },
     {
       path: "/our-philosophy",

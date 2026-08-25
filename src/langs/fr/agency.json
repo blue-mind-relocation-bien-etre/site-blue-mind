@@ -1,0 +1,23 @@
+{
+  "title1": "L'histoire de Blue Mind",
+  "corinthia_word": "Notre agence",
+  "title2": "de Blue Mind",
+  "timeline": {
+    "block1": {
+        "title": "Création de Carrières Nomades",
+        "text": "{0} a été créé en {1} par Annabel Martin. Issue du métier des {2} et du {3}, le but était de proposer des services facilitateurs pour le collaborateur permettant de s'installer dans les meilleures conditions lors d'une {4}. Pour l'employeur, c'est l'occasion d'optimiser le {5} de son collaborateur par un accompagnement sur mesure pris en charge par nos soins afin de s'assurer d'une bonne installation et d'une prise de poste dans les meilleures conditions.L'agence propose de {6} sur l'ensemble du territoire au travers de notre réseau de {7}.",
+        "bold_words": ["Carrières Nomades", "2015", "ressources humaines", "recrutement", "mobilité professionnelle", "on-boarding", "multiples services", "consultants référencés"]
+    },
+    "block2": {
+        "title": "Création de Blue Mind",
+        "text": "",
+        "bold_words": []
+    }
+  },
+  "presentation": {
+    "title": "Votre consultante relocation et bien-être",
+    "text": "",
+    "quote": "Sétoise d’origine et brestoise d’adoption, l’eau a toujours été dans mon champ de vision. C’est un élement vital pour moi et c’est naturellement que j’ai choisi de promouvoir un territoire cerné d’eau tel que le Finistère !"
+  },
+  "media_title": "Nos actus médias"
+}
