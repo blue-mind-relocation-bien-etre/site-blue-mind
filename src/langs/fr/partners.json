@@ -1,0 +1,198 @@
+{
+  "title": "Nos partenaires",
+  "text": "ceci est un texte de description de la categorie {0}",
+  "bold_words": ["mot en gras"],
+  "modal_text": "Visiter le site web",
+  "categories": [
+    {
+      "title": "Nos partenaires prestataires",
+      "items": [
+        {
+          "name": "Brest en Vue",
+          "logo": "/logos/prestataires/brest_en_vue.webp",
+          "description": "Office de tourisme",
+          "link": "https://www.brestenvue.fr/"
+        },
+        {
+          "name": "Brest Life",
+          "logo": "/logos/prestataires/brestlife.webp",
+          "description": "Brest en vue description",
+          "link": "https://brest.fr/"
+        },
+        {
+          "name": "Crédit Agricole Finistère",
+          "logo": "/logos/prestataires/ca_finistere.webp",
+          "description": "CA du finistère",
+          "link": "https://www.credit-agricole.fr/ca-finistere/particulier.html"
+        },
+        {
+          "name": "Résidences Domitys",
+          "logo": "/logos/prestataires/domitys.webp",
+          "description": "description",
+          "link": "https://www.domitys.fr/"
+        },
+        {
+          "name": "Résidences Beausoleil",
+          "logo": "/logos/prestataires/villa_beausoleil.webp",
+          "description": "description",
+          "link": "https://www.villabeausoleil.com/"
+        },
+        {
+          "name": "Résidences les Jardins d'Arcadie",
+          "logo": "/logos/prestataires/jardins_arcadie.webp",
+          "description": "description",
+          "link": "https://jardins-arcadie.fr/"
+        },
+        {
+          "name": "Holiworking",
+          "logo": "/logos/prestataires/holiworking.webp",
+          "description": "description",
+          "link": "https://www.holiworking.com/"
+        },
+        {
+          "name": "Technopole Brest Iroise",
+          "logo": "/logos/prestataires/technopole_brest_iroise.webp",
+          "description": "description",
+          "link": "https://www.tech-brest-iroise.fr/"
+        },
+        {
+          "name": "Route Mandarine",
+          "logo": "/logos/prestataires/route_mandarine.webp",
+          "description": "description",
+          "link": "https://route-mandarine.com/"
+        },
+        {
+          "name": "Mona Design",
+          "logo": "/logos/prestataires/mona_design.png",
+          "description": "description",
+          "link": "https://www.etsy.com/shop/MonaDesignMag?ref=dashboard-header"
+        },
+        {
+          "name": "Déménagement Jezequel",
+          "logo": "/logos/prestataires/jezequel.webp",
+          "description": "description",
+          "link": "https://www.demenagements-jezequel.com/"
+        },
+        {
+          "name": "Investir en Finistère",
+          "logo": "/logos/prestataires/investir_en_finistere.webp",
+          "description": "description",
+          "link": "https://www.investirenfinistere.fr/"
+        }
+      ]
+    },
+    {
+      "title": "Nos partenaires clients",
+      "items": [
+        {
+          "name": "Thales",
+          "logo": "/logos/clients/thales.webp",
+          "description": "description",
+          "link": "https://www.thalesgroup.com/fr"
+        },
+        {
+          "name": "Naval Group",
+          "logo": "/logos/clients/naval_group.webp",
+          "description": "description",
+          "link": "https://www.naval-group.com/fr"
+        },
+        {
+          "name": "Blue Solutions",
+          "logo": "/logos/clients/blue_solutions.webp",
+          "description": "description",
+          "link": "https://www.blue-solutions.com/fr/"
+        },
+        {
+          "name": "Bolloré Transport & Logistics",
+          "logo": "/logos/clients/bollore.webp",
+          "description": "description",
+          "link": "https://www.bollore.com/fr/"
+        },
+        {
+          "name": "Ceva Santé Animale",
+          "logo": "/logos/clients/ceva_sante.webp",
+          "description": "description",
+          "link": "https://www.ceva.com/fr/ceva-accueil/"
+        },
+        {
+          "name": "DCI Environnement",
+          "logo": "/logos/clients/dci.webp",
+          "description": "description",
+          "link": "https://www.dci-environnement.fr/"
+        },
+        {
+          "name": "Arkea",
+          "logo": "/logos/clients/arkea.webp",
+          "description": "description",
+          "link": "https://site.arkea-banque-ei.com/"
+        },
+        {
+          "name": "Ifremer",
+          "logo": "/logos/clients/ifremer.webp",
+          "description": "description",
+          "link": "https://www.ifremer.fr/fr"
+        },
+        {
+          "name": "Rehlko",
+          "logo": "/logos/clients/rehlko.webp",
+          "description": "description",
+          "link": "https://www.rehlko.com/fr-CA"
+        },
+        {
+          "name": "Clinique de la baie",
+          "logo": "/logos/clients/clinique_de_la_baie.webp",
+          "description": "description",
+          "link": "https://cliniquedelabaie.vivalto-sante.com/"
+        },
+        {
+          "name": "Accenture",
+          "logo": "/logos/clients/accenture.webp",
+          "description": "description",
+          "link": "https://www.accenture.com/fr-fr"
+        },
+        {
+          "name": "Presantra",
+          "logo": "/logos/clients/presantra.webp",
+          "description": "description",
+          "link": "https://presantra.bzh/"
+        },
+        {
+          "name": "Asten",
+          "logo": "/logos/clients/asten.webp",
+          "description": "description",
+          "link": "https://www.groupe-asten.fr/"
+        },
+        {
+          "name": "Institut de la corrosion Brest",
+          "logo": "/logos/clients/institut_corrosion.webp",
+          "description": "description",
+          "link": "https://www.institut-corrosion.fr/"
+        },
+        {
+          "name": "Eau du Ponant",
+          "logo": "/logos/clients/eau_du_ponant.webp",
+          "description": "description",
+          "link": "https://www.eauduponant.fr/"
+        },
+        {
+          "name": "France Energies Marines",
+          "logo": "/logos/clients/france_energies_marines.webp",
+          "description": "description",
+          "link": "https://www.france-energies-marines.org/"
+        },
+        {
+          "name": "Institut Mines Telecom",
+          "logo": "/logos/clients/imt.webp",
+          "description": "description",
+          "link": "https://www.imt.fr/"
+        },
+        {
+          "name": "Brest Business School",
+          "logo": "/logos/clients/bbs.webp",
+          "description": "description",
+          "link": "https://brest-bs.com/"
+        }
+      ]
+    }
+  ]
+}
