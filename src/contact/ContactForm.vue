@@ -4,6 +4,10 @@
     novalidate
     class="border border-gray-300 rounded-xl p-5 m-4 bg-slate-100"
   >
+
+  <!-- honeypot -->
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+  
     <h4
       class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center"
     >

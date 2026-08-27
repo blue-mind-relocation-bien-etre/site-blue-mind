@@ -164,7 +164,7 @@
           :autoplay="3000"
           :transition="500"
         >
-          <Slide v-for="n in 6" :key="n">
+          <Slide v-for="n in 10" :key="n">
             <ReviewCard
               :name="$t(`reviews.review-${n}.name`)"
               :rating="parseInt($t(`reviews.review-${n}.rating`))"
