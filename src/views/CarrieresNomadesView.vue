@@ -28,7 +28,11 @@
       </div>
     </section>
 
-    <TabNavigation />
+    <!-- <TabNavigation />
+
+    <TabNavigation2 /> -->
+
+    <ServicesNav />
 
     <!-- <ServicesCards /> -->
 
@@ -159,7 +163,7 @@
         </strong>
       </i18n-t>
       <hr
-        class="w-75 md:w-150 h-0.5 mx-auto my-6 bg-secondary border-0 rounded-full"
+        class="w-75 md:w-150 h-0.5 mx-auto my-6 bg-slate-800 border-0 rounded-full"
       />
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
@@ -212,6 +216,8 @@ import WaveTop from "@/components/WaveTop.vue";
 import WaveBottom from "@/components/WaveBottom.vue";
 import TypingCities from "@/components/TypingCities.vue";
 import TabNavigation from "@/components/carrieres_nomades/TabNavigation.vue";
+import TabNavigation2 from "@/components/carrieres_nomades/TabNavigation2.vue";
+import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";
 
 import "vue3-carousel/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
