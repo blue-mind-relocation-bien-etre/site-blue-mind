@@ -67,5 +67,26 @@ Si vous souhaitez ajouter une nouvelle langue, il suffit d'ajouter les fichiers 
 - **Attention** : Dans certains cas, nous utilisons des tableaux (Arrays) dans le JSON (par exemple lorsqu'on utilise un `v-for` pour afficher du texte). 
 Pour boucler dessus dans le template Vue, il faut obligatoirement utiliser `$tm('chemin.vers.tableau')` pour cibler le tableau, et `$rt(item)` pour afficher chaque ligne.
 
+**Exemple d'utilisation :**
+
+Clés simples :
+
+```html
+<h3>{{ $t('carrieresNomades.services.housing.title') }}</h3>
+```
+
+Avec un tableau :
+
+```html
+<div v-for="(section, index) in $tm('carrieresNomades.services.housing.sections')" :key="index">
+  <h4 v-if="section.subtitle">{{ $rt(section.subtitle) }}</h4>
+  <ul>
+    <li v-for="(item, i) in section.items" :key="i">
+      {{ $rt(item) }}
+    </li>
+  </ul>
+</div>
+```
+
 ## Formulaires
 
