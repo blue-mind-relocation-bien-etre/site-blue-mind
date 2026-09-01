@@ -25,7 +25,7 @@
         <div class="flex flex-col justify-center w-full h-full">
           <!-- div pour titre + texte -->
           <div
-            class="flex flex-col justify-center border-b bg-slate-100 rounded-xl shadow-xl mb-4"
+            class="flex flex-col justify-center border-b bg-white rounded-xl shadow-xl mb-4"
           >
             <h4
               class="text-xl sm:text-2xl lg:text-3xl font-semibold text-secondary tracking-tight leading-tight p-3"
@@ -51,12 +51,11 @@
             </i18n-t>
           </div>
           <!-- div pour les 3 cartes -->
-          <!-- flex justify-center -->
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div
               v-for="n in 3"
               :key="n"
-              class="bg-slate-100 items-center rounded-xl shadow-xl p-3"
+              class="bg-white items-center rounded-xl shadow-xl p-3"
             >
               <h5
                 class="text-secondary text-lg font-semibold tracking-tight leading-tight uppercase text-center"
@@ -71,7 +70,7 @@
         </div>
         <!-- div pour carte -->
         <div
-          class="relative h-full w-full rounded-xl shadow-xl overflow-hidden min-h-75 bg-slate-100"
+          class="relative h-full w-full rounded-xl shadow-xl overflow-hidden min-h-75 bg-white"
         >
           <img
             src="@/assets/carte-france.webp"
