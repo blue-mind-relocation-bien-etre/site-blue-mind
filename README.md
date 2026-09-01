@@ -53,6 +53,19 @@ Modèle (`.env.example`) :
 VITE_WEB3FORMS_ACCESS_KEY=ton_access_key_ici
 ```
 
+## Gestion des traductions (vue-i18n)
+
+Les textes ne sont pas codés en dur (sauf si le texte ne necessite pas de traduction). Nous utilisons `vue-i18n`.
+Les fichiers sources sont dans `/src/langs/`.
+Chaque page à son propre fichier JSON.
+Si vous souhaitez modifier un texte, il faut le modifer dans le fichier français ET anglais.
+En cas d'absence de traduction anglaise, la version française sera utlisé par défaut.
+Si vous souhaitez ajouter une nouvelle langue, il suffit d'ajouter les fichiers JSON correspondant et d'ajouter cette nouvelle traduction dans `main.js`.
+
+**Règles de nommage :**
+- Les clés simples s'appellent avec `$t('cle')`.
+- **Attention** : Dans certains cas, nous utilisons des tableaux (Arrays) dans le JSON (par exemple lorsqu'on utilise un `v-for` pour afficher du texte). 
+Pour boucler dessus dans le template Vue, il faut obligatoirement utiliser `$tm('chemin.vers.tableau')` pour cibler le tableau, et `$rt(item)` pour afficher chaque ligne.
 
 ## Formulaires
 
