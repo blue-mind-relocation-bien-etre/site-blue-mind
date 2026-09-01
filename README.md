@@ -51,6 +51,8 @@ Modèle (`.env.example`) :
 
 ```env
 VITE_WEB3FORMS_ACCESS_KEY=ton_access_key_ici
+```
+
 
 ## Formulaires
 
