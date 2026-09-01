@@ -16,6 +16,7 @@ mariusbougouin@gmail.com
 *   **Internationalisation :** vue-i18n
 *   **Formulaire de contact :** Web3Forms
 *   **Hébergement :** o2switch
+*   **Autres :** Oh-Vue-Icons! (icons diverses), vue-country-flag (icons pays de la navbar), Haikei (generateur SVG pour les vagues)
 
 ## Démarrage Rapide
 
