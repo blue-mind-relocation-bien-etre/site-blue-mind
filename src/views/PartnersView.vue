@@ -1,9 +1,7 @@
 <template>
   <main>
+    <!-- En-tête de la page -->
     <div class="flex flex-col justify-center items-center pt-36 gap-5">
-      <!-- <span class="font-corinthia text-5xl text-secondary block text-center">
-        {{ $t("carrieresNomades.presentation.title1") }}
-      </span> -->
       <h2
         class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
       >
@@ -24,6 +22,7 @@
       </i18n-t>
     </div>
 
+    <!-- Grille avec tous les partenaires -->
     <div class="mx-auto px-4 py-16">
       <div
         v-for="(category, catIdx) in $tm('partners.categories')"
@@ -53,6 +52,7 @@
         </div>
       </div>
 
+      <!-- Modal avec détail sur les entreprises -->
       <Transition
         enter-active-class="transition duration-200 ease-out"
         enter-from-class="opacity-0"
