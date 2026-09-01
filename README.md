@@ -6,7 +6,9 @@ Ce site remplace l'ancienne version WordPress par une Single Page Application.
 
 ## Contact
 En cas de question à propos du site vous pouvez me contacter :
+
 mariusbougouin@gmail.com
+
 +33 6 13 38 69 03
 
 ## Stack Technique
