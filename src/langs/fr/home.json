@@ -1,34 +1,39 @@
 {
-    "hero": {
-        "title": "S'ancrer en Finistère, se ressourcer en profondeur",
-        "subtitle": "L'accompagnement sur-mesure pour votre transition de vie et votre équilibre.",
-        "link": "Nous découvrir"
-    },
+  "hero": {
+    "title": "S'ancrer en Finistère, se ressourcer en profondeur",
+    "subtitle": "L'accompagnement sur-mesure pour votre transition de vie et votre équilibre.",
+    "link": "Nous découvrir"
+  },
 
-    "part1": {
-        "title1": "Relocation & Bien-être",
-        "title2": "Votre nouvelle vie en Finistère commence ici.",
-        "text": "{0} rassemble l'expertise de {1} (créé en 2015) pour simplifier l'installation de nouveaux arrivants dans le Finistère, et {2}, qui vous invite à une relaxation profonde grâce à la discipline du Janzu en piscine.",
-        "bold_words": ["Blue Mind", "Carrières Nomades", "Blue Mind Janzu & Care"],
-        "button1": "Découvrir Blue Mind",
-        "button2": "Découvrir Carrières Nomades"
-    },
+  "part1": {
+    "title1": "Relocation & Bien-être",
+    "title2": "Votre nouvelle vie en Finistère commence ici.",
+    "text": "{0} rassemble l'expertise de {1} (créé en 2015) pour simplifier l'installation de nouveaux arrivants dans le Finistère, et {2}, qui vous invite à une relaxation profonde grâce à la discipline du Janzu en piscine.",
+    "bold_words": ["Blue Mind", "Carrières Nomades", "Blue Mind Janzu & Care"],
+    "button1": "Découvrir Blue Mind",
+    "button2": "Découvrir Carrières Nomades"
+  },
 
-    "part2": {
-        "title1": "Brest, Finistère",
-        "title2": "Une ville et un département attractifs",
-        "text": "{0} et le {1} s'imposent comme une destination de choix pour réussir sa {2} et privilégier son {3} au quotidien. En offrant un coût de la vie et de l'immobilier plus accessible que dans les grandes métropoles, la région permet de concilier facilement ambitions professionnelles et {4}. Entre un rythme de travail apaisé sans les bouchons interminables, un air iodé vivifiant et un accès direct aux plages, sentiers côtiers et loisirs nautiques dès la fin de journée, s'installer ici, c'est choisir un équilibre précieux entre vitalité urbaine et reconnexion quotidienne avec la nature.",
-        "bold_words": ["Brest", "Finistère", "relocation", "bien-être", "qualité de vie"]
-    },
+  "part2": {
+    "title1": "Brest, Finistère",
+    "title2": "Une ville et un département attractifs",
+    "text": "{0} et le {1} s'imposent comme une destination de choix pour réussir sa {2} et privilégier son {3} au quotidien. En offrant un coût de la vie et de l'immobilier plus accessible que dans les grandes métropoles, la région permet de concilier facilement ambitions professionnelles et {4}. Entre un rythme de travail apaisé sans les bouchons interminables, un air iodé vivifiant et un accès direct aux plages, sentiers côtiers et loisirs nautiques dès la fin de journée, s'installer ici, c'est choisir un équilibre précieux entre vitalité urbaine et reconnexion quotidienne avec la nature.",
+    "bold_words": [
+      "Brest",
+      "Finistère",
+      "relocation",
+      "bien-être",
+      "qualité de vie"
+    ]
+  },
 
-    "part3": {
-        "title1": "Plus de 10 ans",
-        "corinthia_word": "d'expertise",
-        "title2": "en quelques chiffres",
-        "number1": "accompagnements",
-        "number2": "de mobilités nationales",
-        "number3": "de mobilités internationales",
-        "number4": "nationalités accompagnées"
-    }
-    
+  "part3": {
+    "title1": "Plus de 10 ans",
+    "corinthia_word": "d'expertise",
+    "title2": "en quelques chiffres",
+    "number1": "accompagnements",
+    "number2": "de mobilités nationales",
+    "number3": "de mobilités internationales",
+    "number4": "nationalités accompagnées"
+  }
 }

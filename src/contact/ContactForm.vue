@@ -27,7 +27,7 @@
               v-model="prenom"
               @input="clearError('prenom')"
               autocomplete="given-name"
-              placeholder="Ex : Marius"
+              placeholder="Ex : Jean"
               class="block w-full rounded-md bg-white px-3 py-1.5 text-slate-600 outline-1 -outline-offset-1 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 sm:text-sm/6"
               :class="
                 errors.prenom
@@ -52,7 +52,7 @@
               v-model="nom"
               @input="clearError('nom')"
               autocomplete="family-name"
-              placeholder="Ex : Bougouin"
+              placeholder="Ex : Dupont"
               class="block w-full rounded-md bg-white px-3 py-1.5 text-slate-600 outline-1 -outline-offset-1 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 sm:text-sm/6"
               :class="
                 errors.nom

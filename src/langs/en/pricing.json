@@ -1,3 +1,21 @@
 {
-    
+  "free_quote": {
+    "title": "A relocation project?",
+    "subtitle": "Request your free quote!",
+    "text": [
+      "Fill out the form below",
+      "We review your request and prepare your quote",
+      "Receive a customized answer within 48 hours"
+    ]
+  },
+  "form": {
+    "title": "Free quote",
+    "message_text": "Describe your project:"
+  },
+  "janzu": {
+    "title": "Looking to relax and let go?",
+    "text1": "Discover the pricing for our wellness sessions!",
+    "text2": "Feel free to contact us for more information:",
+    "button": "Contact us"
+  }
 }

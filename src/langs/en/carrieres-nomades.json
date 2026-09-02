@@ -1,149 +1,241 @@
 {
   "presentation": {
     "title1": "Carrières Nomades",
-    "title2": "EN - Decouvrez nos services",
-    "text": "EN - Nous vous accompagnons dans chaque étape de votre {0}. Profitez de {1} pour {2} et rendre votre transition aussi agréable que possible.",
+    "title2": "Discover our services",
+    "text": "We support you at every stage of your {0}. Take advantage of {1} to {2} and make your transition as smooth as possible.",
     "bold_words": [
-      "mobilité géographique",
-      "solutions sur-mesure",
-      "faciliter votre transition"
+      "geographic mobility",
+      "tailor-made solutions",
+      "facilitate your transition"
     ]
   },
-  "cards": [
-    {
-      "title": "EN - Votre logement",
-      "intro_text": "Carrières Nomades vous trouve « LE » logement à la location qui vous correspond ! Pour vous nous assurons :",
+  "services": {
+    "housing": {
+      "title": "Your housing",
+      "intro_text": "Carrières Nomades finds “THE” rental property that fits you! We take care of:",
       "icon": "bi-house-heart",
       "sections": [
         {
           "subtitle": "",
           "items": [
-            "La constitution du dossier de location",
-            "La validation d'un cahier des charges correspondant à votre recherche",
-            "La recherche de biens et propositions",
-            "Les visites (visio-visites si nécessaire)",
-            "Les comptes rendus de visites",
-            "La réservation du logement",
-            "La vérification des documents légaux liés à la location",
-            "L'organisation de la remise des clefs jusqu'à signature d'un bail",
-            "La présentation du territoire"
+            "Assembling the rental application file",
+            "Validating specifications tailored to your search",
+            "Property search and proposals",
+            "Viewings (virtual tours if needed)",
+            "Viewing reports",
+            "Property booking",
+            "Review of tenancy-related legal documents",
+            "Organizing key handover through to lease signing",
+            "Introduction to the local area"
           ]
         }
       ]
     },
-    {
-      "title": "Votre installation",
-      "intro_text": "Nous vous accompagnons à votre arrivée mais aussi au départ",
+    "installation": {
+      "title": "Settling in",
+      "intro_text": "We assist you upon arrival, but also upon departure",
       "icon": "bi-box-seam",
       "sections": [
         {
-          "subtitle": "Avant départ:",
+          "subtitle": "Before departure:",
           "items": [
-            "Devis et coordination déménageurs",
-            "Relève des compteurs",
-            "Etat des lieux de sortie du logement",
-            "Gestion des préavis pour arrêt des contrats liés au logement",
-            "Résiliation des contrats d'énergie et fluides"
+            "Moving quotes and coordination",
+            "Utility meter readings",
+            "Move-out inventory check",
+            "Management of notice periods to terminate housing contracts",
+            "Cancellation of energy and utility contracts"
           ]
         },
         {
-          "subtitle": "À l'arrivée:",
+          "subtitle": "Upon arrival:",
           "items": [
-            "Devis et coordination déménageurs",
-            "Conseil et souscription internet",
-            "Conseil et souscription des contrats d'énergie et fluides",
-            "Devis et sousciption assurance habitation",
-            "Recherche de logement temporaire",
-            "Permanence déménageurs",
-            "Assistance à l'ameublement (achats et location de meubles et éléctroménager - suivi commandes/livraisons)"
+            "Moving quotes and coordination",
+            "Internet guidance and contract setup",
+            "Guidance and setup for energy and utility contracts",
+            "Home insurance quotes and setup",
+            "Temporary housing search",
+            "On-site presence during moving day",
+            "Furnishing assistance (purchasing/renting furniture and home appliances - order and delivery tracking)"
           ]
         }
       ]
     },
-    {
-      "title": "Vos démarches administratives",
-      "intro_text": "Toute une aide aux démarches administratives",
+    "procedures": {
+      "title": "Your administrative paperwork",
+      "intro_text": "Comprehensive support for your administrative tasks",
       "icon": "md-computer",
       "sections": [
         {
           "subtitle": "",
           "items": [
-            "Aide à la demande de Visa",
-            "Inscription à la caisse primaire d'assurance maladie",
-            "Inscription à la caisse d'allocations familiales",
-            "Certificat d'immatriculation",
-            "Permis de conduire",
-            "Aide à l'ouverture de compte bancaire"
+            "Visa application support",
+            "Registration with the CPAM (French public healthcare)",
+            "Registration with the CAF (family benefits fund)",
+            "Vehicle registration certificate",
+            "Driver's license conversion/application",
+            "Assistance with opening a bank account"
           ]
         }
       ]
     },
-    {
-      "title": "Vos enfants, votre famille",
-      "intro_text": "Pour compléter votre installation nous nous occupons de votre famille lorsqu'elle vous suit :",
+    "family": {
+      "title": "Your children, your family",
+      "intro_text": "To complete your relocation, we care for your family joining you:",
       "icon": "co-child",
       "sections": [
         {
           "subtitle": "",
           "items": [
-            "Présentation et conseil sur les établissements scolaires (publics, privés, internationaux",
-            "Pré-inscription et organisation du rendez-vous préalable avec les établissements scolaires",
-            "Présentation, conseil et pré-inscription pour les modes de garde pour enfants non scolarisés (crèches collectives, conventionnées, micro-crèches, assistant(es) maternel(le)s)",
-            "Recherche de baby-sitter",
-            "Recherche de club de loisirs & activités sportives",
-            "Diffusion de CV de conjoint-es via le réseau des recruteurs locaux",
-            "Mise à disposition d'un espace de travail au sein de l'agence pour conjoint-e en télétravail ou création d'entreprise",
-            "Evènements nouveaux arrivants",
-            "Visite de la ville d'arrivée et présentation des activités et quartiers"
+            "Introduction to and advice on schools (public, private, international)",
+            "Pre-enrollment and scheduling introductory meetings with schools",
+            "Presentation, advice, and pre-registration for childcare options (daycare centers, micro-crèches, childminders)",
+            "Babysitter search",
+            "Search for leisure clubs & sports activities",
+            "Spouse CV distribution across the local recruiters network",
+            "Workspace access at our agency for teleworking or business-starting spouses",
+            "Newcomer networking events",
+            "Guided city tour introducing neighborhoods and local activities"
+          ]
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "title": "Your housing",
+      "intro_text": "Carrières Nomades finds “THE” rental property that fits you! We take care of:",
+      "icon": "bi-house-heart",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Assembling the rental application file",
+            "Validating specifications tailored to your search",
+            "Property search and proposals",
+            "Viewings (virtual tours if needed)",
+            "Viewing reports",
+            "Property booking",
+            "Review of tenancy-related legal documents",
+            "Organizing key handover through to lease signing",
+            "Introduction to the local area"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Settling in",
+      "intro_text": "We assist you upon arrival, but also upon departure",
+      "icon": "bi-box-seam",
+      "sections": [
+        {
+          "subtitle": "Before departure:",
+          "items": [
+            "Moving quotes and coordination",
+            "Utility meter readings",
+            "Move-out inventory check",
+            "Management of notice periods to terminate housing contracts",
+            "Cancellation of energy and utility contracts"
+          ]
+        },
+        {
+          "subtitle": "Upon arrival:",
+          "items": [
+            "Moving quotes and coordination",
+            "Internet guidance and contract setup",
+            "Guidance and setup for energy and utility contracts",
+            "Home insurance quotes and setup",
+            "Temporary housing search",
+            "On-site presence during moving day",
+            "Furnishing assistance (purchasing/renting furniture and home appliances - order and delivery tracking)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Your administrative paperwork",
+      "intro_text": "Comprehensive support for your administrative tasks",
+      "icon": "md-computer",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Visa application support",
+            "Registration with the CPAM (French public healthcare)",
+            "Registration with the CAF (family benefits fund)",
+            "Vehicle registration certificate",
+            "Driver's license conversion/application",
+            "Assistance with opening a bank account"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Your children, your family",
+      "intro_text": "To complete your relocation, we care for your family joining you:",
+      "icon": "co-child",
+      "sections": [
+        {
+          "subtitle": "",
+          "items": [
+            "Introduction to and advice on schools (public, private, international)",
+            "Pre-enrollment and scheduling introductory meetings with schools",
+            "Presentation, advice, and pre-registration for childcare options (daycare centers, micro-crèches, childminders)",
+            "Babysitter search",
+            "Search for leisure clubs & sports activities",
+            "Spouse CV distribution across the local recruiters network",
+            "Workspace access at our agency for teleworking or business-starting spouses",
+            "Newcomer networking events",
+            "Guided city tour introducing neighborhoods and local activities"
           ]
         }
       ]
     }
   ],
-  "text_before_button": "EN - Vous etes interessés par nos services ? Demandez votre devis gratuit ci dessous !",
-  "button_quote": "Devis gratuit",
+  "text_before_button": "Interested in our services? Request your free quote below!",
+  "button_quote": "Free quote",
   "city_part": {
-    "title": "Notre secteur d'activité",
-    "subtitle": "Vous souhaitez vous installer à ",
-    "subtitle2": "Où intervenons-nous ?",
-    "text1": "{0}, en plein {1}, nous accompagnons les particuliers et les entreprises dans leurs projets de {2} et partout en {3}. Grâce à notre réseau de correspondants, nous facilitons votre installation où que vous soyez !",
+    "title": "Our area of operation",
+    "subtitle": "Looking to relocate to ",
+    "subtitle2": "Where do we operate?",
+    "text1": "{0}, in the heart of {1}, we support individuals and businesses in their {2} and across {3}. Thanks to our network of local partners, we make your relocation seamless wherever you are!",
     "bold_words1": [
-      "Situés au cœur de Brest",
+      "Located in the heart of Brest",
       "Finistère",
-      "mobilité en Bretagne",
+      "mobility projects in Brittany",
       "France"
     ],
-    "text2": "{0}, nous mettons tout en œuvre pour rendre chaque transition fluide et sereine.",
-    "bold_words2": ["Experts en relocalisation"],
-    "text3": "{0} sont les valeurs qui guident Carrières Nomades au quotidien.",
-    "bold_words3": ["Exigence, réactivité et flexibilité"],
+    "text2": "{0}, we make every effort to ensure each transition is smooth and hassle-free.",
+    "bold_words2": ["As relocation experts"],
+    "text3": "{0} are the core values guiding Carrières Nomades every day.",
+    "bold_words3": ["High standards, responsiveness, and flexibility"],
     "card1": {
-      "title": "Le finistère",
-      "text": "Notre milieu d'expertise"
+      "title": "Finistère",
+      "text": "Our core area of expertise"
     },
     "card2": {
-      "title": "La Bretagne",
-      "text": "Notre région, notre secteur"
+      "title": "Brittany",
+      "text": "Our home region and primary sector"
     },
     "card3": {
-      "title": "La France et ses DROM",
-      "text": "Notre réseau"
+      "title": "France and overseas territories",
+      "text": "Our network"
     }
   },
   "marque_employeur": {
-    "title": "Notre marque employeur",
-    "text1": "Entreprises, nous vous aidons à renforcer votre {0} en valorisant votre attractivité ! Notre mission est de {1} du salarié pour que sa prise de poste se fasse dans les meilleures conditions et qu’il puisse se consacrer totalement à ses nouvelles fonctions. De la préparation de son arrivée à son départ, nous couvrons l’ensemble des étapes nécessaires à son {2} et celui de sa famille.",
+    "title": "Our employer branding",
+    "text1": "To businesses: we help boost your {0} by highlighting your appeal! Our mission is to {1} so their onboarding goes smoothly, allowing them to focus entirely on their new role. From preparing their arrival to their departure, we cover every step necessary for their {2} and their family's.",
     "bold_words": [
-      "marque employeur",
-      "simplifier les démarches d’installation",
-      "bien-être"
+      "employer brand",
+      "simplify relocation steps for the employee",
+      "well-being"
     ],
     "text2": [
-      "Notre équipe issue des Ressources Humaines et du Management sait combien le capital humain est primordial dans une entreprise.",
-      "Afin de vous aidez à dénicher les meilleurs talents, notre équipe déploie toute son énergie dans ses missions de relocation au travers de services à la carte.",
-      "Notre réseau national d’experts référencés, nous permet d’accompagner vos collaborateurs dans toutes les régions de France afin de leur permettre de bénéficier d’un accompagnement ciblé et efficace, favorisant la réussite de leur mobilité et de leur intégration professionnelle et familiale.",
-      "Nous vous proposons également la mise en place d’outils marketing et de reporting pour un pilotage optimisé de vos ressources."
+      "With backgrounds in Human Resources and Management, our team knows just how vital human capital is to a company.",
+      "To help you attract top talent, our team channels all its energy into relocation services tailored to your specific needs.",
+      "Our nationwide network of accredited experts allows us to assist your employees anywhere in France, providing targeted and efficient support that ensures successful relocation and seamless professional and family integration.",
+      "We also set up marketing and reporting tools to ensure optimized tracking and management of your resources."
     ],
-    "carousel_subtitle": "Réalisez votre brochure personnalisée !"
+    "carousel_subtitle": "Create your customized brochure!"
   }
 }

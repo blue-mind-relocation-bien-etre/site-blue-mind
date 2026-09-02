@@ -1,40 +1,40 @@
 {
   "presentation": {
     "title": "Contact us",
-    "text": "EN - Prenez contact avec nous ! Que vous ayez une question ou besoin de précisions, nous sommes là pour vous répondre dans les meilleurs délais."
+    "text": "Get in touch with us! Whether you have a question or need further details, we are here to answer you as promptly as possible."
   },
   "form": {
     "title": "Contact form",
-    "first_name": "Prénom",
-    "last_name": "Nom",
-    "email": "Adresse mail",
-    "phone": "Téléphone",
-    "about": "Objet du message",
-    "message": "Votre message",
-    "rgpd": "En soumettant ce formulaire, vous acceptez que les informations saisies soient exploitées dans le cadre de votre demande de contact et de la relation commerciale qui peut en découler. Pour des raisons techniques, vos données transitent de manière sécurisée par notre prestataire Web3Forms et sont {0} . Conformément à la réglementation (RGPD), vous disposez d'un droit d'accès, de rectification et d'effacement de vos données personnelles. Pour exercer ce droit, vous pouvez nous contacter directement à {1}.",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "about": "Subject",
+    "message": "Your message",
+    "rgpd": "By submitting this form, you agree that the information entered will be processed as part of your contact request and any resulting business relationship. For technical reasons, your data is securely transmitted via our provider Web3Forms and is {0}. In accordance with GDPR regulations, you have the right to access, rectify, and delete your personal data. To exercise this right, please contact us directly at {1}.",
     "bold_words": [
-      "automatiquement supprimées de leurs serveurs après 30 jours",
-      "contact@carrieresnomades.fr"
+      "automatically deleted from their servers after 30 days",
+      "contact{'@'}carrieresnomades.fr"
     ],
-    "cancel_button": "Effacer",
-    "send_button": "Envoyer",
-    "success_message": "Votre message a bien été envoyé !",
-    "failure_message": "Une erreur est survenue, veuillez réessayer.",
-    "network_failure_message": "Erreur de connexion. Veuillez vérifier votre réseau.",
-    "first_name_error": "Le prenom est requis.",
-    "last_name_error": "Le nom est requis.",
-    "email_error": "L'adresse e-mail est requise.",
-    "valid_email_error": "L'adresse e-mail n'est pas valide.",
-    "phone_error": "Le téléphone est requis.",
-    "about_error": "L'objet est requis.",
-    "message_error": "Le message est requis.",
-    "missing_error": "Veuillez remplir tous les champs."
+    "cancel_button": "Clear",
+    "send_button": "Send",
+    "success_message": "Your message has been sent successfully!",
+    "failure_message": "An error occurred, please try again.",
+    "network_failure_message": "Connection error. Please check your network.",
+    "first_name_error": "First name is required.",
+    "last_name_error": "Last name is required.",
+    "email_error": "Email address is required.",
+    "valid_email_error": "The email address is invalid.",
+    "phone_error": "Phone number is required.",
+    "about_error": "Subject is required.",
+    "message_error": "Message is required.",
+    "missing_error": "Please fill in all fields."
   },
   "details": {
-    "title1": "Our contact details",
-    "title2": "Suivez-nous sur les réseaux sociaux !",
-    "subtitle1": "Ne manquez rien de notre actualité",
-    "text": "Si vous aussi vous êtes tentés par un plongeon dans notre belle région que ce soit pour y vivre ou pour profiter de notre littoral, n’hésitez pas à nous contacter !",
-    "text_name": "Annabel Martin - Dirigeante"
+    "title1": "Contact details",
+    "title2": "Follow us on social media!",
+    "subtitle1": "Don't miss any of our updates",
+    "text": "If you are also tempted to dive into our beautiful region—whether to live here or enjoy our coastline—feel free to contact us!",
+    "text_name": "Annabel Martin - Managing Director"
   }
 }

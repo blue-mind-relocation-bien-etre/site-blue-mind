@@ -1,7 +1,6 @@
 {
-    "description": "EN - ceci est une description",
-    "navigation": "EN - Navigation",
-    "about": "EN - A propos",
-    "rights": "EN - Tous droits réservés.",
-    "legal": "EN - Mentions légales"
+    "navigation": "Navigation",
+    "about": "About",
+    "rights": "All rights reserved",
+    "legal": "Legal notices"
 }

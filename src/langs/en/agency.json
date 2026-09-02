@@ -1,3 +1,23 @@
 {
-    
+  "title1": "The story of Blue Mind",
+  "corinthia_word": "Our agency",
+  "title2": "about Blue Mind",
+  "timeline": {
+    "block1": {
+        "title": "Creation of Carrières Nomades",
+        "text": "{0} was founded in {1} by Annabel Martin. Coming from a background in {2} and {3}, the goal was to offer support services that make it easier for employees to settle in smoothly during a {4}. For employers, it is an opportunity to optimize their employee's {5} through tailor-made support handled by our team, ensuring a seamless relocation and onboarding under the best conditions. The agency offers {6} nationwide through our network of {7}.",
+        "bold_words": ["Carrières Nomades", "2015", "human resources", "recruitment", "job relocation", "onboarding", "multiple services", "certified consultants"]
+    },
+    "block2": {
+        "title": "Creation of Blue Mind",
+        "text": "",
+        "bold_words": []
+    }
+  },
+  "presentation": {
+    "title": "Your relocation & well-being consultant",
+    "text": "",
+    "quote": "Originally from Sète and adopted by Brest, water has always been in my line of sight. It is a vital element for me, and choosing to promote a region surrounded by water like Finistère came completely naturally!"
+  },
+  "media_title": "Our media updates"
 }
