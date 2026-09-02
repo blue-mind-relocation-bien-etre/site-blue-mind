@@ -31,8 +31,8 @@
             />
           </Slide>
           <template #addons>
-            <Pagination class="fill-slate-100" />
-            <Navigation class="fill-slate-100" />
+            <!-- <Pagination /> -->
+            <Navigation />
           </template>
         </Carousel>
       </div>
@@ -51,7 +51,7 @@ import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 .carousel {
   --vc-nav-color: oklch(96.8% 0.007 247.896);
   --vc-nav-color-hover: oklch(86.9% 0.022 252.894);
-  --vc-pgn-background-color: oklch(96.8% 0.007 247.896);
-  --vc-pgn-active-color: oklch(86.9% 0.022 252.894);
+  /* --vc-pgn-background-color: oklch(96.8% 0.007 247.896);
+  --vc-pgn-active-color: oklch(86.9% 0.022 252.894); */
 }
 </style>
