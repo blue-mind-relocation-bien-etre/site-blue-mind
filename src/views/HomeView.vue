@@ -22,7 +22,7 @@ import WaveTop from "@/components/WaveTop.vue";
     <WaveBottom />
 
     <HomeStats />
-    
+
     <HomeReviews />
   </main>
 </template>

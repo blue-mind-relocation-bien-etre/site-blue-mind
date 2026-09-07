@@ -1,21 +1,24 @@
 <template>
-  <div class="mx-auto px-4 py-16 max-w-7xl">
-    <!-- 🟢 NOUVELLE BOÎTE : C'est le repère commun pour la ligne ET les points -->
+  <div class="mx-auto px-4 py-16 max-w-7xl overflow-x-hidden">
     <div class="relative w-full">
-      <!-- 1. LA LIGNE VERTICALE CENTRALE -->
-      <!-- Retrait du "md:" devant "-translate-x-1/2" pour l'aligner au millimètre même sur mobile -->
+      <!-- LA LIGNE VERTICALE CENTRALE -->
       <div
         class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-slate-600 -translate-x-1/2"
       ></div>
 
-      <!-- ========================================== -->
-      <!-- BLOC 1 : 2015 (À GAUCHE SUR GRAND ÉCRAN)   -->
-      <!-- ========================================== -->
+      <!-- BLOC 1 -->
       <div
+        ref="block1Ref"
         class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-16 relative"
       >
-        <!-- Moitié Gauche : La Carte -->
-        <div class="flex justify-end items-center relative pl-12 md:pl-0">
+        <div
+          class="flex justify-end items-center relative pl-12 md:pl-0 transition-all duration-1000 ease-out transform"
+          :class="
+            isVisible1
+              ? 'opacity-100 translate-x-0'
+              : 'opacity-0 translate-x-16 md:-translate-x-16'
+          "
+        >
           <!-- Le Point -->
           <div
             class="absolute left-6 md:left-auto md:-right-8 w-4 h-4 rounded-full bg-secondary -translate-x-1/2 md:translate-x-1/2 z-10"
@@ -45,22 +48,23 @@
             </i18n-t>
           </div>
         </div>
-
-        <!-- Moitié Droite : Vide pour laisser la place -->
         <div class="hidden md:block"></div>
       </div>
 
-      <!-- ========================================== -->
-      <!-- BLOC 2 : 2025 (À DROITE SUR GRAND ÉCRAN)   -->
-      <!-- ========================================== -->
+      <!-- BLOC 2 : 2025 -->
       <div
+        ref="block2Ref"
         class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-16 relative"
       >
-        <!-- Moitié Gauche : Vide pour laisser la place -->
         <div class="hidden md:block"></div>
-
-        <!-- Moitié Droite : La Carte -->
-        <div class="flex justify-start items-center relative pl-12 md:pl-0">
+        <div
+          class="flex justify-start items-center relative pl-12 md:pl-0 transition-all duration-1000 ease-out transform"
+          :class="
+            isVisible2
+              ? 'opacity-100 translate-x-0'
+              : 'opacity-0 translate-x-16'
+          "
+        >
           <!-- Le Point -->
           <div
             class="absolute left-6 md:-left-8 w-4 h-4 rounded-full bg-secondary -translate-x-1/2 z-10"
@@ -70,7 +74,6 @@
           <div
             class="w-full bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8"
           >
-            <!-- Le Titre -->
             <h3 class="text-lg md:text-xl font-bold text-slate-800 mb-4">
               <span class="text-secondary">2025 :</span>
               {{ $t("agency.timeline.block2.title") }}
@@ -96,4 +99,27 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import { useIntersectionObserver } from "@vueuse/core";
+
+const block1Ref = ref(null);
+const isVisible1 = ref(false);
+useIntersectionObserver(
+  block1Ref,
+  ([{ isIntersecting }]) => {
+    if (isIntersecting) isVisible1.value = true;
+  },
+  { threshold: 0.2 },
+);
+
+const block2Ref = ref(null);
+const isVisible2 = ref(false);
+useIntersectionObserver(
+  block2Ref,
+  ([{ isIntersecting }]) => {
+    if (isIntersecting) isVisible2.value = true;
+  },
+  { threshold: 0.2 },
+);
+</script>

@@ -1,6 +1,7 @@
 <template>
   <main>
     <!-- En-tête de la page -->
+     <Transition appear name="slide-fade">
     <div class="flex flex-col justify-center items-center pt-36 gap-5">
       <span class="font-corinthia text-5xl text-secondary block text-center">
         {{ $t("blueMind.presentation.title1") }}
@@ -24,7 +25,10 @@
         </strong>
       </i18n-t>
     </div>
+    </Transition>
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+import { Transition } from 'vue';
+</script>

@@ -1,26 +1,28 @@
 <template>
   <main>
     <!-- En-tête de la page -->
-    <div class="flex flex-col justify-center items-center pt-36 gap-5">
-      <h2
-        class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
-      >
-        {{ $t("partners.title") }}
-      </h2>
-      <i18n-t
-        keypath="partners.text"
-        tag="p"
-        class="text-slate-600 text-lg leading-relaxed text-center mx-5 md:mx-15 lg:mx-35"
-      >
-        <strong
-          v-for="(mot, index) in $tm('partners.bold_words')"
-          :key="index"
-          class="text-slate-800 font-semibold"
+    <Transition appear name="slide-fade">
+      <div class="flex flex-col justify-center items-center pt-36 gap-5">
+        <h2
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
         >
-          {{ $rt(mot) }}
-        </strong>
-      </i18n-t>
-    </div>
+          {{ $t("partners.title") }}
+        </h2>
+        <i18n-t
+          keypath="partners.text"
+          tag="p"
+          class="text-slate-600 text-lg leading-relaxed text-center mx-5 md:mx-15 lg:mx-35"
+        >
+          <strong
+            v-for="(mot, index) in $tm('partners.bold_words')"
+            :key="index"
+            class="text-slate-800 font-semibold"
+          >
+            {{ $rt(mot) }}
+          </strong>
+        </i18n-t>
+      </div>
+    </Transition>
 
     <!-- Grille avec tous les partenaires -->
     <div class="mx-auto px-4 py-16">
@@ -29,7 +31,9 @@
         :key="catIdx"
         class="mb-16"
       >
-        <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mb-8 text-center">
+        <h2
+          class="text-2xl md:text-3xl font-bold text-slate-800 mb-8 text-center"
+        >
           {{ $rt(category.title) }}
         </h2>
 

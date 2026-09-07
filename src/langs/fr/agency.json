@@ -4,14 +4,23 @@
   "title2": "de Blue Mind",
   "timeline": {
     "block1": {
-        "title": "Création de Carrières Nomades",
-        "text": "{0} a été créé en {1} par Annabel Martin. Issue du métier des {2} et du {3}, le but était de proposer des services facilitateurs pour le collaborateur permettant de s'installer dans les meilleures conditions lors d'une {4}. Pour l'employeur, c'est l'occasion d'optimiser le {5} de son collaborateur par un accompagnement sur mesure pris en charge par nos soins afin de s'assurer d'une bonne installation et d'une prise de poste dans les meilleures conditions.L'agence propose de {6} sur l'ensemble du territoire au travers de notre réseau de {7}.",
-        "bold_words": ["Carrières Nomades", "2015", "ressources humaines", "recrutement", "mobilité professionnelle", "on-boarding", "multiples services", "consultants référencés"]
+      "title": "Création de Carrières Nomades",
+      "text": "{0} a été créé en {1} par Annabel Martin. Issue du métier des {2} et du {3}, le but était de proposer des services facilitateurs pour le collaborateur permettant de s'installer dans les meilleures conditions lors d'une {4}. Pour l'employeur, c'est l'occasion d'optimiser le {5} de son collaborateur par un accompagnement sur mesure pris en charge par nos soins afin de s'assurer d'une bonne installation et d'une prise de poste dans les meilleures conditions.L'agence propose de {6} sur l'ensemble du territoire au travers de notre réseau de {7}.",
+      "bold_words": [
+        "Carrières Nomades",
+        "2015",
+        "ressources humaines",
+        "recrutement",
+        "mobilité professionnelle",
+        "on-boarding",
+        "multiples services",
+        "consultants référencés"
+      ]
     },
     "block2": {
-        "title": "Création de Blue Mind",
-        "text": "",
-        "bold_words": []
+      "title": "Création de Blue Mind",
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam illum laboriosam. Nobis, fugiat? Repellendus ullam porro nulla placeat a ratione assumenda cumque! Obcaecati corrupti culpa inventore commodi modi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores doloribus molestiae laborum ex fuga magni consequuntur qui, eos assumenda incidunt deserunt, adipisci veritatis ab quos est? Error, maxime. Cumque, corrupti.",
+      "bold_words": []
     }
   },
   "presentation": {
