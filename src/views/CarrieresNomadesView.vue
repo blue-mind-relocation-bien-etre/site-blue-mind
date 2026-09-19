@@ -95,5 +95,21 @@ useIntersectionObserver(
     threshold: 0.25,
   },
 );
+
+import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+useHead(computed(() => ({
+  title: t('carrieresNomades.seo.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('carrieresNomades.seo.description')
+    }
+  ]
+})))
 </script>
 

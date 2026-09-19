@@ -1,8 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
 
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Corinthia';
+  src: url('/fonts/corinthia-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
   --color-primary: #09299e;
@@ -12,7 +49,7 @@
 
   --font-sans: "Poppins", sans-serif;
   --font-corinthia: "Corinthia";
-  --font-montserrat: "Montserrat";
+  /* --font-montserrat: "Montserrat"; */
 }
 
 html {

@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import vagueImg from "@/assets/vague.jpg";
+import vagueImg from "@/assets/vague.webp";
 import { Transition } from "vue";
 
 const scrollToSection = (id) => {

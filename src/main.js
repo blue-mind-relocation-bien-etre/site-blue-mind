@@ -1,6 +1,6 @@
-import { createApp } from "vue";
+import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
-import router from "./router";
+import { routerOptions } from "./router";
 import "./assets/main.css";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
@@ -97,12 +97,13 @@ addIcons(
   RiDoubleQuotesR,
 );
 
-const app = createApp(App);
-
-app.component("v-icon", OhVueIcon);
-app.component("country-flag", CountryFlag);
-
-app.use(i18n);
-app.use(router);
-
-app.mount("#app");
+export const createApp = ViteSSG(
+  App,
+  routerOptions,
+  ({ app, router, isClient, initialState }) => {
+    // Tout ce qui faisait "app.use()" ou "app.component()" va ici
+    app.component("v-icon", OhVueIcon);
+    app.component("country-flag", CountryFlag);
+    app.use(i18n);
+  }
+);

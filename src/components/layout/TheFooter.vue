@@ -164,5 +164,5 @@
 </template>
 
 <script setup>
-import vagueImg from "@/assets/vague.jpg";
+import vagueImg from "@/assets/vague.webp";
 </script>

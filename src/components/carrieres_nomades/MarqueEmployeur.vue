@@ -80,7 +80,7 @@ import { ref } from "vue";
 import { useIntersectionObserver } from "@vueuse/core";
 
 const getImageUrl = (name) => {
-  return new URL(`../../assets/${name}.webp`, import.meta.url).href;
+  return `/images/${name}.webp`;
 };
 
 const sectionRef = ref(null);
