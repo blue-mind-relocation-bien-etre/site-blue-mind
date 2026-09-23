@@ -5,7 +5,7 @@
   "timeline": {
     "block1": {
       "title": "Création de Carrières Nomades",
-      "text": "{0} a été créé en {1} par Annabel Martin. Issue du métier des {2} et du {3}, le but était de proposer des services facilitateurs pour le collaborateur permettant de s'installer dans les meilleures conditions lors d'une {4}. Pour l'employeur, c'est l'occasion d'optimiser le {5} de son collaborateur par un accompagnement sur mesure pris en charge par nos soins afin de s'assurer d'une bonne installation et d'une prise de poste dans les meilleures conditions.L'agence propose de {6} sur l'ensemble du territoire au travers de notre réseau de {7}.",
+      "text": "{0} a été créé en {1} par Annabel Martin. Issue du métier des {2} et du {3}, le but était de proposer des services facilitateurs pour le collaborateur permettant de s'installer dans les meilleures conditions lors d'une {4}. Pour l'employeur, c'est l'occasion d'optimiser le {5} de son collaborateur par un accompagnement sur mesure pris en charge par nos soins afin de s'assurer d'une bonne installation et d'une prise de poste dans les meilleures conditions. L'agence propose de {6} sur l'ensemble du territoire au travers de notre réseau de {7}.",
       "bold_words": [
         "Carrières Nomades",
         "2015",
@@ -19,13 +19,22 @@
     },
     "block2": {
       "title": "Création de Blue Mind",
-      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam illum laboriosam. Nobis, fugiat? Repellendus ullam porro nulla placeat a ratione assumenda cumque! Obcaecati corrupti culpa inventore commodi modi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores doloribus molestiae laborum ex fuga magni consequuntur qui, eos assumenda incidunt deserunt, adipisci veritatis ab quos est? Error, maxime. Cumque, corrupti.",
-      "bold_words": []
+      "text": "En {0}, l’entreprise a évolué pour devenir {1}. Cette nouvelle identité s’explique par l’arrivée de la nouvelle entité {2}, axée sur le {3}. Blue Mind propose désormais des services de thérapie par l’eau à travers {4}, un soin permettant un {5}, et la {6}, une pratique procurant une {7} aidant à soulager les désagréments physiques et nerveux du quotidien.",
+      "bold_words": [
+        "2025",
+        "Blue Mind Relocation & Bien-être",
+        "Blue Mind Janzu & Care",
+        "bien-être",
+        "la pratique du Janzu",
+        "lâcher-prise total",
+        "réflexologie plantaire",
+        "détente profonde"
+      ]
     }
   },
   "presentation": {
     "title": "Votre consultante relocation et bien-être",
-    "text": "",
+    "text": "Issue des ressources humaines, Annabel Martin vous accompagne dans votre recherche de logements. Arpentant le terrain tout au long de l’année, à l’affût des biens disponibles grâce au réseau qu’elle entretient, elle est la plus à même de vous trouver le nid douillet que vous recherchez. Récemment devenue praticienne diplômée de Janzu et de réflexologie plantaire, elle vous accompagnera dans votre bien-être quotidien et aidera à lâcher-prise face à la pression du quotidien.",
     "quote": "Sétoise d’origine et brestoise d’adoption, l’eau a toujours été dans mon champ de vision. C’est un élement vital pour moi et c’est naturellement que j’ai choisi de promouvoir un territoire cerné d’eau tel que le Finistère !"
   },
   "media_title": "Nos actus médias"

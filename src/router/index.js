@@ -1,6 +1,5 @@
 import HomeView from "@/views/HomeView.vue";
 
-// 1. On exporte directement le tableau de routes
 export const routes = [
   {
     path: "/",
@@ -49,7 +48,6 @@ export const routes = [
   },
 ];
 
-// 2. On exporte les options du routeur (pour ViteSSG) afin de conserver ton effet smooth
 export const routerOptions = {
   routes,
   scrollBehavior(to, from, savedPosition) {

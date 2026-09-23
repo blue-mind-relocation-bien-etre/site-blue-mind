@@ -13,15 +13,9 @@
           class="absolute -inset-4 bg-linear-to-tr from-blue-100 to-slate-100 rounded-3xl -z-10 transform rotate-1"
         ></div>
         <p
-          class="text-slate-600 leading-relaxed tracking-tight text-justify p-4"
+          class="text-slate-600 text-lg leading-relaxed tracking-tight text-justify p-4"
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-          ipsam illum laboriosam. Nobis, a fugiat? Repellendus ullam porro nulla
-          placeat a ratione assumenda cumque! Obcaecati corrupti culpa inventore
-          commodi modi? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Maiores doloribus molestiae laborum ex fuga magni consequuntur
-          qui, eos assumenda incidunt deserunt, adipisci veritatis ab quos est?
-          Error, maxime. Cumque, corrupti.
+          {{ $t("agency.presentation.text") }}
         </p>
       </div>
       <div class="lg:col-span-5 mx-auto relative">
@@ -42,7 +36,7 @@
       </div>
 
       <div
-        class="relative flex flex-col items-center gap-2 z-10 text-slate-600 font-medium text-center italic mb-8"
+        class="relative flex flex-col items-center gap-2 z-10 text-slate-600 font-medium text-center italic mb-8 leading-relaxed tracking-tight"
       >
         <p>"{{ $t("agency.presentation.quote") }}"</p>
       </div>

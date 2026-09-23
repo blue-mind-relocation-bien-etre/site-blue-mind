@@ -54,7 +54,7 @@
       <!-- BLOC 2 : 2025 -->
       <div
         ref="block2Ref"
-        class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-16 relative"
+        class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 relative"
       >
         <div class="hidden md:block"></div>
         <div

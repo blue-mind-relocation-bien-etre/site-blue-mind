@@ -8,7 +8,7 @@
       ></div>
 
       <img
-        src="@/assets/client.jpeg"
+        src="@/assets/brest-1.webp"
         alt="brest1"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
