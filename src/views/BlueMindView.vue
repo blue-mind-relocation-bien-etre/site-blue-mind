@@ -11,27 +11,36 @@
         >
           {{ $t("blueMind.presentation.title2") }}
         </h2>
-        <!-- <i18n-t
-        keypath="blueMind.presentation.text"
-        tag="p"
-        class="text-slate-600 text-lg leading-relaxed text-center mx-5 md:mx-15 lg:mx-35"
-      >
-        <strong
-          v-for="(mot, index) in $tm('blueMind.presentation.bold_words')"
-          :key="index"
-          class="text-slate-800 font-semibold"
-        >
-          {{ $rt(mot) }}
-        </strong>
-      </i18n-t> -->
       </div>
     </Transition>
 
     <BlueMindPresentation />
+
+    <BlueMindJanzu />
+
+    <BlueMindReflexologie />
+
+    <section class="mb-10">
+      <div class="flex flex-col justify-center items-center m-5">
+        <h4
+          class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center pb-8"
+        >
+          {{ $t("blueMind.pricing_text") }}
+        </h4>
+        <RouterLink
+          to="/pricing"
+          class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
+        >
+          {{ $t("blueMind.button_text") }}
+        </RouterLink>
+      </div>
+    </section>
   </main>
 </template>
 
 <script setup>
 import { Transition } from "vue";
 import BlueMindPresentation from "@/components/blue_mind/BlueMindPresentation.vue";
+import BlueMindJanzu from "@/components/blue_mind/BlueMindJanzu.vue";
+import BlueMindReflexologie from "@/components/blue_mind/BlueMindReflexologie.vue";
 </script>

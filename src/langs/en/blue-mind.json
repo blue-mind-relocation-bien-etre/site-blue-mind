@@ -1,8 +1,77 @@
 {
-    "presentation": {
-        "title1": "Blue Mind",
-        "title2": "EN - Le bien-être et la relaxation par les bienfaits de l'eau",
-        "text": "Dans une société envahie par le bruit, les écrans et les sollicitations permanentes, nous sommes nombreux à aspirer à un {0}. Pas seulement une pause, mais une véritable {1}. Et l’un des moyens les plus puissants d’y parvenir, c’est {2}.",
-        "bold_words": ["véritable instant de tranquillité", "détente mentale", "l’eau, sous toutes ses formes"]
-    }
+  "presentation": {
+    "title1": "Blue Mind",
+    "title2": "Well-being and relaxation through the benefits of water"
+  },
+  "presentation_2": {
+    "text": "At age 50, I decided to create {0} to take people's {1} one step further. My curiosity led me to {2}, a Mexican therapy with Indian roots that takes you on an inner journey and provides {3}. I am currently expanding my wellness services as a practitioner in {4}.",
+    "bold_words": [
+      "Blue Mind Janzu & Care",
+      "well-being",
+      "Janzu",
+      "exceptional sensations",
+      "foot reflexology"
+    ]
+  },
+  "janzu": {
+    "title": "What is Janzu?",
+    "text": "In a world overrun by noise, screens, and constant demands, many of us yearn for a {0}. Not just a break, but true {1}. And one of the most powerful ways to achieve it is {2}.",
+    "bold_words": [
+      "genuine moment of tranquility",
+      "mental relaxation",
+      "water, in all its forms"
+    ],
+    "text2": "{0} is an aquatic therapy, a {1} practice in warm water where a practitioner gently guides and cradles the receiver's body on the {2} and in {3} to induce {4}.",
+    "bold_words2": [
+      "Janzu",
+      "aquatic relaxation",
+      "surface",
+      "immersion",
+      "total letting go"
+    ],
+    "text3": "{0} is not merely a {1}. It acts directly on our body and brain. Water, in all its forms, has a {2} on our {3}, our {4}, and our {5}.",
+    "bold_words3": [
+      "Water",
+      "sensory experience",
+      "profound impact",
+      "nervous system",
+      "mental health",
+      "inner balance"
+    ],
+    "text4": "Water does not simply {0} us. It also helps us {1}. The tranquility it provides creates a mental space conducive to {2}, {3}, and {4}.",
+    "bold_words4": [
+      "relax",
+      "reconnect with ourselves",
+      "reflection",
+      "creativity",
+      "inner renewal"
+    ]
+  },
+  "reflexologie": {
+    "title": "What is foot reflexology?",
+    "text": "{0} is much more than a simple foot treatment. This ancient practice is based on precise mapping where every {1} mirrors a part of our body. Under {2}, physical tensions release one by one, {3}.",
+    "bold_words": [
+      "Foot reflexology",
+      "reflex zone of the sole",
+      "targeted and enveloping pressures",
+      "inviting deep rest"
+    ],
+    "text2": "This {0} reaches far beyond simple {1}. By engaging the thousands of nerve endings in our foundation, it sends a message of {2} to our central nervous system. Anxiety melts away, allowing our vitality to flow freely once again and restoring {3}.",
+    "bold_words2": [
+      "subtle stimulation",
+      "muscular relief",
+      "absolute calm",
+      "overall balance"
+    ],
+    "text3": "{0} of one's foundation is ultimately {1}. This deep grounding anchors our awareness in {2}, clearing away mental fog to welcome a {3} and a {4}.",
+    "bold_words3": [
+      "Taking care",
+      "returning to essentials",
+      "the present moment",
+      "renewed serenity",
+      "deeply restored energy"
+    ]
+  },
+  "pricing_text": "Looking to relax and let go? Discover the pricing for our wellness sessions!",
+  "button_text": "Discover our rates"
 }

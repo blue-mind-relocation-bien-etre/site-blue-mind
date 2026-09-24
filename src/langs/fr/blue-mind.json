@@ -1,12 +1,77 @@
 {
-    "presentation": {
-        "title1": "Blue Mind",
-        "title2": "Le bien-être et la relaxation par les bienfaits de l'eau",
-        "text": "Dans une société envahie par le bruit, les écrans et les sollicitations permanentes, nous sommes nombreux à aspirer à un {0}. Pas seulement une pause, mais une véritable {1}. Et l’un des moyens les plus puissants d’y parvenir, c’est {2}.",
-        "bold_words": ["véritable instant de tranquillité", "détente mentale", "l’eau, sous toutes ses formes"]
-    },
-    "presentation_2": {
-        "text": "A 50 ans j’ai décidé de créer {0}, pour aller plus loin dans le {1} des personnes. Ma curiosité m’a guidée vers le {2}, un soin mexicain aux origines indiennes qui fait voyager loin et procures {3}. Je diversifie actuellement mes activités de bien-être  en étant praticienne en {4}.",
-        "bold_words": ["Blue mind Janzu & Care", "bien-être", "Janzu", "des sensations exceptionnelles", "réflexologie plantaire"]
-    }
+  "presentation": {
+    "title1": "Blue Mind",
+    "title2": "Le bien-être et la relaxation par les bienfaits de l'eau"
+  },
+  "presentation_2": {
+    "text": "A 50 ans j’ai décidé de créer {0}, pour aller plus loin dans le {1} des personnes. Ma curiosité m’a guidée vers le {2}, un soin mexicain aux origines indiennes qui fait voyager loin et procures {3}. Je diversifie actuellement mes activités de bien-être  en étant praticienne en {4}.",
+    "bold_words": [
+      "Blue mind Janzu & Care",
+      "bien-être",
+      "Janzu",
+      "des sensations exceptionnelles",
+      "réflexologie plantaire"
+    ]
+  },
+  "janzu": {
+    "title": "Qu'est ce que le Janzu ?",
+    "text": "Dans une société envahie par le bruit, les écrans et les sollicitations permanentes, nous sommes nombreux à aspirer à un {0}. Pas seulement une pause, mais une véritable {1}. Et l’un des moyens les plus puissants d’y parvenir, c’est {2}.",
+    "bold_words": [
+      "véritable instant de tranquillité",
+      "détente mentale",
+      "l’eau, sous toutes ses formes"
+    ],
+    "text2": "Le {0} est une thérapie par l’eau, c'est une pratique de {1} en eau chaude où un praticien guide et berce le corps d'une personne en {2} et en {3} pour induire un {4}.",
+    "bold_words2": [
+      "Janzu",
+      "relaxation aquatique",
+      "surface",
+      "immersion",
+      "lâcher-prise total"
+    ],
+    "text3": "{0} n’est pas seulement une {1}. Elle agit directement sur notre corps et notre cerveau. L’eau, sous toutes ses formes, a un {2} sur notre {3}, notre {4} et notre {5}.",
+    "bold_words3": [
+      "L’eau",
+      "expérience sensorielle",
+      "impact profond",
+      "système nerveux",
+      "santé mentale",
+      "équilibre intérieur"
+    ],
+    "text4": "L’eau ne se contente pas de nous {0}. Elle nous aide aussi à nous {1}. La tranquillité qu’elle dégage crée un espace mental propice à la {2}, à la {3} et à la {4}.",
+    "bold_words4": [
+      "relaxer",
+      "reconnecter avec nous-mêmes",
+      "réflexion",
+      "créativité",
+      "régénération intérieure"
+    ]
+  },
+  "reflexologie": {
+    "title": "Qu'est ce que la réflexologie plantaire ?",
+    "text": "La {0} est bien plus qu'un simple soin des pieds. Cette méthode millénaire repose sur une cartographie précise où chaque {1} fait écho à une partie de notre organisme. Sous des {2}, les tensions physiques se dénouent une à une, {3}.",
+    "bold_words": [
+      "réflexologie plantaire",
+      "zone de la voûte plantaire",
+      "pressions ciblées et enveloppantes",
+      "invitant au repos"
+    ],
+    "text2": "Cette {0} dépasse de loin le simple {1}. En sollicitant les milliers de terminaisons nerveuses de nos racines, elle murmure un message de {2} à notre système nerveux central. L'anxiété se dissipe, permettant à notre vitalité de circuler à nouveau librement et de rétablir un {3}.",
+    "bold_words2": [
+      "stimulation subtile",
+      "soulagement musculaire",
+      "calme absolu",
+      "équilibre global"
+    ],
+    "text3": "{0} de sa base, c'est finalement {1}. Cet ancrage profond ramène notre conscience dans {2}, dissipant le brouillard mental pour laisser éclore une {3} et une {4}.",
+    "bold_words3": [
+      "Prendre soin",
+      "s'offrir un retour à l'essentiel",
+      "l'instant présent",
+      "sérénité nouvelle",
+      "énergie profondément restaurée"
+    ]
+  },
+  "pricing_text": "Vous avez envie de vous détendre et de lâcher-prise ? Découvrez les tarifs de nos prestations bien-être !",
+  "button_text": "Découvrir nos tarifs"
 }

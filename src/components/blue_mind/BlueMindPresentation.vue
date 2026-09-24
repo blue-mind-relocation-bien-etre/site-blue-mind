@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto px-6 py-20 lg:py-28">
+  <section class="mx-auto px-6 py-15 lg:py-20 shadow-xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
       <div class="col-span-7 relative">
         <div
@@ -9,7 +9,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8"
+          class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-10"
         >
           <i18n-t
             keypath="blueMind.presentation_2.text"
