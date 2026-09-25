@@ -25,18 +25,18 @@
     <!-- Présentation de Annabel -->
     <AgencyPresentation />
 
-    <WaveTop />
+    <section>
+      <div class="flex flex-col justify-center items-center mt-20 mb-1">
+        <p class="text-sm text-slate-600">Photo : Franck Betermin - Brest métropole</p>
+      </div>
+    </section>
 
-    <!-- Actu média de l'entreprise -->
-    <AgencyMedia />
   </main>
 </template>
 
 <script setup>
 import AgencyTimeline from "@/components/agency/AgencyTimeline.vue";
 import AgencyPresentation from "@/components/agency/AgencyPresentation.vue";
-import AgencyMedia from "@/components/agency/AgencyMedia.vue";
-import WaveTop from "@/components/WaveTop.vue";
 
 import { computed } from 'vue'
 import { useHead } from '@unhead/vue'

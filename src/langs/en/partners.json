@@ -8,6 +8,18 @@
       "title": "Our service provider partners",
       "items": [
         {
+          "name": "Déménagement Jezequel",
+          "logo": "/logos/prestataires/jezequel.webp",
+          "description": "A family-owned business specializing in residential moves and corporate relocations. Known for its rigorous logistics, it operates locally and nationwide.",
+          "link": "https://www.demenagements-jezequel.com/"
+        },
+        {
+          "name": "Investir en Finistère",
+          "logo": "/logos/prestataires/investir_en_finistere.webp",
+          "description": "An economic development agency dedicated to businesses looking to set up in Finistère. It coordinates local stakeholders to ease business relocation.",
+          "link": "https://www.investirenfinistere.fr/"
+        },
+        {
           "name": "Brest en Vue",
           "logo": "/logos/prestataires/brest_en_vue.webp",
           "description": "A local platform dedicated to discovering and promoting Brest. It highlights the activities, local shops, and events that bring the area to life.",
@@ -18,6 +30,12 @@
           "logo": "/logos/prestataires/brestlife.webp",
           "description": "A territorial branding initiative led by the Brest metropolitan area. It highlights the local quality of life, spirit of innovation, and professional opportunities.",
           "link": "https://brest.fr/"
+        },
+        {
+          "name": "Route Mandarine",
+          "logo": "/logos/prestataires/route_mandarine.webp",
+          "description": "An artisanal Breton workshop creating fragrances and skincare products inspired by the coast. It offers a sensory escape rooted in the region.",
+          "link": "https://route-mandarine.com/"
         },
         {
           "name": "Crédit Agricole Finistère",
@@ -32,16 +50,16 @@
           "link": "https://www.domitys.fr/"
         },
         {
+          "name": "Technopole Brest Iroise",
+          "logo": "/logos/prestataires/technopole_brest_iroise.webp",
+          "description": "A hub for scientific and technological innovation in western Brittany. It supports innovative startups, especially in marine sciences and digital technologies.",
+          "link": "https://www.tech-brest-iroise.fr/"
+        },
+        {
           "name": "Résidences Beausoleil",
           "logo": "/logos/prestataires/villa_beausoleil.webp",
           "description": "Next-generation residences providing a secure, friendly environment for seniors. The group emphasizes well-being, hospitality, and quality services.",
           "link": "https://www.villabeausoleil.com/"
-        },
-        {
-          "name": "Résidences les Jardins d'Arcadie",
-          "logo": "/logos/prestataires/jardins_arcadie.webp",
-          "description": "A senior serviced residence provider promoting autonomy and social connection. Residents enjoy a peaceful setting, shared spaces, and dedicated staff.",
-          "link": "https://jardins-arcadie.fr/"
         },
         {
           "name": "Holiworking",
@@ -50,52 +68,22 @@
           "link": "https://www.holiworking.com/"
         },
         {
-          "name": "Technopole Brest Iroise",
-          "logo": "/logos/prestataires/technopole_brest_iroise.webp",
-          "description": "A hub for scientific and technological innovation in western Brittany. It supports innovative startups, especially in marine sciences and digital technologies.",
-          "link": "https://www.tech-brest-iroise.fr/"
-        },
-        {
-          "name": "Route Mandarine",
-          "logo": "/logos/prestataires/route_mandarine.webp",
-          "description": "An artisanal Breton workshop creating fragrances and skincare products inspired by the coast. It offers a sensory escape rooted in the region.",
-          "link": "https://route-mandarine.com/"
+          "name": "Résidences les Jardins d'Arcadie",
+          "logo": "/logos/prestataires/jardins_arcadie.webp",
+          "description": "A senior serviced residence provider promoting autonomy and social connection. Residents enjoy a peaceful setting, shared spaces, and dedicated staff.",
+          "link": "https://jardins-arcadie.fr/"
         },
         {
           "name": "Mona Design",
           "logo": "/logos/prestataires/mona_design.png",
           "description": "A design studio crafting modern graphics and personalized items. Its creations bring an elegant, warm touch to interior spaces.",
           "link": "https://www.etsy.com/shop/MonaDesignMag?ref=dashboard-header"
-        },
-        {
-          "name": "Déménagement Jezequel",
-          "logo": "/logos/prestataires/jezequel.webp",
-          "description": "A family-owned business specializing in residential moves and corporate relocations. Known for its rigorous logistics, it operates locally and nationwide.",
-          "link": "https://www.demenagements-jezequel.com/"
-        },
-        {
-          "name": "Investir en Finistère",
-          "logo": "/logos/prestataires/investir_en_finistere.webp",
-          "description": "An economic development agency dedicated to businesses looking to set up in Finistère. It coordinates local stakeholders to ease business relocation.",
-          "link": "https://www.investirenfinistere.fr/"
         }
       ]
     },
     {
       "title": "Our client partners",
       "items": [
-        {
-          "name": "Thales",
-          "logo": "/logos/clients/thales.webp",
-          "description": "A global high-tech leader across aerospace, defense, and digital security. Its Brest site focuses on cutting-edge naval and submarine expertise.",
-          "link": "https://www.thalesgroup.com/fr"
-        },
-        {
-          "name": "Naval Group",
-          "logo": "/logos/clients/naval_group.webp",
-          "description": "An international defense contractor building on a legacy of military dockyards. The company designs, builds, and maintains naval ships and strategic submarines.",
-          "link": "https://www.naval-group.com/fr"
-        },
         {
           "name": "Blue Solutions",
           "logo": "/logos/clients/blue_solutions.webp",
@@ -107,6 +95,24 @@
           "logo": "/logos/clients/bollore.webp",
           "description": "A major player in supply chain management, freight forwarding, and transport infrastructure. The group delivers transport solutions worldwide.",
           "link": "https://www.bollore.com/fr/"
+        },
+        {
+          "name": "Thales",
+          "logo": "/logos/clients/thales.webp",
+          "description": "A global high-tech leader across aerospace, defense, and digital security. Its Brest site focuses on cutting-edge naval and submarine expertise.",
+          "link": "https://www.thalesgroup.com/fr"
+        },
+        {
+          "name": "Ifremer",
+          "logo": "/logos/clients/ifremer.webp",
+          "description": "A world-renowned public oceanographic research institute based in Plouzané. Its research teams study marine biodiversity, ocean floors, and planetary climate.",
+          "link": "https://www.ifremer.fr/fr"
+        },
+        {
+          "name": "Naval Group",
+          "logo": "/logos/clients/naval_group.webp",
+          "description": "An international defense contractor building on a legacy of military dockyards. The company designs, builds, and maintains naval ships and strategic submarines.",
+          "link": "https://www.naval-group.com/fr"
         },
         {
           "name": "Ceva Santé Animale",
@@ -125,12 +131,6 @@
           "logo": "/logos/clients/arkea.webp",
           "description": "A cooperative, regional banking group with historic headquarters in Finistère. It is strongly committed to sustainable finance and supporting the local economy.",
           "link": "https://site.arkea-banque-ei.com/"
-        },
-        {
-          "name": "Ifremer",
-          "logo": "/logos/clients/ifremer.webp",
-          "description": "A world-renowned public oceanographic research institute based in Plouzané. Its research teams study marine biodiversity, ocean floors, and planetary climate.",
-          "link": "https://www.ifremer.fr/fr"
         },
         {
           "name": "Rehlko",
@@ -194,5 +194,9 @@
         }
       ]
     }
-  ]
+  ],
+  "seo": {
+    "title": "Blue Mind - Our partners",
+    "description": "Discover our service provider and client partners who share our high standards and contribute to the vitality of Finistère."
+  }
 }

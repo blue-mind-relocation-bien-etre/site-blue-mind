@@ -1,12 +1,12 @@
 {
   "presentation": {
-    "title1": "Carrières Nomades",
+    "title1": "Carrières Nomades Relocation",
     "title2": "Discover our services",
-    "text": "We support you at every stage of your {0}. Take advantage of {1} to {2} and make your transition as smooth as possible.",
+    "text": "We support you at every stage of your {0}. Take advantage of {1} to {2} your professional and geographic transition.",
     "bold_words": [
       "geographic mobility",
       "tailor-made solutions",
-      "facilitate your transition"
+      "facilitate"
     ]
   },
   "services": {
@@ -223,7 +223,7 @@
     }
   },
   "marque_employeur": {
-    "title": "Our employer branding",
+    "title": "Your employer branding",
     "text1": "To businesses: we help boost your {0} by highlighting your appeal! Our mission is to {1} so their onboarding goes smoothly, allowing them to focus entirely on their new role. From preparing their arrival to their departure, we cover every step necessary for their {2} and their family's.",
     "bold_words": [
       "employer brand",

@@ -24,13 +24,13 @@
       ></div>
 
       <img
-        src="@/assets/brest-2.webp"
+        src="@/assets/batz-1.webp"
         alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 
       <p class="font-corinthia text-3xl relative z-10 text-center">
-        Pont de l'Iroise
+        Ile de Batz
       </p>
     </div>
 
@@ -40,13 +40,13 @@
       ></div>
 
       <img
-        src="@/assets/brest-3.webp"
+        src="@/assets/batz-2.webp"
         alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 
       <p class="font-corinthia text-3xl relative z-10 text-center">
-        Menhir de Levant
+        Ile de Batz
       </p>
     </div>
 

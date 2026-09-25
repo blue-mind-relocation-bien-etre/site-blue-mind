@@ -1,7 +1,7 @@
 <template>
   <section class="mt-20">
-    <div class="grid grid-cols-1 lg:grid-cols-5 mb-30">
-      <div class="col-span-3">
+    <div class="grid grid-cols-1 mb-30">
+      <div class="lg:mx-35">
         <h1
           class="font-corinthia text-5xl text-secondary tracking-tight leading-tight text-center"
         >
@@ -52,15 +52,6 @@
             {{ $rt(mot) }}
           </strong>
         </i18n-t>
-      </div>
-      <div
-        class="flex flex-col justify-center items-center col-span-2 mt-10 px-10"
-      >
-        <img
-          src="@/assets/zones-reflexes.webp"
-          alt="logo école janzu"
-          class="h-85 object-cover"
-        />
       </div>
     </div>
   </section>

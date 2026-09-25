@@ -8,7 +8,7 @@
           ></div>
 
           <img
-            src="@/assets/annabel-4.webp"
+            src="@/assets/annabel-5.webp"
             alt="Paysage lumineux du Finistère"
             class="w-full h-85 relative z-10 object-cover rounded-2xl shadow-xl"
           />

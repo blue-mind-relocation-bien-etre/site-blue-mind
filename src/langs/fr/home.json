@@ -1,6 +1,7 @@
 {
   "hero": {
-    "title": "S'ancrer en Finistère, se ressourcer en profondeur",
+    "title": "S'ancrer en Finistère",
+    "title2": "Se ressourcer en profondeur",
     "subtitle": "L'accompagnement sur-mesure pour votre transition de vie et votre équilibre.",
     "link": "Nous découvrir"
   },
@@ -28,7 +29,7 @@
   },
 
   "part3": {
-    "title1": "Plus de 10 ans",
+    "title1": "Plus de 12 années",
     "corinthia_word": "d'expertise",
     "title2": "en quelques chiffres",
     "number1": "accompagnements",

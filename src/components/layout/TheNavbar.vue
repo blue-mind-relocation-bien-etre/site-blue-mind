@@ -15,7 +15,7 @@
         </RouterLink>
       </div>
 
-      <div class="hidden lg:flex items-center justify-center gap-6">
+      <div class="hidden lg:flex items-center justify-center gap-10">
         <RouterLink
           to="/"
           class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg"

@@ -1,21 +1,33 @@
 {
-  "free_quote": {
-    "title": "A relocation project?",
-    "subtitle": "Request your free quote!",
-    "text": [
-      "Fill out the form below",
-      "We review your request and prepare your quote",
-      "Receive a customized answer within 48 hours"
-    ]
-  },
-  "form": {
-    "title": "Free quote",
-    "message_text": "Describe your project:"
-  },
-  "janzu": {
-    "title": "Looking to relax and let go?",
-    "text1": "Discover the pricing for our wellness sessions!",
-    "text2": "Feel free to contact us for more information:",
-    "button": "Contact us"
-  }
+    "free_quote": {
+        "title": "A relocation project?",
+        "subtitle": "Request your free quote!",
+        "text": [
+            "Fill out the form below",
+            "We review your request and prepare your quote",
+            "Receive a customized answer within 48 hours"
+        ]
+    }, 
+    "form": {
+        "title": "Free quote",
+        "message_text": "Describe your project:"
+    },
+    "janzu": {
+        "title": "Looking to relax and let go?",
+        "text1": "Discover the pricing for our wellness sessions!",
+        "text2": "Feel free to contact us for more information:",
+        "button": "Contact us"
+    },
+    "table": {
+        "head1": "Service",
+        "head2": "Duration",
+        "head3": "Rate",
+        "janzu": "Janzu session",
+        "foot": "Foot reflexology"
+    },
+    "gift_text": "Looking to gift one of our sessions? We offer gift vouchers and gift sets featuring products from our partner ",
+    "seo": {
+        "title": "Blue Mind - Our rates",
+        "description": "Request your free quote for a relocation project or discover the pricing for our wellness sessions. We review your request and prepare your quote."
+    }
 }

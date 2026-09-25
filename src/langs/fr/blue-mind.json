@@ -4,14 +4,15 @@
     "title2": "Le bien-être et la relaxation par les bienfaits de l'eau"
   },
   "presentation_2": {
-    "text": "A 50 ans j’ai décidé de créer {0}, pour aller plus loin dans le {1} des personnes. Ma curiosité m’a guidée vers le {2}, un soin mexicain aux origines indiennes qui fait voyager loin et procures {3}. Je diversifie actuellement mes activités de bien-être  en étant praticienne en {4}.",
+    "text": "A 50 ans j’ai décidé de créer {0}, pour aller plus loin dans le {1} des personnes. Ma curiosité m’a guidée vers le {2}, un soin mexicain aux origines indiennes qui fait voyager loin et procures {3}.",
     "bold_words": [
       "Blue mind Janzu & Care",
       "bien-être",
       "Janzu",
-      "des sensations exceptionnelles",
-      "réflexologie plantaire"
+      "des sensations exceptionnelles"
     ],
+    "text2": "Depuis 2026, je propose également des prestations de {0} afin de diversifié mes actvitités de bien-être.",
+    "bold_words2": ["réflexologie plantaire"],
     "name": "Annabel martin - Praticienne"
   },
   "janzu": {

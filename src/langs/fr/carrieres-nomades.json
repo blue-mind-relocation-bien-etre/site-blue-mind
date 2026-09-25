@@ -1,8 +1,8 @@
 {
   "presentation": {
-    "title1": "Carrières Nomades",
+    "title1": "Carrières Nomades Relocation",
     "title2": "Decouvrez nos services",
-    "text": "Nous vous accompagnons dans chaque étape de votre {0}. Profitez de {1} pour {2} et rendre votre transition aussi agréable que possible.",
+    "text": "Nous vous accompagnons dans chaque étape de votre {0}. Profitez de {1} pour {2} professionnelle et géographique.",
     "bold_words": [
       "mobilité géographique",
       "solutions sur-mesure",
@@ -223,7 +223,7 @@
     }
   },
   "marque_employeur": {
-    "title": "Notre marque employeur",
+    "title": "Votre marque employeur",
     "text1": "Entreprises, nous vous aidons à renforcer votre {0} en valorisant votre attractivité ! Notre mission est de {1} du salarié pour que sa prise de poste se fasse dans les meilleures conditions et qu’il puisse se consacrer totalement à ses nouvelles fonctions. De la préparation de son arrivée à son départ, nous couvrons l’ensemble des étapes nécessaires à son {2} et celui de sa famille.",
     "bold_words": [
       "marque employeur",

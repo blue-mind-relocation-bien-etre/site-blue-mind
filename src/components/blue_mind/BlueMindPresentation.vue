@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto px-6 py-15 lg:py-20 shadow-xl">
+  <section class="mx-auto px-6 pt-15 lg:pt-20 pb-3 shadow-xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
       <div class="col-span-7 relative">
         <div
@@ -24,6 +24,19 @@
               {{ $rt(mot) }}
             </strong>
           </i18n-t>
+          <i18n-t
+            keypath="blueMind.presentation_2.text2"
+            tag="p"
+            class="text-slate-600 text-lg leading-relaxed text-center"
+          >
+            <strong
+              v-for="(mot, index) in $tm('blueMind.presentation_2.bold_words2')"
+              :key="index"
+              class="text-slate-800 font-semibold"
+            >
+              {{ $rt(mot) }}
+            </strong>
+          </i18n-t>
           <p>-</p>
           <p>{{ $t("blueMind.presentation_2.name") }}</p>
         </div>
@@ -41,6 +54,11 @@
           />
         </div>
       </div>
+    </div>
+    <div class="flex flex-col justify-center items-center mt-20">
+      <p class="text-sm text-slate-600">
+        Photo : Geraldine Cabon - Exploratrice Terre Océane
+      </p>
     </div>
   </section>
 </template>

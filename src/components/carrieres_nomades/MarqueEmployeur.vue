@@ -58,8 +58,7 @@
             />
           </Slide>
           <template #addons>
-            <Pagination class="fill-secondary" />
-            <Navigation class="fill-secondary" />
+            <Navigation />
           </template>
         </Carousel>
         <h5
@@ -74,7 +73,7 @@
 
 <script setup>
 import "vue3-carousel/carousel.css";
-import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+import { Carousel, Slide, Navigation } from "vue3-carousel";
 
 import { ref } from "vue";
 import { useIntersectionObserver } from "@vueuse/core";

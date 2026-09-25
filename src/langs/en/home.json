@@ -1,6 +1,7 @@
 {
   "hero": {
-    "title": "Anchor yourself in Finistère, recharge deeply",
+    "title": "Anchor yourself in Finistère",
+    "title2": "Recharge deeply",
     "subtitle": "Tailor-made support for your life transition and balance.",
     "link": "Discover us"
   },
@@ -28,7 +29,7 @@
   },
 
   "part3": {
-    "title1": "Over 10 years",
+    "title1": "Over 12 years",
     "corinthia_word": "of expertise",
     "title2": "in a few figures",
     "number1": "relocations supported",

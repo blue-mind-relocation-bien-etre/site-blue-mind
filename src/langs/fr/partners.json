@@ -8,6 +8,18 @@
       "title": "Nos partenaires prestataires",
       "items": [
         {
+          "name": "Déménagement Jezequel",
+          "logo": "/logos/prestataires/jezequel.webp",
+          "description": "Entreprise familiale spécialisée dans le déménagement de particuliers et le transfert d'entreprises. Reconnue pour sa logistique rigoureuse, elle intervient au niveau local et national.",
+          "link": "https://www.demenagements-jezequel.com/"
+        },
+        {
+          "name": "Investir en Finistère",
+          "logo": "/logos/prestataires/investir_en_finistere.webp",
+          "description": "Agence de développement économique au service des entreprises souhaitant s'implanter dans le département. Elle coordonne les acteurs locaux pour faciliter l'installation des projets.",
+          "link": "https://www.investirenfinistere.fr/"
+        },
+        {
           "name": "Brest en Vue",
           "logo": "/logos/prestataires/brest_en_vue.webp",
           "description": "Plateforme locale dédiée à la découverte et au rayonnement de Brest. Elle met en lumière les activités, commerces et événements qui animent le territoire.",
@@ -18,6 +30,12 @@
           "logo": "/logos/prestataires/brestlife.webp",
           "description": "Marque d'attractivité territoriale portée par la métropole brestoise. Elle valorise le cadre de vie, l'esprit d'innovation et les opportunités professionnelles de la région.",
           "link": "https://brest.fr/"
+        },
+        {
+          "name": "Route Mandarine",
+          "logo": "/logos/prestataires/route_mandarine.webp",
+          "description": "Atelier artisanal breton de création de parfums et soins aux fragrances inspirées du bord de mer. Il propose une véritable parenthèse sensorielle ancrée dans la région.",
+          "link": "https://route-mandarine.com/"
         },
         {
           "name": "Crédit Agricole Finistère",
@@ -32,16 +50,16 @@
           "link": "https://www.domitys.fr/"
         },
         {
+          "name": "Technopole Brest Iroise",
+          "logo": "/logos/prestataires/technopole_brest_iroise.webp",
+          "description": "Moteur de l'innovation scientifique et technologique dans l'ouest breton. Elle soutient la création d'entreprises innovantes, notamment dans les sciences de la mer et le numérique.",
+          "link": "https://www.tech-brest-iroise.fr/"
+        },
+        {
           "name": "Résidences Beausoleil",
           "logo": "/logos/prestataires/villa_beausoleil.webp",
           "description": "Résidences nouvelle génération offrant un habitat sécurisé et convivial pour les aînés. Le groupe met l'accent sur le bien-être, l'accueil et des prestations soignées.",
           "link": "https://www.villabeausoleil.com/"
-        },
-        {
-          "name": "Résidences les Jardins d'Arcadie",
-          "logo": "/logos/prestataires/jardins_arcadie.webp",
-          "description": "Gestionnaire de résidences services seniors favorisant l'autonomie et le lien social. Les résidents y trouvent un cadre serein, des espaces collectifs et un personnel dévoué.",
-          "link": "https://jardins-arcadie.fr/"
         },
         {
           "name": "Holiworking",
@@ -50,52 +68,22 @@
           "link": "https://www.holiworking.com/"
         },
         {
-          "name": "Technopole Brest Iroise",
-          "logo": "/logos/prestataires/technopole_brest_iroise.webp",
-          "description": "Moteur de l'innovation scientifique et technologique dans l'ouest breton. Elle soutient la création d'entreprises innovantes, notamment dans les sciences de la mer et le numérique.",
-          "link": "https://www.tech-brest-iroise.fr/"
-        },
-        {
-          "name": "Route Mandarine",
-          "logo": "/logos/prestataires/route_mandarine.webp",
-          "description": "Atelier artisanal breton de création de parfums et soins aux fragrances inspirées du bord de mer. Il propose une véritable parenthèse sensorielle ancrée dans la région.",
-          "link": "https://route-mandarine.com/"
+          "name": "Résidences les Jardins d'Arcadie",
+          "logo": "/logos/prestataires/jardins_arcadie.webp",
+          "description": "Gestionnaire de résidences services seniors favorisant l'autonomie et le lien social. Les résidents y trouvent un cadre serein, des espaces collectifs et un personnel dévoué.",
+          "link": "https://jardins-arcadie.fr/"
         },
         {
           "name": "Mona Design",
           "logo": "/logos/prestataires/mona_design.png",
           "description": "Studio de création graphique et d'objets personnalisés aux influences contemporaines. Ses designs apportent une touche soignée et chaleureuse aux intérieurs.",
           "link": "https://www.etsy.com/shop/MonaDesignMag?ref=dashboard-header"
-        },
-        {
-          "name": "Déménagement Jezequel",
-          "logo": "/logos/prestataires/jezequel.webp",
-          "description": "Entreprise familiale spécialisée dans le déménagement de particuliers et le transfert d'entreprises. Reconnue pour sa logistique rigoureuse, elle intervient au niveau local et national.",
-          "link": "https://www.demenagements-jezequel.com/"
-        },
-        {
-          "name": "Investir en Finistère",
-          "logo": "/logos/prestataires/investir_en_finistere.webp",
-          "description": "Agence de développement économique au service des entreprises souhaitant s'implanter dans le département. Elle coordonne les acteurs locaux pour faciliter l'installation des projets.",
-          "link": "https://www.investirenfinistere.fr/"
         }
       ]
     },
     {
       "title": "Nos partenaires clients",
       "items": [
-        {
-          "name": "Thales",
-          "logo": "/logos/clients/thales.webp",
-          "description": "Leader mondial des hautes technologies dans l'aérospatiale, la défense et la sécurité numérique. Son implantation brestoise concentre une expertise navale et sous-marine de pointe.",
-          "link": "https://www.thalesgroup.com/fr"
-        },
-        {
-          "name": "Naval Group",
-          "logo": "/logos/clients/naval_group.webp",
-          "description": "Référence internationale du naval de défense et héritier des arsenaux militaires. L'entreprise conçoit, réalise et maintient des navires armés ainsi que des sous-marins stratégiques.",
-          "link": "https://www.naval-group.com/fr"
-        },
         {
           "name": "Blue Solutions",
           "logo": "/logos/clients/blue_solutions.webp",
@@ -107,6 +95,24 @@
           "logo": "/logos/clients/bollore.webp",
           "description": "Acteur majeur de la gestion des chaînes logistiques, du fret et des infrastructures de transport. Le groupe met en œuvre des solutions d'acheminement à l'échelle mondiale.",
           "link": "https://www.bollore.com/fr/"
+        },
+        {
+          "name": "Thales",
+          "logo": "/logos/clients/thales.webp",
+          "description": "Leader mondial des hautes technologies dans l'aérospatiale, la défense et la sécurité numérique. Son implantation brestoise concentre une expertise navale et sous-marine de pointe.",
+          "link": "https://www.thalesgroup.com/fr"
+        },
+        {
+          "name": "Ifremer",
+          "logo": "/logos/clients/ifremer.webp",
+          "description": "Institut public de recherche océanographique de renommée mondiale basé à Plouzané. Ses équipes étudient la biodiversité marine, les fonds sous-marins et le climat planétaire.",
+          "link": "https://www.ifremer.fr/fr"
+        },
+        {
+          "name": "Naval Group",
+          "logo": "/logos/clients/naval_group.webp",
+          "description": "Référence internationale du naval de défense et héritier des arsenaux militaires. L'entreprise conçoit, réalise et maintient des navires armés ainsi que des sous-marins stratégiques.",
+          "link": "https://www.naval-group.com/fr"
         },
         {
           "name": "Ceva Santé Animale",
@@ -125,12 +131,6 @@
           "logo": "/logos/clients/arkea.webp",
           "description": "Groupe bancaire coopératif et territorial dont le siège historique est situé dans le Finistère. Il est engagé dans la finance durable et l'accompagnement de l'économie réelle.",
           "link": "https://site.arkea-banque-ei.com/"
-        },
-        {
-          "name": "Ifremer",
-          "logo": "/logos/clients/ifremer.webp",
-          "description": "Institut public de recherche océanographique de renommée mondiale basé à Plouzané. Ses équipes étudient la biodiversité marine, les fonds sous-marins et le climat planétaire.",
-          "link": "https://www.ifremer.fr/fr"
         },
         {
           "name": "Rehlko",
