@@ -29,7 +29,7 @@
       </div>
     </Transition>
 
-    <Presentation />
+    <Presentation2 />
 
     <!-- Présentation des services  -->
     <ServicesNav />
@@ -78,6 +78,7 @@ import Location from "@/components/carrieres_nomades/Location.vue";
 import MarqueEmployeur from "@/components/carrieres_nomades/MarqueEmployeur.vue";
 import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";
 import Presentation from "@/components/carrieres_nomades/Presentation.vue";
+import Presentation2 from "@/components/carrieres_nomades/Presentation2.vue";
 
 import WaveTop from "@/components/WaveTop.vue";
 import WaveBottom from "@/components/WaveBottom.vue";
