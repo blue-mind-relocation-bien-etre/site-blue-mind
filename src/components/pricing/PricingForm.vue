@@ -1,15 +1,15 @@
 <template>
   <div class="relative pt-36 mb-10">
-    <h4
+    <h2
       class="text-2xl lg:text-3xl font-bold text-slate-800 tracking-tight leading-tight text-center mb-5"
     >
       {{ $t("pricing.free_quote.title") }}
-    </h4>
-    <h5
+    </h2>
+    <h3
       class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-5"
     >
       {{ $t("pricing.free_quote.subtitle") }}
-    </h5>
+    </h3>
 
     <ul
       class="list-disc list-inside text-lg text-slate-600 tracking-tight leading-tight text-center space-y-2 mb-10"
