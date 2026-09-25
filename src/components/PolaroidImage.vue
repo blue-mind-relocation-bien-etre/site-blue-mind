@@ -9,7 +9,7 @@
 
       <img
         src="@/assets/brest-1.webp"
-        alt="brest1"
+        alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 
@@ -25,7 +25,7 @@
 
       <img
         src="@/assets/brest-2.webp"
-        alt="brest1"
+        alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 
@@ -41,7 +41,7 @@
 
       <img
         src="@/assets/brest-3.webp"
-        alt="brest1"
+        alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 
@@ -57,7 +57,7 @@
 
       <img
         src="@/assets/brest-4.webp"
-        alt="brest1"
+        alt="Paysage du Finistère"
         class="relative w-full h-full z-10 aspect-square object-cover"
       />
 

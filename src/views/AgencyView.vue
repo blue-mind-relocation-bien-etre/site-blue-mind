@@ -37,20 +37,21 @@ import AgencyTimeline from "@/components/agency/AgencyTimeline.vue";
 import AgencyPresentation from "@/components/agency/AgencyPresentation.vue";
 import AgencyMedia from "@/components/agency/AgencyMedia.vue";
 import WaveTop from "@/components/WaveTop.vue";
+
+import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+useHead(computed(() => ({
+  title: t('agency.seo.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('agency.seo.description')
+    }
+  ]
+})))
 </script>
 
-<style scoped>
-.slide-fade-enter-active {
-  transition: all 1s ease-out;
-}
-
-.slide-fade-leave-active {
-  transition: all 1s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  opacity: 0;
-  transform: translateY(30px);
-}
-</style>

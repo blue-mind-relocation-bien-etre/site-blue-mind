@@ -110,4 +110,20 @@
 import { ref } from "vue";
 
 const selectedPartner = ref(null);
+
+import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+useHead(computed(() => ({
+  title: t('partners.seo.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('partners.seo.description')
+    }
+  ]
+})))
 </script>

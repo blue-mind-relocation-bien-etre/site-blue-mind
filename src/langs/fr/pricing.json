@@ -13,5 +13,9 @@
         "text1": "Decouvrez les tarifs de nos prestations bien etre !",
         "text2": "N’hesitez pas à nous contacter pour plus d’informations :",
         "button": "Nous contacter"
-    }
+    },
+    "seo": {
+    "title": "Blue Mind - Nos tarifs",
+    "description": "Deamandez votre devis gratuit pour un projet de relocation ou decouvrez les tarifs de nos prestations bien etre. Nous analysons votre demande et préparons votre devis."
+  }
 }

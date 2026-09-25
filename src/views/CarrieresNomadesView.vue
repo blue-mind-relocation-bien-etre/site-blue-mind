@@ -29,12 +29,10 @@
       </div>
     </Transition>
 
-    <!-- Présentation des services (plusieurs choix, à définir) -->
+    <Presentation />
 
-    <!-- <TabNavigation />
-    <TabNavigation2 /> -->
+    <!-- Présentation des services  -->
     <ServicesNav />
-    <!-- <ServicesCards /> -->
 
     <!-- Bouton vers le devis -->
     <section ref="sectionRef">
@@ -68,12 +66,18 @@
 </template>
 
 <script setup>
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'TEST SEO EN DUR',
+  meta: [
+    { name: 'description', content: 'Ceci est un test en dur' }
+  ]
+})
 import Location from "@/components/carrieres_nomades/Location.vue";
 import MarqueEmployeur from "@/components/carrieres_nomades/MarqueEmployeur.vue";
-import ServicesCards from "@/components/carrieres_nomades/ServicesCards.vue";
-import TabNavigation from "@/components/carrieres_nomades/TabNavigation.vue";
-import TabNavigation2 from "@/components/carrieres_nomades/TabNavigation2.vue";
 import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";
+import Presentation from "@/components/carrieres_nomades/Presentation.vue";
 
 import WaveTop from "@/components/WaveTop.vue";
 import WaveBottom from "@/components/WaveBottom.vue";
@@ -96,20 +100,21 @@ useIntersectionObserver(
   },
 );
 
-import { computed } from 'vue'
-import { useHead } from '@unhead/vue'
-import { useI18n } from 'vue-i18n'
+// import { computed } from 'vue'
+// import { useHead } from '@unhead/vue'
+// import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+// const { t } = useI18n()
 
-useHead(computed(() => ({
-  title: t('carrieresNomades.seo.title'),
-  meta: [
-    {
-      name: 'description',
-      content: t('carrieresNomades.seo.description')
-    }
-  ]
-})))
+// useHead(computed(() => ({
+//   title: t('carrieresNomades.seo.title'),
+//   meta: [
+//     {
+//       name: 'description',
+//       content: t('carrieresNomades.seo.description')
+//     }
+//   ]
+// })))
+
 </script>
 

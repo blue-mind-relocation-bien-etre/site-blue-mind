@@ -11,7 +11,8 @@
       "Janzu",
       "des sensations exceptionnelles",
       "réflexologie plantaire"
-    ]
+    ],
+    "name": "Annabel martin - Practicienne"
   },
   "janzu": {
     "title": "Qu'est ce que le Janzu ?",
@@ -73,5 +74,9 @@
     ]
   },
   "pricing_text": "Vous avez envie de vous détendre et de lâcher-prise ? Découvrez les tarifs de nos prestations bien-être !",
-  "button_text": "Découvrir nos tarifs"
+  "button_text": "Découvrir nos tarifs",
+  "seo": {
+    "title": "Blue Mind - Nos prestations bien-être",
+    "description": "Blue Mind accompagne les personnes pour aller plus loin dans leur bien-être et permettre un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire."
+  }
 }

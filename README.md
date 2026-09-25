@@ -53,14 +53,6 @@ Explication des principaux dossiers spécifiques à ce projet :
 - `/src/router` : Fichier JS pour la configuration du Router.
 - `/.github/workflows`  : fichier `deploy.yml` pour l'automatisation du déploiment vers O2Switch
 
-## Variables d'environnement
-
-Le projet nécessite un fichier `.env` à la racine pour fonctionner.
-Modèle (`.env.example`) :
-
-```env
-VITE_WEB3FORMS_ACCESS_KEY=ton_access_key_ici
-```
 
 ## Gestion des traductions (vue-i18n)
 

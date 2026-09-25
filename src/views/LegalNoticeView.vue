@@ -1056,4 +1056,17 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+
+useHead(computed(() => ({
+  title: "Blue Mind - Mentions légales",
+  meta: [
+    {
+      name: 'description',
+      content: "Mentions légales du site de Blue Mind Relocation & Bien-être pour la protection des données personnelles et la conformité au RGPD."
+    }
+  ]
+})))
+</script>

@@ -25,7 +25,7 @@
             </strong>
           </i18n-t>
           <p>-</p>
-          <p>{{ $t("blueMind.presentation_2.name") }}</p>
+          <p>{{ $t("contact.details.text_name") }}</p>
         </div>
       </div>
       <div class="col-span-5 flex justify-center items-center">
@@ -35,7 +35,7 @@
           ></div>
 
           <img
-            src="@/assets/annabel-3.webp"
+            src="@/assets/annabel-4.webp"
             alt="Paysage lumineux du Finistère"
             class="w-full aspect-4/5 relative z-10 object-cover rounded-2xl shadow-xl"
           />

@@ -73,13 +73,13 @@ const messages = {
   },
 };
 
-const i18n = createI18n({
-  legacy: false,
-  globalInjection: true,
-  locale: "fr",
-  fallbackLocale: "fr",
-  messages,
-});
+// const i18n = createI18n({
+//   legacy: false,
+//   globalInjection: true,
+//   locale: "fr",
+//   fallbackLocale: "fr",
+//   messages,
+// });
 
 addIcons(
   MdKeyboardarrowdown,
@@ -100,10 +100,16 @@ addIcons(
 export const createApp = ViteSSG(
   App,
   routerOptions,
-  ({ app, router, isClient, initialState }) => {
-    // Tout ce qui faisait "app.use()" ou "app.component()" va ici
+  ({ app, router, initialState }) => {
+    const i18n = createI18n({
+      legacy: false,
+      globalInjection: true,
+      locale: "fr",
+      fallbackLocale: "fr",
+      messages,
+    });
     app.component("v-icon", OhVueIcon);
     app.component("country-flag", CountryFlag);
     app.use(i18n);
-  }
+  },
 );

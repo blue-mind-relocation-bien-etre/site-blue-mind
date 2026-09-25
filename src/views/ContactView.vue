@@ -37,5 +37,21 @@
 <script setup>
 import ContactForm from "@/contact/ContactForm.vue";
 import ContactInfo from "@/contact/ContactInfo.vue";
+
+import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+useHead(computed(() => ({
+  title: t('contact.seo.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('contact.seo.description')
+    }
+  ]
+})))
 </script>
 
