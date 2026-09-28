@@ -13,46 +13,91 @@ export const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/carrieres-nomades",
     name: "carrieres-nomades",
     component: CarrieresNomadesView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/blue-mind",
     name: "blue-mind",
     component: BlueMindView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/pricing",
     name: "pricing",
     component: PricingView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/agency",
     name: "agency",
     component: AgencyView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/our-philosophy",
     name: "our-philosophy",
     component: OurPhilosophyView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/partners",
     name: "partners",
     component: PartnersView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/contact",
     name: "contact",
     component: ContactView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
   {
     path: "/legal-notice",
     name: "legal-notice",
     component: LegalNoticeView,
+    meta: {
+      title: "Blue Mind Relocation & Bien-être",
+      description:
+        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+    },
   },
 ];
 

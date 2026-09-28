@@ -69,18 +69,6 @@
 </template>
 
 <script setup>
-import { useHead } from "@unhead/vue";
-
-useHead({
-  title: "Carrières Nomades - Relocation sur-mesure en Finistère",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Nous vous accompagnons dans chaque étape de votre mobilité géographique et de votre recherche de logement en Bretagne.",
-    },
-  ],
-});
 import Location from "@/components/carrieres_nomades/Location.vue";
 import MarqueEmployeur from "@/components/carrieres_nomades/MarqueEmployeur.vue";
 import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";

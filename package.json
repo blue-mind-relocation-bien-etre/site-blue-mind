@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build",
+    "build": "vite-ssg build && node scripts/prerender-seo.js",
     "preview": "vite preview"
   },
   "dependencies": {

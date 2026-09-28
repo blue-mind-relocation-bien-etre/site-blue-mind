@@ -96,7 +96,7 @@ addIcons(
 export const createApp = ViteSSG(
   App,
   routerOptions,
-  ({ app, router, head }) => {
+  ({ app, router, head, isClient }) => {
     const i18n = createI18n({
       legacy: false,
       globalInjection: true,
@@ -104,10 +104,25 @@ export const createApp = ViteSSG(
       fallbackLocale: "fr",
       messages,
     });
-    const headInstance = head || createHead();
     app.component("v-icon", OhVueIcon);
     app.component("country-flag", CountryFlag);
     app.use(i18n);
 
+    if (isClient) {
+      router.afterEach((to) => {
+        // Mise a jour du titre de l'onglet
+        if (to.meta.title) {
+          document.title = to.meta.title;
+        }
+
+        // Mise a jour de la balise description dans le navigateur
+        if (to.meta.description) {
+          const metaDesc = document.querySelector('meta[name="description"]');
+          if (metaDesc) {
+            metaDesc.setAttribute("content", to.meta.description);
+          }
+        }
+      });
+    }
   },
 );
