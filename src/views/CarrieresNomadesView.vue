@@ -37,7 +37,10 @@
     <!-- Bouton vers le devis -->
     <section ref="sectionRef">
       <Transition name="slide-fade">
-        <div v-show="isVisible" class="flex flex-col justify-center items-center m-5">
+        <div
+          v-show="isVisible"
+          class="flex flex-col justify-center items-center m-5"
+        >
           <h4
             class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center pb-8"
           >
@@ -66,6 +69,18 @@
 </template>
 
 <script setup>
+import { useHead } from "@unhead/vue";
+
+useHead({
+  title: "Carrières Nomades - Relocation sur-mesure en Finistère",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Nous vous accompagnons dans chaque étape de votre mobilité géographique et de votre recherche de logement en Bretagne.",
+    },
+  ],
+});
 import Location from "@/components/carrieres_nomades/Location.vue";
 import MarqueEmployeur from "@/components/carrieres_nomades/MarqueEmployeur.vue";
 import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";
@@ -92,4 +107,3 @@ useIntersectionObserver(
   },
 );
 </script>
-

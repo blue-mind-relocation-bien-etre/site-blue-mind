@@ -33,7 +33,7 @@ export default defineConfig({
     },
   },
   ssr: {
-    noExternal: ["oh-vue-icons", "@unhead/ssr", "@unhead/vue"],
+    noExternal: ["oh-vue-icons"],
   },
   build: {
     modulePreload: false,
