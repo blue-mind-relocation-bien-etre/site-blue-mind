@@ -25,12 +25,12 @@
           class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-25"
         >
           <i18n-t
-            keypath="blueMind.presentation_2.text"
+            keypath="carrieresNomades.quote.text"
             tag="p"
             class="text-slate-600 text-lg leading-relaxed text-center"
           >
             <strong
-              v-for="(mot, index) in $tm('blueMind.presentation_2.bold_words')"
+              v-for="(mot, index) in $tm('carrieresNomades.quote.bold_words')"
               :key="index"
               class="text-slate-800 font-semibold"
             >

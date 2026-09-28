@@ -47,7 +47,7 @@
             <img
               :src="$rt(partner.logo)"
               :alt="$rt(partner.name)"
-              class="h-16 mb-3 object-contain"
+              class="h-28 mb-3 object-contain"
             />
             <span class="text-xs font-semibold text-slate-600 text-center">{{
               $rt(partner.name)

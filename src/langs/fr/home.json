@@ -9,8 +9,10 @@
   "part1": {
     "title1": "Relocation & Bien-être",
     "title2": "Votre nouvelle vie en Finistère commence ici.",
-    "text": "{0} rassemble l'expertise de {1} (créé en 2015) pour simplifier l'installation de nouveaux arrivants dans le Finistère, et {2}, qui vous invite à une relaxation profonde grâce à la discipline du Janzu en piscine.",
-    "bold_words": ["Blue Mind", "Carrières Nomades", "Blue Mind Janzu & Care"],
+    "text": "{0} rassemble l'expertise de {1} (créé en 2015) pour simplifier l'installation de nouveaux arrivants dans le Finistère.",
+    "bold_words": ["Blue Mind", "Carrières Nomades"],
+    "text2": "Parallèlement, {0} vous invite à une relaxation profonde grâce aux disciplines du {1} en piscine et de la {2}.",
+    "bold_words2": ["Blue Mind Janzu & Care", "Janzu", "réflexologie plantaire"],
     "button1": "Découvrir Blue Mind",
     "button2": "Découvrir Carrières Nomades"
   },

@@ -9,7 +9,7 @@
         v-show="isVisible"
         class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center"
       >
-        <div class="lg:col-span-7 space-y-6">
+        <div class="lg:col-span-7 space-y-4">
           <span class="font-corinthia text-5xl text-secondary block">
             {{ $t("home.part1.title1") }}
           </span>
@@ -25,6 +25,19 @@
           >
             <strong
               v-for="(mot, index) in $tm('home.part1.bold_words')"
+              :key="index"
+              class="text-slate-800 font-semibold"
+            >
+              {{ $rt(mot) }}
+            </strong>
+          </i18n-t>
+          <i18n-t
+            keypath="home.part1.text2"
+            tag="p"
+            class="text-slate-600 text-lg leading-relaxed text-justify"
+          >
+            <strong
+              v-for="(mot, index) in $tm('home.part1.bold_words2')"
               :key="index"
               class="text-slate-800 font-semibold"
             >

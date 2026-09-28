@@ -3,10 +3,16 @@
     "title1": "Carrières Nomades Relocation",
     "title2": "Discover our services",
     "text": "We support you at every stage of your {0}. Take advantage of {1} to {2} your professional and geographic transition.",
+    "bold_words": ["geographic mobility", "tailor-made solutions", "facilitate"]
+  },
+  "quote": {
+    "text": "I have always worked in relationship-driven fields, often within the service sector. Eager above all to be {0} and to {1}. At 40, I founded {2}, strongly convinced of the value of my Breton experience and the {3} I had chosen. {4} has so much to offer and, more than ever, attracts people from all across France and the world.",
     "bold_words": [
-      "geographic mobility",
-      "tailor-made solutions",
-      "facilitate"
+      "useful",
+      "cultivate happiness",
+      "Carrières Nomades",
+      "assets of the region",
+      "Brittany"
     ]
   },
   "services": {

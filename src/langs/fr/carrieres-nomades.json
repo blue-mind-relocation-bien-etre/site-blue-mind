@@ -9,6 +9,16 @@
       "faciliter votre transition"
     ]
   },
+  "quote": {
+    "text": "J’ai toujours travaillé dans le domaine relationnel et souvent dans la prestation de service. Désireuse d’être {0} avant tout et de {1}. A 40 ans j’ai créé {2} convaincue du bien fondé de mon expérience Bretonne et des {3} que j’ai choisi. La {4} a plein d’atouts et elle attire plus que jamais des habitants de toute la France, et du monde entier.",
+    "bold_words": [
+      "utile",
+      "cultiver du  bonheur",
+      "Carrières Nomades",
+      "atouts du territoire",
+      "Bretagne"
+    ]
+  },
   "services": {
     "housing": {
       "title": "Votre logement",

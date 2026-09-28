@@ -13,13 +13,18 @@
           class="absolute -inset-4 bg-linear-to-tr from-blue-100 to-slate-100 rounded-3xl -z-10 transform rotate-1"
         ></div>
         <p
-          class="text-slate-600 text-lg leading-relaxed tracking-tight text-justify p-4"
+          class="text-slate-800 text-lg leading-relaxed tracking-tight text-justify px-4 pb-3"
         >
           {{ $t("agency.presentation.text") }}
         </p>
+        <p
+          class="text-slate-800 text-lg leading-relaxed tracking-tight text-justify px-4"
+        >
+          {{ $t("agency.presentation.text2") }}
+        </p>
       </div>
       <div class="lg:col-span-5 mx-auto relative">
-        <img src="@/assets/annabel-2.webp" alt="" class="rounded-2xl h-80" />
+        <img src="@/assets/annabel-2.webp" alt="Photo de Annabel Martin" class="rounded-2xl w-70 h-70 object-cover object-top" />
         <p
           class="absolute top-full w-full text-center font-corinthia text-4xl mt-2"
         >
