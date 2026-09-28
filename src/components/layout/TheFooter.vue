@@ -17,25 +17,6 @@
         />
         <div class="flex flex-col gap-2 mt-2">
           <div class="gap-1">
-            <h2 class="text-slate-100 font-bold">Blue Mind</h2>
-            <!-- Email -->
-            <a
-              href="mailto:anna.janzu@gmail.com"
-              class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
-            >
-              <span>anna.janzu@gmail.com</span>
-            </a>
-
-            <!-- Téléphone -->
-            <a
-              href="tel:+3312854447"
-              class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
-            >
-              <span>+33 6 12 85 44 47</span>
-            </a>
-          </div>
-
-          <div class="gap-1">
             <h2 class="text-slate-100 font-bold">Carrières Nomades</h2>
             <!-- Email -->
             <a
@@ -51,6 +32,25 @@
               class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
             >
               <span>+33 6 37 76 90 23</span>
+            </a>
+          </div>
+
+          <div class="gap-1">
+            <h2 class="text-slate-100 font-bold">Blue Mind</h2>
+            <!-- Email -->
+            <a
+              href="mailto:anna.janzu@gmail.com"
+              class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
+            >
+              <span>anna.janzu@gmail.com</span>
+            </a>
+
+            <!-- Téléphone -->
+            <a
+              href="tel:+3312854447"
+              class="text-slate-100 flex items-center gap-3 hover:text-slate-300 transition duration-200"
+            >
+              <span>+33 6 12 85 44 47</span>
             </a>
           </div>
         </div>

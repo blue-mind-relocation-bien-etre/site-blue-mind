@@ -1,6 +1,11 @@
 <template>
-  <section class="mt-10">
-    <div class="grid grid-cols-1 lg:grid-cols-5 mb-10">
+  <section class="mt-10" ref="sectionRef">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-5 mb-10 transition-all duration-1000 ease-out transform"
+      :class="
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+      "
+    >
       <div class="col-span-3">
         <h2
           class="font-corinthia text-5xl text-secondary tracking-tight leading-tight text-center"
@@ -119,4 +124,22 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import { useIntersectionObserver } from "@vueuse/core";
+
+const sectionRef = ref(null);
+const isVisible = ref(false);
+
+useIntersectionObserver(
+  sectionRef,
+  ([{ isIntersecting }]) => {
+    if (isIntersecting) {
+      isVisible.value = true;
+    }
+  },
+  {
+    threshold: 0.4,
+  },
+);
+</script>

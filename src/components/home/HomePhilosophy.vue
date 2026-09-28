@@ -46,16 +46,16 @@
           </i18n-t>
           <div class="pt-4 flex flex-wrap items-center gap-4">
             <RouterLink
-              to="/blue-mind"
+              to="/carrieres-nomades"
               class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"
             >
-              {{ $t("home.part1.button1") }}
+              {{ $t("home.part1.button2") }}
             </RouterLink>
             <RouterLink
-              to="/carrieres-nomades"
+              to="/blue-mind"
               class="px-7 py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium rounded-xl transition duration-200"
             >
-              {{ $t("home.part1.button2") }}
+              {{ $t("home.part1.button1") }}
             </RouterLink>
           </div>
         </div>

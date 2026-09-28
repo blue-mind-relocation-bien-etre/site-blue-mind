@@ -1,26 +1,30 @@
 <template>
   <div class="relative pt-36 mb-10">
-    <h2
-      class="text-2xl lg:text-3xl font-bold text-slate-800 tracking-tight leading-tight text-center mb-5"
-    >
-      {{ $t("pricing.free_quote.title") }}
-    </h2>
-    <h3
-      class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-5"
-    >
-      {{ $t("pricing.free_quote.subtitle") }}
-    </h3>
+    <Transition appear name="slide-fade">
+      <div>
+        <h2
+          class="text-2xl lg:text-3xl font-bold text-slate-800 tracking-tight leading-tight text-center mb-5"
+        >
+          {{ $t("pricing.free_quote.title") }}
+        </h2>
+        <h3
+          class="text-lg text-slate-600 tracking-tight leading-tight text-center mb-5"
+        >
+          {{ $t("pricing.free_quote.subtitle") }}
+        </h3>
 
-    <ul
-      class="list-disc list-inside text-lg text-slate-600 tracking-tight leading-tight text-center space-y-2 mb-10"
-    >
-      <li
-        v-for="(item, itemIndex) in $tm('pricing.free_quote.text')"
-        :key="itemIndex"
-      >
-        {{ $rt(item) }}
-      </li>
-    </ul>
+        <ul
+          class="list-disc list-inside text-lg text-slate-600 tracking-tight leading-tight text-center space-y-2 mb-10"
+        >
+          <li
+            v-for="(item, itemIndex) in $tm('pricing.free_quote.text')"
+            :key="itemIndex"
+          >
+            {{ $rt(item) }}
+          </li>
+        </ul>
+      </div>
+    </Transition>
 
     <ContactForm
       :formType="$t('pricing.form.title')"
