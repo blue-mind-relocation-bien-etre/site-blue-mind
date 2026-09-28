@@ -24,9 +24,9 @@ export const routes = [
     name: "carrieres-nomades",
     component: CarrieresNomadesView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Carières Nomades Relocation",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Carrières Nomades by Blue Mind vous accompagne dans votre mobilité géographique et votre installation en France. Découvrez nos services sur-mesure pour faciliter votre transition et celle de votre famille.",
     },
   },
   {
