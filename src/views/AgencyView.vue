@@ -37,21 +37,5 @@
 <script setup>
 import AgencyTimeline from "@/components/agency/AgencyTimeline.vue";
 import AgencyPresentation from "@/components/agency/AgencyPresentation.vue";
-
-import { computed } from 'vue'
-import { useHead } from '@unhead/vue'
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-
-useHead(computed(() => ({
-  title: t('agency.seo.title'),
-  meta: [
-    {
-      name: 'description',
-      content: t('agency.seo.description')
-    }
-  ]
-})))
 </script>
 

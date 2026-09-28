@@ -66,14 +66,6 @@
 </template>
 
 <script setup>
-import { useHead } from '@unhead/vue'
-
-useHead({
-  title: 'TEST SEO EN DUR',
-  meta: [
-    { name: 'description', content: 'Ceci est un test en dur' }
-  ]
-})
 import Location from "@/components/carrieres_nomades/Location.vue";
 import MarqueEmployeur from "@/components/carrieres_nomades/MarqueEmployeur.vue";
 import ServicesNav from "@/components/carrieres_nomades/ServicesNav.vue";
@@ -99,22 +91,5 @@ useIntersectionObserver(
     threshold: 0.25,
   },
 );
-
-// import { computed } from 'vue'
-// import { useHead } from '@unhead/vue'
-// import { useI18n } from 'vue-i18n'
-
-// const { t } = useI18n()
-
-// useHead(computed(() => ({
-//   title: t('carrieresNomades.seo.title'),
-//   meta: [
-//     {
-//       name: 'description',
-//       content: t('carrieresNomades.seo.description')
-//     }
-//   ]
-// })))
-
 </script>
 

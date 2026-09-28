@@ -14,7 +14,7 @@ export default defineConfig({
     tailwindcss(),
     Sitemap({
       hostname: "https://www.dev.carrieresnomades.com",
-      exclude: ['/index.html', '/index'],
+      exclude: ["/index.html", "/index"],
       dynamicRoutes: [
         "/carrieres-nomades",
         "/blue-mind",
@@ -37,5 +37,9 @@ export default defineConfig({
   },
   build: {
     modulePreload: false,
+  },
+  ssgOptions: {
+    dirStyle: "nested",
+    mockUnhead: true,
   },
 });

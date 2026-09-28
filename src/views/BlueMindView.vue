@@ -49,24 +49,6 @@ import BlueMindPresentation from "@/components/blue_mind/BlueMindPresentation.vu
 import BlueMindJanzu from "@/components/blue_mind/BlueMindJanzu.vue";
 import BlueMindReflexologie from "@/components/blue_mind/BlueMindReflexologie.vue";
 
-import { computed } from "vue";
-import { useHead } from "@unhead/vue";
-import { useI18n } from "vue-i18n";
-
-const { t } = useI18n();
-
-useHead(
-  computed(() => ({
-    title: t("blueMind.seo.title"),
-    meta: [
-      {
-        name: "description",
-        content: t("blueMind.seo.description"),
-      },
-    ],
-  })),
-);
-
 import { ref } from "vue";
 import { useIntersectionObserver } from "@vueuse/core";
 

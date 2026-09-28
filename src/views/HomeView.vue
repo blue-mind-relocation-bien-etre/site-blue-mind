@@ -7,22 +7,6 @@ import HomeRegion from "@/components/home/HomeRegion.vue";
 
 import WaveBottom from "@/components/WaveBottom.vue";
 import WaveTop from "@/components/WaveTop.vue";
-
-import { computed } from 'vue'
-import { useHead } from '@unhead/vue'
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-
-useHead(computed(() => ({
-  title: t('home.seo.title'),
-  meta: [
-    {
-      name: 'description',
-      content: t('home.seo.description')
-    }
-  ]
-})))
 </script>
 
 <template>

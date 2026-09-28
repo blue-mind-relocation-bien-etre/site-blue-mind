@@ -96,7 +96,7 @@ addIcons(
 export const createApp = ViteSSG(
   App,
   routerOptions,
-  ({ app, router, initialState }) => {
+  ({ app, router, initialState, head, onSSRAppRendered }) => {
     const i18n = createI18n({
       legacy: false,
       globalInjection: true,
@@ -107,5 +107,26 @@ export const createApp = ViteSSG(
     app.component("v-icon", OhVueIcon);
     app.component("country-flag", CountryFlag);
     app.use(i18n);
+
+    router.beforeEach((to, from, next) => {
+      // Si la route contient un titre et une description dans ses metas
+      if (to.meta.title && to.meta.description && head) {
+        head.push({
+          title: to.meta.title,
+          meta: [{ name: "description", content: to.meta.description }],
+        });
+      }
+      next();
+    });
+
+    // if (import.meta.env.SSR) {
+    //   onSSRAppRendered(async () => {
+    //     if (head) {
+    //       const payload = await head.render();
+    //       // L'injection forcée dans l'état initial
+    //       initialState.head = payload.headTags;
+    //     }
+    //   });
+    // }
   },
 );
