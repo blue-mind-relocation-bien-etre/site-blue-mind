@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto px-6 py-15 lg:py-20 shadow-xl">
     <div class="flex flex-col justify-center items-center">
-      <div class="flex justify-center items-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-30">
         <div class="relative">
           <div
             class="absolute -inset-4 bg-linear-to-tr from-blue-100 to-slate-100 rounded-3xl -z-10 transform rotate-2"
@@ -13,6 +13,9 @@
             class="w-full h-85 relative z-10 object-cover rounded-2xl shadow-xl"
           />
         </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="@/assets/logo-carrieres-nomades.webp" alt="">
+        </div>
       </div>
       <div class="relative mt-20">
         <div
@@ -22,7 +25,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-25"
+          class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-5 md:mx-25"
         >
           <i18n-t
             keypath="carrieresNomades.quote.text"

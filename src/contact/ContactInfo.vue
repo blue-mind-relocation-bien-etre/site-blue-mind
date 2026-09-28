@@ -71,7 +71,7 @@
     </h5>
     <div class="grid grid-cols-2 text-secondary text-center m-10">
       <a
-        href="https://www.linkedin.com/company/carrieresnomades/posts/?feedView=all"
+        href="https://www.linkedin.com/company/carrieresnomades/"
         target="_blank"
       >
         <v-icon name="bi-linkedin" scale="3"></v-icon>

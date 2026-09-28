@@ -1,3 +1,27 @@
 {
-    
+  "title": "Our philosophy",
+  "title2": "Water at the heart of our lives",
+  "part1": {
+    "title": "The science of Blue Mind",
+    "text1": "At {0}, we believe that the meaning of life lies in a profound alignment between our surroundings and our inner peace. Inspired by the science of 'Blue Mind', we place {1} as the ultimate source of regeneration.",
+    "bold_words1": [
+      "Blue Mind Relocation & Bien-être",
+      "water at the core of every life transition"
+    ],
+    "text2": " Settling near the ocean, a lake, or a waterway is more than just a change of address—it is a true therapeutic rebirth. The aquatic element acts as a natural catalyst that {0}.",
+    "bold_words2": ["releases stress, soothes the mind, and enhances mental clarity"],
+    "text3": "In guiding you toward your new living environment, our mission goes far beyond logistics: we co-create your future wellness ecosystem. This blue grounding fosters {0}, turning the relocation journey into a path toward oneself. Together, let us redefine your daily life so that every waterscape reflects your newfound serenity.",
+    "bold_words3": ["long-lasting physical and mental well-being"]
+  },
+  "part2": {
+    "title": "Welcoming newcomers",
+    "text1": "Once you are settled in {0}, our role extends to helping you ground your new life. We are passionate about helping you discover our coastal {1} and inviting you to our {2}.",
+    "bold_words1": [
+      "Finistère",
+      "wellness spots",
+      "newcomer events"
+    ],
+    "text2": "These shared moments and local connections bring your journey full circle: you are not just living in a place, you are becoming part of a {0}.",
+    "bold_words2": ["community"]
+  }
 }

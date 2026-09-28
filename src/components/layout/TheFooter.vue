@@ -138,7 +138,7 @@
 
       <div class="flex justify-center gap-5">
         <a
-          href="https://www.linkedin.com/company/carrieresnomades/posts/?feedView=all"
+          href="https://www.linkedin.com/company/carrieresnomades/"
           target="_blank"
         >
           <v-icon name="bi-linkedin" scale="1.5"></v-icon>

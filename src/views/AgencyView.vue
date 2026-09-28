@@ -6,11 +6,11 @@
         <span class="font-corinthia text-5xl text-secondary block text-center">
           {{ $t("agency.corinthia_word") }}
         </span>
-        <h2
+        <h1
           class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
         >
           {{ $t("agency.title1") }}
-        </h2>
+        </h1>
       </div>
     </Transition>
 

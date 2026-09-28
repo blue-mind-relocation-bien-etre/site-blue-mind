@@ -2,11 +2,11 @@
   <section class="mt-10">
     <div class="grid grid-cols-1 lg:grid-cols-5 mb-10">
       <div class="col-span-3">
-        <h1
+        <h2
           class="font-corinthia text-5xl text-secondary tracking-tight leading-tight text-center"
         >
           {{ $t("blueMind.janzu.title") }}
-        </h1>
+        </h2>
         <hr
           class="w-75 h-[1.5px] mx-auto my-4 bg-secondary border-0 rounded-full"
         />
