@@ -93,36 +93,30 @@ addIcons(
   RiDoubleQuotesR,
 );
 
-export const createApp = ViteSSG(
-  App,
-  routerOptions,
-  ({ app, router, head, isClient }) => {
-    const i18n = createI18n({
-      legacy: false,
-      globalInjection: true,
-      locale: "fr",
-      fallbackLocale: "fr",
-      messages,
+export const createApp = ViteSSG(App, routerOptions, ({ app, router }) => {
+  const i18n = createI18n({
+    legacy: false,
+    globalInjection: true,
+    locale: "fr",
+    fallbackLocale: "fr",
+    messages,
+  });
+  app.component("v-icon", OhVueIcon);
+  app.component("country-flag", CountryFlag);
+  app.use(i18n);
+
+  if (!import.meta.env.SSR) {
+    router.afterEach((to) => {
+      if (to.meta.title) {
+        document.title = to.meta.title;
+      }
+
+      if (to.meta.description) {
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) {
+          metaDesc.setAttribute("content", to.meta.description);
+        }
+      }
     });
-    app.component("v-icon", OhVueIcon);
-    app.component("country-flag", CountryFlag);
-    app.use(i18n);
-
-    if (isClient) {
-      router.afterEach((to) => {
-        // Mise a jour du titre de l'onglet
-        if (to.meta.title) {
-          document.title = to.meta.title;
-        }
-
-        // Mise a jour de la balise description dans le navigateur
-        if (to.meta.description) {
-          const metaDesc = document.querySelector('meta[name="description"]');
-          if (metaDesc) {
-            metaDesc.setAttribute("content", to.meta.description);
-          }
-        }
-      });
-    }
-  },
-);
+  }
+});
