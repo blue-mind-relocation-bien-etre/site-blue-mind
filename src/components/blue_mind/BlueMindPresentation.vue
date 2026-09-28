@@ -57,7 +57,7 @@
     </div>
     <div class="flex flex-col justify-center items-center mt-20">
       <p class="text-sm text-slate-600">
-        Photo : Geraldine Cabon - Exploratrice Terre Océane
+        Photo : Geraldine Cabon - Exploratrice Terres Océanes
       </p>
     </div>
   </section>

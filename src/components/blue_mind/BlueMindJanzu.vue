@@ -72,7 +72,7 @@
         <img
           src="@/assets/logo_janzu.webp"
           alt="logo école janzu"
-          class="h-100 object-cover"
+          class="h-65 object-cover"
         />
       </div>
     </div>

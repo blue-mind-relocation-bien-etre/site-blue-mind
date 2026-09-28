@@ -65,7 +65,7 @@
           ></div>
 
           <img
-            src="@/assets/finistere.webp"
+            src="@/assets/accueil-arrivants.webp"
             alt="Paysage du Finistère"
             class="w-full h-100 object-cover rounded-2xl shadow-xl"
           />

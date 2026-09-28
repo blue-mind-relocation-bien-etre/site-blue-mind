@@ -27,7 +27,7 @@
 
     <section>
       <div class="flex flex-col justify-center items-center mt-20 mb-1">
-        <p class="text-sm text-slate-600">Photo : Franck Betermin - Brest métropole</p>
+        <p class="text-sm text-slate-600">Photo : Franck Betermin pour Brest métropole</p>
       </div>
     </section>
 
