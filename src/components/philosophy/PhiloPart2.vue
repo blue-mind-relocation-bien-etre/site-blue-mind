@@ -1,7 +1,7 @@
 <template>
   <section class="mt-15 pb-8">
     <div class="grid grid-cols-1 lg:grid-cols-5 mb-10">
-      <div class="flex flex-col justify-center items-center col-span-2 mt-15">
+      <div class="flex flex-col justify-center items-center col-span-2 mt-15 order-last lg:order-0">
         <div class="relative w-70 h-70">
           <div
             class="absolute bg-slate-200 -inset-x-4 -top-4 -bottom-4 z-0 transform rotate-2"
@@ -12,6 +12,9 @@
             alt="brest1"
             class="relative w-full h-full z-10 aspect-square object-cover"
           />
+        </div>
+        <div class="mt-7">
+          <p class="text-slate-800 font-medium text-center italic leading-relaxed tracking-tight">{{ $t("philosophy.part2.image_text") }}</p>
         </div>
       </div>
 
