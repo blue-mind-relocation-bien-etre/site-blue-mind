@@ -1,12 +1,4 @@
 import HomeView from "@/views/HomeView.vue";
-import CarrieresNomadesView from "@/views/CarrieresNomadesView.vue";
-import BlueMindView from "@/views/BlueMindView.vue";
-import PricingView from "@/views/PricingView.vue";
-import AgencyView from "@/views/AgencyView.vue";
-import OurPhilosophyView from "@/views/OurPhilosophyView.vue";
-import PartnersView from "@/views/PartnersView.vue";
-import ContactView from "@/views/ContactView.vue";
-import LegalNoticeView from "@/views/LegalNoticeView.vue";
 
 export const routes = [
   {
@@ -22,7 +14,7 @@ export const routes = [
   {
     path: "/carrieres-nomades",
     name: "carrieres-nomades",
-    component: CarrieresNomadesView,
+    component: () => import("@/views/CarrieresNomadesView.vue"),
     meta: {
       title: "Carières Nomades Relocation",
       description:
@@ -32,7 +24,7 @@ export const routes = [
   {
     path: "/blue-mind",
     name: "blue-mind",
-    component: BlueMindView,
+    component: () => import("@/views/BlueMindView.vue"),
     meta: {
       title: "Blue Mind - Nos prestations bien-être",
       description:
@@ -42,7 +34,7 @@ export const routes = [
   {
     path: "/pricing",
     name: "pricing",
-    component: PricingView,
+    component: () => import("@/views/PricingView.vue"),
     meta: {
       title: "Blue Mind - Nos tarifs",
       description:
@@ -52,7 +44,7 @@ export const routes = [
   {
     path: "/agency",
     name: "agency",
-    component: AgencyView,
+    component: () => import("@/views/AgencyView.vue"),
     meta: {
       title: "Blue Mind - Notre agence",
       description:
@@ -62,7 +54,7 @@ export const routes = [
   {
     path: "/our-philosophy",
     name: "our-philosophy",
-    component: OurPhilosophyView,
+    component: () => import("@/views/OurPhilosophyView.vue"),
     meta: {
       title: "Blue Mind - Notre Philosophie",
       description:
@@ -72,7 +64,7 @@ export const routes = [
   {
     path: "/partners",
     name: "partners",
-    component: PartnersView,
+    component: () => import("@/views/PartnersView.vue"),
     meta: {
       title: "Blue Mind - Nos Partenaires",
       description:
@@ -82,7 +74,7 @@ export const routes = [
   {
     path: "/contact",
     name: "contact",
-    component: ContactView,
+    component: () => import("@/views/ContactView.vue"),
     meta: {
       title: "Blue Mind - Contact",
       description:
@@ -92,7 +84,7 @@ export const routes = [
   {
     path: "/legal-notice",
     name: "legal-notice",
-    component: LegalNoticeView,
+    component: () => import("@/views/LegalNoticeView.vue"),
     meta: {
       title: "Blue Mind - Mentions Legales",
       description:

@@ -140,12 +140,14 @@
         <a
           href="https://www.linkedin.com/company/carrieresnomades/"
           target="_blank"
+          aria-label="LinkedIn"
         >
           <v-icon name="bi-linkedin" scale="1.5"></v-icon>
         </a>
         <a
           href="https://www.instagram.com/carrieresnomades/?hl=fr"
           target="_blank"
+          aria-label="Instagram"
         >
           <v-icon name="bi-instagram" scale="1.5"></v-icon>
         </a>

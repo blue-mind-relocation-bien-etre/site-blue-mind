@@ -6,7 +6,7 @@
       >
         {{ $t("carrieresNomades.city_part.title") }}
       </h2>
-      <h4
+      <h3
         class="text-xl font-semibold text-slate-100 tracking-tight leading-tight flex flex-col md:flex-row items-center justify-center md:gap-2"
       >
         <span class="mb-2 md:mb-0">
@@ -17,7 +17,7 @@
           <TypingCities />
           <span> ?</span>
         </span>
-      </h4>
+      </h3>
 
       <!-- Grille pour texte + image -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-4">

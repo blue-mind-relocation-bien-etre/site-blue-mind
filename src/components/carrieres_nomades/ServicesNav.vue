@@ -8,9 +8,9 @@
           isVisible1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         "
       >
-        <h3 class="text-secondary font-corinthia text-5xl text-center">
+        <h2 class="text-secondary font-corinthia text-5xl text-center">
           {{ $t("carrieresNomades.services.housing.title") }}
-        </h3>
+        </h2>
         <hr
           class="w-75 h-[1.5px] mx-auto my-4 bg-secondary border-0 rounded-full"
         />
@@ -23,9 +23,9 @@
           )"
           :key="sectionIndex"
         >
-          <h4 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
+          <h3 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
             {{ $rt(section.subtitle) }}
-          </h4>
+          </h3>
           <ul
             class="list-none list-inside text-slate-800 space-y-2 text-justify"
           >
@@ -65,9 +65,9 @@
           isVisible2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         "
       >
-        <h3 class="text-secondary font-corinthia text-5xl text-center">
+        <h2 class="text-secondary font-corinthia text-5xl text-center">
           {{ $t("carrieresNomades.services.installation.title") }}
-        </h3>
+        </h2>
         <hr
           class="w-75 h-[1.5px] mx-auto my-4 bg-secondary border-0 rounded-full"
         />
@@ -80,9 +80,9 @@
           )"
           :key="sectionIndex"
         >
-          <h4 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
+          <h3 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
             {{ $rt(section.subtitle) }}
-          </h4>
+          </h3>
           <ul
             class="list-none list-inside text-slate-800 space-y-2 text-justify"
           >
@@ -109,9 +109,9 @@
           isVisible3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         "
       >
-        <h3 class="text-secondary font-corinthia text-5xl text-center">
+        <h2 class="text-secondary font-corinthia text-5xl text-center">
           {{ $t("carrieresNomades.services.procedures.title") }}
-        </h3>
+        </h2>
         <hr
           class="w-75 h-[1.5px] mx-auto my-4 bg-secondary border-0 rounded-full"
         />
@@ -124,9 +124,9 @@
           )"
           :key="sectionIndex"
         >
-          <h4 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
+          <h3 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
             {{ $rt(section.subtitle) }}
-          </h4>
+          </h3>
           <ul
             class="list-none list-inside text-slate-800 space-y-2 text-justify"
           >
@@ -167,9 +167,9 @@
           isVisible4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         "
       >
-        <h3 class="text-secondary font-corinthia text-5xl text-center">
+        <h2 class="text-secondary font-corinthia text-5xl text-center">
           {{ $t("carrieresNomades.services.family.title") }}
-        </h3>
+        </h2>
         <hr
           class="w-75 h-[1.5px] mx-auto my-4 bg-secondary border-0 rounded-full"
         />
@@ -182,9 +182,9 @@
           )"
           :key="sectionIndex"
         >
-          <h4 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
+          <h3 v-if="section.subtitle" class="font-bold text-slate-800 m-2">
             {{ $rt(section.subtitle) }}
-          </h4>
+          </h3>
           <ul
             class="list-none list-inside text-slate-800 space-y-2 text-justify"
           >
@@ -206,7 +206,7 @@
 <script setup>
 import imageMaison from "@/assets/maison_couleur.jpg";
 import imageBoxes from "@/assets/boxes.jpg";
-import imageDemarches from "@/assets/demarches.jpg";
+import imageDemarches from "@/assets/demarches.webp";
 import imageFamille from "@/assets/famille.jpg";
 
 import { ref } from "vue";
