@@ -6,11 +6,11 @@
         <span class="font-corinthia text-5xl text-secondary block text-center p-1">
           {{ $t("carrieresNomades.presentation.title1") }}
         </span>
-        <h2
+        <h1
           class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
         >
           {{ $t("carrieresNomades.presentation.title2") }}
-        </h2>
+        </h1>
         <i18n-t
           keypath="carrieresNomades.presentation.text"
           tag="p"
