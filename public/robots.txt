@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-Sitemap: https://www.dev.carrieresnomades.com/sitemap.xml 
+Sitemap: https://www.carrieresnomades.com/sitemap.xml 

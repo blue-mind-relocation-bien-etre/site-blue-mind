@@ -223,7 +223,7 @@ const props = defineProps({
   },
 });
 
-const WEB3FORMS_ACCESS_KEY = "7ee16302-8b74-4f6c-a342-d2e161e929ac";
+const WEB3FORMS_ACCESS_KEY = "78ff946e-07b3-4814-bdea-89d129c630f4";
 
 const prenom = ref("");
 const nom = ref("");

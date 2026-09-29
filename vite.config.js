@@ -13,7 +13,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
     Sitemap({
-      hostname: "https://www.dev.carrieresnomades.com",
+      hostname: "https://www.carrieresnomades.com",
       exclude: ["/index.html", "/index"],
       dynamicRoutes: [
         "/carrieres-nomades",

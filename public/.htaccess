@@ -1,3 +1,46 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Redirections 301
+
+# Pages francaises
+Redirect 301 /service-de-relocation https://carrieresnomades.com/carrieres-nomades
+Redirect 301 /demenagement https://carrieresnomades.com/carrieres-nomades
+Redirect 301 /demenagement-2 https://carrieresnomades.com/carrieres-nomades
+Redirect 301 /marque-employeur https://carrieresnomades.com/carrieres-nomades
+
+Redirect 301 /devis-gratuit https://carrieresnomades.com/pricing
+
+Redirect 301 /notre-agence https://carrieresnomades.com/agency
+
+Redirect 301 /nos-engagements https://carrieresnomades.com/our-philosophy
+
+Redirect 301 /les-coups-de-coeur-de-lequipe https://carrieresnomades.com/partners
+
+Redirect 301 /events/liste https://carrieresnomades.com
+Redirect 301 /event/afterworks-nouveaux-arrivants https://carrieresnomades.com
+Redirect 301 /events https://carrieresnomades.com
+
+Redirect 301 /mentions-legales https://carrieresnomades.com/legal-notice
+
+# Pages anglaises
+Redirect 301 /en/home-your-expert-in-mobility-2 https://carrieresnomades.com
+
+Redirect 301 /en/relocation-services https://carrieresnomades.com/carrieres-nomades
+Redirect 301 /en/moving https://carrieresnomades.com/carrieres-nomades
+Redirect 301 /en/employer-brand https://carrieresnomades.com/carrieres-nomades
+
+Redirect 301 /en/free-quote https://carrieresnomades.com/pricing
+
+Redirect 301 /en/our-agency-our-team https://carrieresnomades.com/agency
+
+Redirect 301 /en/our-commitments https://carrieresnomades.com/our-philosophy
+
+Redirect 301 /en/the-teams-favorite https://carrieresnomades.com/partners
+
+Redirect 301 /en/contact-2 https://carrieresnomades.com/contact
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
