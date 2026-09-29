@@ -17,7 +17,7 @@
         </h3>
         <div class="text-slate-600 flex flex-col gap-4">
           <a
-            href="tel:+3337769023"
+            href="tel:+33637769023"
             class="flex items-center justify-center gap-2 hover:font-semibold transition duration-200"
           >
             <v-icon name="bi-telephone-fill"></v-icon>
@@ -41,7 +41,7 @@
         </h3>
         <div class="text-slate-600 flex flex-col gap-4">
           <a
-            href="tel:+3312854447"
+            href="tel:+33612854447"
             class="flex items-center justify-center gap-2 hover:font-semibold transition duration-200"
           >
             <v-icon name="bi-telephone-fill"></v-icon>
