@@ -9,8 +9,8 @@
         "message_text": "Decrivez votre projet :"
     },
     "janzu": {
-        "title": "Envie de vous detendre et de lacher prise ?",
-        "text1": "Decouvrez les tarifs de nos prestations bien etre !",
+        "title": "Envie de vous detendre et de lâcher-prise ?",
+        "text1": "Decouvrez les tarifs de nos prestations bien-être !",
         "text2": "N’hesitez pas à nous contacter pour plus d’informations :",
         "button": "Nous contacter"
     },
@@ -21,9 +21,5 @@
         "janzu": "Séance de Janzu",
         "foot": "Réflexologie plantaire"
     },
-    "gift_text":"Vous souhaitez offrir une de nos prestations ? Nous vous proposons des bons et coffrets cadeaux avec les produits de notre partenaire ",
-    "seo": {
-    "title": "Blue Mind - Nos tarifs",
-    "description": "Demandez votre devis gratuit pour un projet de relocation ou decouvrez les tarifs de nos prestations bien etre. Nous analysons votre demande et préparons votre devis."
-  }
+    "gift_text":"Vous souhaitez offrir une de nos prestations ? Nous vous proposons des bons et coffrets cadeaux avec les produits de notre partenaire "
 }
