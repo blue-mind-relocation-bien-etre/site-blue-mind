@@ -28,10 +28,10 @@
           <div
             class="w-full bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8"
           >
-            <h3 class="text-lg md:text-xl font-bold text-slate-800 mb-4">
+            <h2 class="text-lg md:text-xl font-bold text-slate-800 mb-4">
               <span class="text-secondary">2015 :</span>
               {{ $t("agency.timeline.block1.title") }}
-            </h3>
+            </h2>
 
             <i18n-t
               keypath="agency.timeline.block1.text"
@@ -74,10 +74,10 @@
           <div
             class="w-full bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8"
           >
-            <h3 class="text-lg md:text-xl font-bold text-slate-800 mb-4">
+            <h2 class="text-lg md:text-xl font-bold text-slate-800 mb-4">
               <span class="text-secondary">2025 :</span>
               {{ $t("agency.timeline.block2.title") }}
-            </h3>
+            </h2>
 
             <i18n-t
               keypath="agency.timeline.block2.text"

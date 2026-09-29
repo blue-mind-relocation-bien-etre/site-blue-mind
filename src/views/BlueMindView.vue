@@ -6,11 +6,11 @@
         <span class="font-corinthia text-5xl text-secondary block text-center">
           {{ $t("blueMind.presentation.title1") }}
         </span>
-        <h2
+        <h1
           class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
         >
           {{ $t("blueMind.presentation.title2") }}
-        </h2>
+        </h1>
       </div>
     </Transition>
 
@@ -26,11 +26,11 @@
           v-show="isVisible"
           class="flex flex-col justify-center items-center m-5"
         >
-          <h4
+          <h3
             class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center pb-8"
           >
             {{ $t("blueMind.pricing_text") }}
-          </h4>
+          </h3>
           <RouterLink
             to="/pricing"
             class="px-7 py-3.5 bg-secondary hover:bg-blue-700 text-slate-100 font-medium text-xl rounded-xl shadow-lg shadow-blue-600/20 transition duration-200"

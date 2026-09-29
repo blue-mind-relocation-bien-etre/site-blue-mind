@@ -9,7 +9,7 @@
 
           <img
             src="@/assets/event-arrivants.webp"
-            alt="brest1"
+            alt="Evenements d'accueil des arrivants à Brest"
             class="relative w-full h-full z-10 aspect-square object-cover"
           />
         </div>

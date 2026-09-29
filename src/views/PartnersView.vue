@@ -3,11 +3,11 @@
     <!-- En-tête de la page -->
     <Transition appear name="slide-fade">
       <div class="flex flex-col justify-center items-center pt-36 gap-5">
-        <h2
+        <h1
           class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
         >
           {{ $t("partners.title") }}
-        </h2>
+        </h1>
         <i18n-t
           keypath="partners.text"
           tag="p"
@@ -82,7 +82,7 @@
             </button>
             <img
               :src="$rt(selectedPartner.logo)"
-              class="h-20 object-contain mb-6 mx-auto"
+              class="h-20 object-contain mb-6 mx-auto" alt="Logo de l'entreprise {{ $rt(selectedPartner.name) }}"
             />
             <h3 class="text-2xl font-bold text-slate-800 text-center mb-4">
               {{ $rt(selectedPartner.name) }}

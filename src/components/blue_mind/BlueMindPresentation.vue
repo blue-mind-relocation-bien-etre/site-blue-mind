@@ -57,7 +57,7 @@
 
             <img
               src="@/assets/annabel-3.webp"
-              alt="Paysage lumineux du Finistère"
+              alt="Photo de Annabel Martin, dirigeante de l'entreprise"
               class="w-full aspect-4/5 relative z-10 object-cover rounded-2xl shadow-xl"
             />
           </div>

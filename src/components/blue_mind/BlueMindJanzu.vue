@@ -76,7 +76,7 @@
       <div class="flex flex-col justify-center items-center col-span-2 mt-15">
         <img
           src="@/assets/logo_janzu.webp"
-          alt="logo école janzu"
+          alt="logo école francaise de janzu"
           class="h-65 object-cover"
         />
       </div>
@@ -92,7 +92,7 @@
 
         <img
           src="@/assets/janzu-1.webp"
-          alt="brest1"
+          alt="Photo d'une prestation de Janzu"
           class="relative w-full h-full z-10 aspect-square object-cover"
         />
       </div>
@@ -104,7 +104,7 @@
 
         <img
           src="@/assets/janzu-3.webp"
-          alt="brest1"
+          alt="Photo d'une prestation de Janzu"
           class="relative w-full h-full z-10 aspect-square object-cover"
         />
       </div>
@@ -116,7 +116,7 @@
 
         <img
           src="@/assets/janzu-4.webp"
-          alt="brest1"
+          alt="Photo d'une prestation de Janzu"
           class="relative w-full h-full z-10 aspect-square object-cover"
         />
       </div>

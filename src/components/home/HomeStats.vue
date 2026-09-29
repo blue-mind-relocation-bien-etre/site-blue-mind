@@ -51,7 +51,7 @@
       </div>
     </Transition>
     <div class="flex justify-center items-center m-4">
-      <img src="@/assets/carte-pays.webp" alt="carte" class="" />
+      <img src="@/assets/carte-pays.webp" alt="Carte des pays accompagnés par l'entreprise" class="" />
     </div>
   </section>
 </template>

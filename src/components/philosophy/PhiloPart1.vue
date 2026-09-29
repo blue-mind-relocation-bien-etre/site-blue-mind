@@ -62,7 +62,7 @@
 
           <img
             src="@/assets/maison-philo.webp"
-            alt="brest1"
+            alt="Photo d'une maison dans le Finistère"
             class="relative w-full h-full z-10 aspect-square object-cover"
           />
         </div>

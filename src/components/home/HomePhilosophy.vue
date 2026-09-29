@@ -13,11 +13,11 @@
           <span class="font-corinthia text-5xl text-secondary block">
             {{ $t("home.part1.title1") }}
           </span>
-          <h2
+          <h1
             class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight"
           >
             {{ $t("home.part1.title2") }}
-          </h2>
+          </h1>
           <i18n-t
             keypath="home.part1.text"
             tag="p"
@@ -66,7 +66,7 @@
 
           <img
             src="@/assets/accueil-arrivants.webp"
-            alt="Paysage du Finistère"
+            alt="Famille de nouveaux arrivants"
             class="w-full h-100 object-cover rounded-2xl shadow-xl"
           />
         </div>

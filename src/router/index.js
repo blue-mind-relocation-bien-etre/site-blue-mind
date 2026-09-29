@@ -16,7 +16,7 @@ export const routes = [
     meta: {
       title: "Blue Mind Relocation & Bien-être",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Decouvrez nos services d’accompagnement a la mobilite geographique et de bien-etre a Brest et dans le Finistere",
     },
   },
   {
@@ -34,7 +34,7 @@ export const routes = [
     name: "blue-mind",
     component: BlueMindView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Nos prestations bien-être",
       description:
         "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
     },
@@ -44,9 +44,9 @@ export const routes = [
     name: "pricing",
     component: PricingView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Nos tarifs",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Demandez votre devis gratuit pour un projet de relocation ou decouvrez les tarifs de nos prestations bien etre. Nous analysons votre demande et préparons votre devis.",
     },
   },
   {
@@ -54,9 +54,9 @@ export const routes = [
     name: "agency",
     component: AgencyView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Notre agence",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Decouvrez l'histoire de Blue Mind et votre consultante relocation et bien-être.",
     },
   },
   {
@@ -64,9 +64,9 @@ export const routes = [
     name: "our-philosophy",
     component: OurPhilosophyView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Notre Philosophie",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Allier ambitions professionnelles et qualite de vie grace a une approche humaine et sur-mesure par les bienfaits de l'eau.",
     },
   },
   {
@@ -74,9 +74,9 @@ export const routes = [
     name: "partners",
     component: PartnersView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Nos Partenaires",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Decouvrez les partenaires qui nous accompagnent pour reussir votre installation en Bretagne.",
     },
   },
   {
@@ -84,9 +84,9 @@ export const routes = [
     name: "contact",
     component: ContactView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Contact",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Une question sur votre projet de relocation ou de bien-etre ? Contactez notre equipe a Brest.",
     },
   },
   {
@@ -94,9 +94,9 @@ export const routes = [
     name: "legal-notice",
     component: LegalNoticeView,
     meta: {
-      title: "Blue Mind Relocation & Bien-être",
+      title: "Blue Mind - Mentions Legales",
       description:
-        "Blue Mind accompagne les nouveaux arrivants dans le Finistère pour une transition de vie réussie et un équilibre personnel grâce à la discipline du Janzu et la réflexologie plantaire.",
+        "Consultez les mentions legales de notre site internet.",
     },
   },
 ];

@@ -7,11 +7,11 @@
 
   <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
 
-    <h4
+    <h2
       class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center"
     >
       {{ formType }}
-    </h4>
+    </h2>
     <div class="border-b border-gray-900/10 pb-12">
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-3">

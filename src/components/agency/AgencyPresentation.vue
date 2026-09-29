@@ -1,10 +1,10 @@
 <template>
   <section>
-    <h5
+    <h2
       class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-800 tracking-tight leading-tight text-center mt-5 mb-10"
     >
       {{ $t("agency.presentation.title") }}
-    </h5>
+    </h2>
     <div
       class="grid grid-cols-1 lg:grid-cols-12 items-center gap-10 mx-15 pb-25"
     >

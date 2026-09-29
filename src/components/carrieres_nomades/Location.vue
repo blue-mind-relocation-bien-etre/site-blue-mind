@@ -74,7 +74,7 @@
         >
           <img
             src="@/assets/carte-france.webp"
-            alt="carte"
+            alt="Carte de france d'illustration"
             class="absolute inset-0 w-full h-full object-contain"
           />
         </div>

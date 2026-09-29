@@ -10,12 +10,12 @@
 
             <img
               src="@/assets/annabel-5.webp"
-              alt="Paysage lumineux du Finistère"
+              alt="Photo de Annabel Martin, dirigeante de l'entreprise"
               class="w-full h-85 relative z-10 object-cover rounded-2xl shadow-xl"
             />
           </div>
           <div class="flex flex-col justify-center items-center">
-            <img src="@/assets/logo-carrieres-nomades.webp" alt="" />
+            <img src="@/assets/logo-carrieres-nomades.webp" alt="Ancien logo de l'entreprise Carrières Nomades" />
           </div>
         </div>
         <div class="relative mt-20">

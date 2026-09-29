@@ -1,20 +1,20 @@
 <template>
   <div class="p-5 m-4">
-    <h4
+    <h2
       class="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight text-center mb-10"
     >
       {{ $t("contact.details.title1") }}
-    </h4>
+    </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div
         class="text-center border-b-2 mb-5 md:mb-0 md:border-b-0 md:border-r-2 border-slate-600"
       >
-        <h5
+        <h3
           class="text-4xl text-secondary font-corinthia font-medium tracking-tight leading-tight text-center mb-5"
         >
           Carrières Nomades
-        </h5>
+        </h3>
         <div class="text-slate-600 flex flex-col gap-4">
           <a
             href="tel:+3337769023"
@@ -34,11 +34,11 @@
         </div>
       </div>
       <div class="text-center">
-        <h5
+        <h3
           class="text-4xl text-secondary font-corinthia font-medium tracking-tight leading-tight text-center mb-5"
         >
           Blue Mind
-        </h5>
+        </h3>
         <div class="text-slate-600 flex flex-col gap-4">
           <a
             href="tel:+3312854447"
@@ -107,7 +107,7 @@
 
         <img
           src="@/assets/annabel.webp"
-          alt="annabel"
+          alt="Photo de Annabel Martin"
           class="h-75 object-cover rounded-2xl shadow-xl"
         />
       </div>

@@ -53,7 +53,7 @@
           <Slide v-for="n in 5" :key="n">
             <img
               :src="getImageUrl(n)"
-              alt=""
+              alt="Flyer personnalisable pour les entreprises clientes"
               class="w-full h-115 object-contain"
             />
           </Slide>
@@ -61,11 +61,11 @@
             <Navigation />
           </template>
         </Carousel>
-        <h5
+        <h3
           class="text-xl font-semibold text-slate-800 tracking-tight leading-tight text-center mt-5"
         >
           {{ $t("carrieresNomades.marque_employeur.carousel_subtitle") }}
-        </h5>
+        </h3>
       </div>
     </div>
   </section>
