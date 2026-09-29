@@ -11,11 +11,11 @@
     <div class="w-full flex items-center justify-between">
       <div class="flex-1 flex justify-start">
         <RouterLink to="/">
-          <img class="h-20" src="@/assets/Logo2_BM_VD_blanc.webp" alt="logo" />
+          <img class="h-20 w-auto object-contain shrink-0" src="@/assets/Logo2_BM_VD_blanc.webp" alt="logo" />
         </RouterLink>
       </div>
 
-      <div class="hidden lg:flex items-center justify-center gap-10">
+      <div class="hidden xl:flex items-center justify-center gap-10">
         <RouterLink
           to="/"
           class="text-slate-100 font-sans font-medium hover:text-slate-300 transition duration-200 text-lg"
@@ -131,7 +131,7 @@
         </div>
         <button
           @click="isMobileMenuOpen = !isMobileMenuOpen"
-          class="lg:hidden text-slate-100 p-1 hover:text-slate-300 focus:outline-none transition duration-200"
+          class="xl:hidden text-slate-100 p-1 hover:text-slate-300 focus:outline-none transition duration-200"
           aria-label="Ouvrir le menu"
         >
           <v-icon
@@ -145,7 +145,7 @@
     <!-- Menu mobile -->
     <div
       v-show="isMobileMenuOpen"
-      class="lg:hidden flex flex-col w-full pt-4 pb-2 gap-3 border-t border-white/10 mt-3"
+      class="xl:hidden flex flex-col w-full pt-4 pb-2 gap-3 border-t border-white/10 mt-3"
     >
       <RouterLink
         @click="closeMobileMenu"

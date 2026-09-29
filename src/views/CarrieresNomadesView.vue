@@ -3,7 +3,7 @@
     <!-- En-tête de la page -->
     <Transition appear name="slide-fade">
       <div class="flex flex-col justify-center items-center pt-36 gap-5">
-        <span class="font-corinthia text-5xl text-secondary block text-center">
+        <span class="font-corinthia text-5xl text-secondary block text-center p-1">
           {{ $t("carrieresNomades.presentation.title1") }}
         </span>
         <h2

@@ -40,9 +40,9 @@
           </ul>
         </div>
       </div>
-      <div class="block">
+      <div class="block w-full overflow-hidden">
         <div
-          class="w-full h-80 lg:h-full lg:bg-fixed bg-scroll bg-cover bg-no-repeat bg-position-center lg:bg-position-[15vw_center]"
+          class="w-full h-80 lg:h-full lg:bg-fixed bg-scroll bg-cover bg-no-repeat bg-center lg:bg-position-[15vw_center]"
           :style="{ backgroundImage: `url(${imageMaison})` }"
         ></div>
       </div>
@@ -52,9 +52,9 @@
   <!-- SECTION 2 -->
   <div class="mb-30 mt-30 shadow-xl" ref="section2Ref">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div class="block order-last lg:order-0">
+      <div class="block order-last lg:order-0 w-full overflow-hidden">
         <div
-          class="w-full h-80 lg:h-full bg-scroll lg:bg-fixed bg-cover bg-position-center lg:bg-position-[-35vw_center]"
+          class="w-full h-80 lg:h-full bg-scroll lg:bg-fixed bg-cover bg-center bg-no-repeat lg:bg-position-[-35vw_center]"
           :style="{ backgroundImage: `url(${imageBoxes})` }"
         ></div>
       </div>
@@ -142,9 +142,9 @@
         </div>
       </div>
 
-      <div class="block">
+      <div class="block w-full overflow-hidden">
         <div
-          class="w-full h-80 lg:h-full lg:bg-fixed bg-scroll bg-cover bg-no-repeat bg-position-center lg:bg-position-[30vw_center]"
+          class="w-full h-80 lg:h-full lg:bg-fixed bg-scroll bg-cover bg-no-repeat bg-center lg:bg-position-[30vw_center]"
           :style="{ backgroundImage: `url(${imageDemarches})` }"
         ></div>
       </div>
@@ -154,9 +154,9 @@
   <!-- SECTION 4 -->
   <div class="mb-20 mt-30 shadow-xl" ref="section4Ref">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div class="block order-last lg:order-0">
+      <div class="block order-last lg:order-0 w-full overflow-hidden">
         <div
-          class="w-full h-80 lg:h-full bg-scroll lg:bg-fixed bg-cover bg-position-center lg:bg-position-[-30vw_center]"
+          class="w-full h-80 lg:h-full bg-scroll lg:bg-fixed bg-cover bg-center bg-no-repeat lg:bg-position-[-30vw_center]"
           :style="{ backgroundImage: `url(${imageFamille})` }"
         ></div>
       </div>

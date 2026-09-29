@@ -6,7 +6,7 @@
           {{ $t("philosophy.title") }}
         </span>
         <h1
-          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center"
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 tracking-tight leading-tight text-center p-2"
         >
           {{ $t("philosophy.title2") }}
         </h1>

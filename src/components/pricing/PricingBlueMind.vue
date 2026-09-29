@@ -81,7 +81,7 @@
     <img
       src="@/assets/bon-cadeau.webp"
       alt="Bon cadeau pour une séance de Janzu"
-      class="m-10 h-75 object-contain rounded-xl"
+      class="m-5 md:m-10 h-45 sm:h-55 lg:h-60 xl:h-75 object-contain rounded-xl"
     />
   </div>
 </template>

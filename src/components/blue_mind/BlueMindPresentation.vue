@@ -5,7 +5,7 @@
         v-show="isVisible"
         class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center"
       >
-        <div class="col-span-7 relative">
+        <div class="md:col-span-7 relative">
           <div
             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 text-blue-100 opacity-80"
           >
@@ -13,7 +13,7 @@
           </div>
 
           <div
-            class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-10"
+            class="relative flex flex-col items-center gap-2 z-10 md:text-lg text-slate-600 text-lg leading-relaxed text-center italic mb-8 mx-3 md:mx-10"
           >
             <i18n-t
               keypath="blueMind.presentation_2.text"
@@ -49,7 +49,7 @@
             <p>{{ $t("blueMind.presentation_2.name") }}</p>
           </div>
         </div>
-        <div class="col-span-5 flex justify-center items-center">
+        <div class="md:col-span-5 flex justify-center items-center">
           <div class="relative w-3/4 max-w-xs">
             <div
               class="absolute -inset-4 bg-linear-to-tr from-blue-100 to-slate-100 rounded-3xl -z-10 transform rotate-2"
@@ -65,7 +65,7 @@
       </div>
     </Transition>
     <div class="flex flex-col justify-center items-center mt-20">
-      <p class="text-sm text-slate-600">
+      <p class="text-sm text-slate-600 text-center">
         Photo : Geraldine Cabon - Exploratrice Terres Océanes
       </p>
     </div>

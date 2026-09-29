@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-10" ref="sectionRef">
+  <section class="mt-10 overflow-x-hidden" ref="sectionRef">
     <div
       class="grid grid-cols-1 lg:grid-cols-5 mb-10 transition-all duration-1000 ease-out transform"
       :class="
@@ -83,7 +83,7 @@
     </div>
 
     <div
-      class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full m-5 justify-items-center gap-y-18 gap-x-8"
+      class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl mx-auto my-10 justify-items-center gap-y-18 gap-x-8"
     >
       <div class="relative w-65 h-65">
         <div
@@ -139,7 +139,7 @@ useIntersectionObserver(
     }
   },
   {
-    threshold: 0.4,
+    threshold: 0.2,
   },
 );
 </script>
