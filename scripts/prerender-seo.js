@@ -57,34 +57,29 @@ function updateHtmlFile(filePath, routePath) {
 
   let html = fs.readFileSync(filePath, "utf8");
 
-  // Definition des balises sans declencher le filtre du chat
   const strDocType = "<" + "!doctype html>";
   const strTitleOpen = "<" + "title>";
   const strTitleClose = "<" + "/title>";
   const strMetaDesc = "<" + 'meta name="description"';
   const strHeadOpen = "<" + "head>";
 
-  // 1. On repare le bug de ViteSSG en supprimant tout texte parasite avant le doctype
   const docTypeIndex = html.toLowerCase().indexOf(strDocType);
   if (docTypeIndex > 0) {
     html = html.substring(docTypeIndex);
   }
 
-  // 2. On supprime proprement les anciennes balises title si elles existent
   const titleStart = html.indexOf(strTitleOpen);
   if (titleStart !== -1) {
     const titleEnd = html.indexOf(strTitleClose) + strTitleClose.length;
     html = html.substring(0, titleStart) + html.substring(titleEnd);
   }
 
-  // 3. On supprime proprement les anciennes balises meta description si elles existent
   const descStart = html.indexOf(strMetaDesc);
   if (descStart !== -1) {
     const descEnd = html.indexOf(">", descStart) + 1;
     html = html.substring(0, descStart) + html.substring(descEnd);
   }
 
-  // 4. On injecte les nouvelles balises justes apres head
   const headIndex = html.indexOf(strHeadOpen);
   if (headIndex !== -1) {
     const insertionPoint = headIndex + strHeadOpen.length;

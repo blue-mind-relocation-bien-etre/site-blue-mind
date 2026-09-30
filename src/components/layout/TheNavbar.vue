@@ -83,7 +83,7 @@
 
       <div class="flex-1 flex items-center justify-end gap-4">
         <div class="relative py-2">
-          <!-- 1. BOUTON PRINCIPAL (DYNAMIQUE) : Affiche la langue actuelle -->
+          <!-- Affiche la langue actuelle -->
           <button
             @click="isLangMenuOpen = !isLangMenuOpen"
             class="text-slate-100 font-sans font-medium flex items-center gap-2 cursor-pointer hover:text-slate-300 transition duration-200 text-lg"
@@ -97,7 +97,7 @@
             <v-icon name="md-keyboardarrowdown" />
           </button>
 
-          <!-- 2. MENU DÉROULANT : Liste des langues disponibles -->
+          <!-- Liste des langues disponibles -->
           <div
             v-show="isLangMenuOpen"
             class="absolute right-0 top-full flex-col bg-white text-slate-800 shadow-lg rounded-md py-2 w-48 z-50"
@@ -248,13 +248,10 @@ const route = useRoute();
 
 const isHome = computed(() => route.path === "/");
 
-// Gère l'ouverture du menu principal sur mobile
 const isMobileMenuOpen = ref(false);
 
-// Gère l'ouverture du sous-menu "Présentation" sur mobile
 const isPresentationOpen = ref(false);
 
-// Fonction de fermeture automatique après un clic sur un lien
 const closeMobileMenu = () => {
   isMobileMenuOpen.value = false;
   isPresentationOpen.value = false;

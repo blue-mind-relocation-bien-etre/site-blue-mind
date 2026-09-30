@@ -1,12 +1,10 @@
 <template>
   <div class="mx-auto px-4 py-16 max-w-7xl overflow-x-hidden">
     <div class="relative w-full">
-      <!-- LA LIGNE VERTICALE CENTRALE -->
       <div
         class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-slate-600 -translate-x-1/2"
       ></div>
 
-      <!-- BLOC 1 -->
       <div
         ref="block1Ref"
         class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-16 relative"
@@ -19,12 +17,10 @@
               : 'opacity-0 translate-x-16 md:-translate-x-16'
           "
         >
-          <!-- Le Point -->
           <div
             class="absolute left-6 md:left-auto md:-right-8 w-4 h-4 rounded-full bg-secondary -translate-x-1/2 md:translate-x-1/2 z-10"
           ></div>
 
-          <!-- La Carte Blanche -->
           <div
             class="w-full bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8"
           >
@@ -51,7 +47,6 @@
         <div class="hidden md:block"></div>
       </div>
 
-      <!-- BLOC 2 : 2025 -->
       <div
         ref="block2Ref"
         class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 relative"
@@ -65,12 +60,11 @@
               : 'opacity-0 translate-x-16'
           "
         >
-          <!-- Le Point -->
+
           <div
             class="absolute left-6 md:-left-8 w-4 h-4 rounded-full bg-secondary -translate-x-1/2 z-10"
           ></div>
 
-          <!-- La Carte Blanche -->
           <div
             class="w-full bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8"
           >

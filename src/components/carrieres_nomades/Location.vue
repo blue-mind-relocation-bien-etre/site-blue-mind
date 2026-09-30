@@ -19,11 +19,8 @@
         </span>
       </h3>
 
-      <!-- Grille pour texte + image -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-4">
-        <!-- div pour titre + texte + cartes -->
         <div class="flex flex-col justify-center w-full h-full">
-          <!-- div pour titre + texte -->
           <div
             class="flex flex-col justify-center border-b bg-white rounded-xl shadow-xl mb-4"
           >
@@ -50,7 +47,6 @@
               </strong>
             </i18n-t>
           </div>
-          <!-- div pour les 3 cartes -->
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div
               v-for="n in 3"
@@ -68,7 +64,6 @@
             </div>
           </div>
         </div>
-        <!-- div pour carte -->
         <div
           class="relative h-full w-full rounded-xl shadow-xl overflow-hidden min-h-75 bg-white"
         >
