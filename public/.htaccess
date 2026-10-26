@@ -24,6 +24,8 @@ Redirect 301 /events https://carrieresnomades.com
 
 Redirect 301 /mentions-legales https://carrieresnomades.com/legal-notice
 
+Redirect 301 /elementor-2368 https://carrieresnomades.com
+
 # Pages anglaises
 Redirect 301 /en/home-your-expert-in-mobility-2 https://carrieresnomades.com
 
